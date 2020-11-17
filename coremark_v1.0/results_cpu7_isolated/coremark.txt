@@ -1,0 +1,6 @@
+Tue Apr 24 07:12:22 CDT 2018
+
+Number of threads : 1
+CoreMark for all 1x cpus : 6011.750405
+CoreMark [per cpu]: 6011.750405
+CoreMark/MHz [per cpu]: 4.007833

@@ -1,0 +1,67 @@
+#!/usr/bin/expect
+###
+# The script loads XLF images to frio platform and starts ARM (IH mode)
+# Please set your user id, password and RTE path for Embeded Plantet and Interal Host
+# usage: ./script _frio_num_
+###
+
+set RTE_EP_DIR "/home/validation/Lionfish/ncp_rte/ncp_ep8572_1.4.20.3.2"
+#set UBOOT "/tools/AGRreleases/axxia/u-boot_v2015.10_axxia_1.75_atf_84091c4_1.36"
+set LINUX "/tools/AGRreleases/axxia/linux_4.1_axxia_rt_1.71"
+
+# timeout 30 minutes for fpga images stack loading
+set timeout 1800
+
+system date
+system echo "Booting Frio 037a"
+
+# reset
+#system /workspace/sw/jjacques/projects/axxia/lab/scripts/genesys_power_cycle frio-037a-ep2p
+system /home/validation/al_common/util/acprebootu frio-037a-ep2p 
+sleep 30
+
+spawn telnet "frio-037a-ep2p"
+expect "login:" { send "root\n" }
+expect "Password:" { send "labrat\r" }
+expect "#" { send "cd ${RTE_EP_DIR}; source ./ncp.env\r" }
+expect "#" { send "/home/validation/al_common/XLF/util/load_a3_xlf_ph5.0\r" }
+expect "Rebooting host" { close }
+sleep 45
+
+spawn telnet "frio-037a-ep2p"
+expect "login:" { send "root\n" }
+expect "Password:" { send "labrat\r" }
+expect "#" { send "cd ${RTE_EP_DIR}; source ./ncp.env\r" }
+expect "#" { send "/home/validation/al_common/XLF/util/sa_fpga_load_baseline_xlf_ph5.0\r" }
+
+#flash bootrom. Needed only once
+#set BOOTROM "/tools/AGRreleases/axxia/axxia_bootromXLF_1.5"
+expect "#" { send "cd ${RTE_EP_DIR}; source ./ncp.env\r" }
+expect "#" { send "ncpDriver ncp add\r" }
+#expect "#" { send "ncpBootMem -a write -r stage1 $BOOTROM/build/bootrom.bin\r" }
+#expect "#" { send "/workspace/sw/jjacques/projects/axxia/scripts/XLFe.enable\r" }
+#expect "#" { send "ncpBoardInit -xlf -r\r" }
+
+#flash Uboot and tftp Multi
+#cd /tools/AGRreleases/axxia/linux_4.1_axxia_rt_1.71/axxia-arm64-xlf-dev/axc6712-emu
+#tftp aus-labsrv2 -c put multi.fit kernel-frio-037-a15
+#set UBOOT "/workspace/sw/mbykowsx/lionfish/axxia_u-boot_private"
+#expect "#" { send "ncpBootMem -a write -r prom -o 0x80000 $UBOOT/parameters/AXC6700_emu.bin\r" }
+#expect "#" { send "ncpBootMem -a write -r prom $UBOOT/axc6700_emu/u-boot-spl.img\r" }
+#expect "#" { send "ncpBootMem -a write -r prom -o 0x100000 $UBOOT/axc6700_emu/u-boot.img\r" }
+expect "#" { send "ncpBootMem -a write -r prom -o 0x80000 /workspace/sw/mbykowsx/lionfish/axxia_u-boot_private/AXC6700_emu.parameters.bin\r" }
+expect "#" { send "ncpBootMem -a write -r prom /workspace/sw/mbykowsx/lionfish/axxia_u-boot_private/spl/u-boot-spl.img\r" }
+expect "#" { send "ncpBootMem -a write -r prom -o 0x100000 /workspace/sw/mbykowsx/lionfish/axxia_u-boot_private/u-boot.img\r" }
+
+#start booting
+expect "#" { send "/workspace/sw/jjacques/projects/axxia/scripts/XLFe.enable\r" }
+expect "#" { send "exit\r" }
+expect eof
+system date
+
+#
+#log to ih
+#system echo "Spawning telnet session to ARM telnet txats06 2009"
+#spawn telnet txats06 2009
+#expect "login:" { send "root\n" }
+#expect "Password:" { send "labrat\r" }

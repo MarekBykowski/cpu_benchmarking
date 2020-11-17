@@ -1,0 +1,161 @@
+Tue Apr 24 07:15:32 CDT 2018
+
+Number of threads : 1
+CoreMark for all 1x cpus : 5998.997246
+CoreMark [per cpu]: 5998.997246
+CoreMark/MHz [per cpu]: 3.999331
+
+Number of threads : 2
+CoreMark for all 2x cpus : 11993.226136
+CoreMark [per cpu]: 5996.613068
+CoreMark/MHz [per cpu]: 3.997742
+
+Number of threads : 3
+CoreMark for all 3x cpus : 17955.021052
+CoreMark [per cpu]: 5985.007017
+CoreMark/MHz [per cpu]: 3.990004
+
+Number of threads : 4
+CoreMark for all 4x cpus : 23918.021729
+CoreMark [per cpu]: 5979.505432
+CoreMark/MHz [per cpu]: 3.986336
+
+Number of threads : 5
+CoreMark for all 5x cpus : 29845.812250
+CoreMark [per cpu]: 5969.162450
+CoreMark/MHz [per cpu]: 3.979441
+
+Number of threads : 6
+CoreMark for all 6x cpus : 35814.694686
+CoreMark [per cpu]: 5969.115781
+CoreMark/MHz [per cpu]: 3.979410
+
+Number of threads : 7
+CoreMark for all 7x cpus : 41748.777345
+CoreMark [per cpu]: 5964.111049
+CoreMark/MHz [per cpu]: 3.976074
+
+Number of threads : 8
+CoreMark for all 8x cpus : 47749.336772
+CoreMark [per cpu]: 5968.667096
+CoreMark/MHz [per cpu]: 3.979111
+
+Number of threads : 9
+CoreMark for all 9x cpus : 53674.660970
+CoreMark [per cpu]: 5963.851218
+CoreMark/MHz [per cpu]: 3.975900
+
+Number of threads : 10
+CoreMark for all 10x cpus : 59616.128503
+CoreMark [per cpu]: 5961.612850
+CoreMark/MHz [per cpu]: 3.974408
+
+Number of threads : 11
+CoreMark for all 11x cpus : 65562.975590
+CoreMark [per cpu]: 5960.270508
+CoreMark/MHz [per cpu]: 3.973513
+
+Number of threads : 12
+CoreMark for all 12x cpus : 71576.262982
+CoreMark [per cpu]: 5964.688581
+CoreMark/MHz [per cpu]: 3.976459
+
+Number of threads : 13
+CoreMark for all 13x cpus : 77368.470633
+CoreMark [per cpu]: 5951.420817
+CoreMark/MHz [per cpu]: 3.967613
+
+Number of threads : 14
+CoreMark for all 14x cpus : 83312.206129
+CoreMark [per cpu]: 5950.871866
+CoreMark/MHz [per cpu]: 3.967247
+
+Number of threads : 15
+CoreMark for all 15x cpus : 89404.845003
+CoreMark [per cpu]: 5960.323000
+CoreMark/MHz [per cpu]: 3.973548
+
+Number of threads : 16
+CoreMark for all 16x cpus : 95166.069545
+CoreMark [per cpu]: 5947.879346
+CoreMark/MHz [per cpu]: 3.965252
+
+Number of threads : 17
+CoreMark for all 17x cpus : 101337.561014
+CoreMark [per cpu]: 5961.033000
+CoreMark/MHz [per cpu]: 3.974022
+
+Number of threads : 18
+CoreMark for all 18x cpus : 107196.330250
+CoreMark [per cpu]: 5955.351680
+CoreMark/MHz [per cpu]: 3.970234
+
+Number of threads : 19
+CoreMark for all 19x cpus : 113020.165158
+CoreMark [per cpu]: 5948.429745
+CoreMark/MHz [per cpu]: 3.965619
+
+Number of threads : 20
+CoreMark for all 20x cpus : 118954.349485
+CoreMark [per cpu]: 5947.717474
+CoreMark/MHz [per cpu]: 3.965144
+
+Number of threads : 21
+CoreMark for all 21x cpus : 125223.743454
+CoreMark [per cpu]: 5963.035402
+CoreMark/MHz [per cpu]: 3.975356
+
+Number of threads : 22
+CoreMark for all 22x cpus : 130975.902465
+CoreMark [per cpu]: 5953.450112
+CoreMark/MHz [per cpu]: 3.968966
+
+Number of threads : 23
+CoreMark for all 23x cpus : 136824.976289
+CoreMark [per cpu]: 5948.912012
+CoreMark/MHz [per cpu]: 3.965941
+
+Number of threads : 24
+CoreMark for all 24x cpus : 142810.199867
+CoreMark [per cpu]: 5950.424994
+CoreMark/MHz [per cpu]: 3.966949
+
+Number of threads : 25
+CoreMark for all 25x cpus : 148658.469881
+CoreMark [per cpu]: 5946.338795
+CoreMark/MHz [per cpu]: 3.964225
+
+Number of threads : 26
+CoreMark for all 26x cpus : 154753.572977
+CoreMark [per cpu]: 5952.060499
+CoreMark/MHz [per cpu]: 3.968040
+
+Number of threads : 27
+CoreMark for all 27x cpus : 160727.377677
+CoreMark [per cpu]: 5952.865839
+CoreMark/MHz [per cpu]: 3.968577
+
+Number of threads : 28
+CoreMark for all 28x cpus : 166442.512649
+CoreMark [per cpu]: 5944.375451
+CoreMark/MHz [per cpu]: 3.962916
+
+Number of threads : 29
+CoreMark for all 29x cpus : 172532.326798
+CoreMark [per cpu]: 5949.390579
+CoreMark/MHz [per cpu]: 3.966260
+
+Number of threads : 30
+CoreMark for all 30x cpus : 178477.770146
+CoreMark [per cpu]: 5949.259004
+CoreMark/MHz [per cpu]: 3.966172
+
+Number of threads : 31
+CoreMark for all 31x cpus : 184246.668170
+CoreMark [per cpu]: 5943.440908
+CoreMark/MHz [per cpu]: 3.962293
+
+Number of threads : 32
+CoreMark for all 32x cpus : 190292.917353
+CoreMark [per cpu]: 5946.653667
+CoreMark/MHz [per cpu]: 3.964435

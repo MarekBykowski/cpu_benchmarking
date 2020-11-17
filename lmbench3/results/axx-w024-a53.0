@@ -1,0 +1,8 @@
+expr: syntax error
+expr: syntax error
+./lmbench: line 483: syntax error near unexpected token `fi'
+./lmbench: line 483: `fi'
+expr: syntax error
+expr: syntax error
+./lmbench: line 483: syntax error near unexpected token `fi'
+./lmbench: line 483: `fi'

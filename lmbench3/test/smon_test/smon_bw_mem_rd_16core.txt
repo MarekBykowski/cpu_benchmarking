@@ -1,0 +1,173 @@
+------------------------------------------------------------------------------------------------------------------------
+- SMON for elm0
+------------------------------------------------------------------------------------------------------------------------
+0x167.0x00.0x00000300 0x40400001 CTL  (prescale=00 tim_ov=1 (int=0 stop=0) cnt1_ov=0 cnt0_ov=0 (int=0 stop=0)
+                                       mode=0=Indepnd func1=0=Freerun,+val     func0=0=Freerun,+val     enable=on)
+0x167.0x00.0x00000304 0x00000705 SEL  (version=1 sel1=0x07 sel0=0x05)
+0x167.0x00.0x00000308 0x00000000 CMP0
+0x167.0x00.0x0000030c 0x00000000 CMP1
+0x167.0x00.0x00000310 0x0001ea9b CNT0 (sel0=0x05 = Read address transactions. The compare input is unsupported.)
+0x167.0x00.0x00000314 0x0003bc8c CNT1 (sel1=0x07 = Write address transactions. The compare input (bits [21:11]) is set to the ID.)
+0x167.0x00.0x00000318 0x166474c1 TIM
+0x167.0x00.0x0000031c 0x00000000 MAX
+------------------------------------------------------------------------------------------------------------------------
+- SMON for elm1
+------------------------------------------------------------------------------------------------------------------------
+0x167.0x01.0x00000300 0x40400001 CTL  (prescale=00 tim_ov=1 (int=0 stop=0) cnt1_ov=0 cnt0_ov=0 (int=0 stop=0)
+                                       mode=0=Indepnd func1=0=Freerun,+val     func0=0=Freerun,+val     enable=on)
+0x167.0x01.0x00000304 0x00000705 SEL  (version=1 sel1=0x07 sel0=0x05)
+0x167.0x01.0x00000308 0x00000000 CMP0
+0x167.0x01.0x0000030c 0x00000000 CMP1
+0x167.0x01.0x00000310 0x0001cd0b CNT0 (sel0=0x05 = Read address transactions. The compare input is unsupported.)
+0x167.0x01.0x00000314 0x000395f2 CNT1 (sel1=0x07 = Write address transactions. The compare input (bits [21:11]) is set to the ID.)
+0x167.0x01.0x00000318 0x163c55be TIM
+0x167.0x01.0x0000031c 0x00000000 MAX
+------------------------------------------------------------------------------------------------------------------------
+- SMON for elm2
+------------------------------------------------------------------------------------------------------------------------
+0x167.0x02.0x00000300 0x40400001 CTL  (prescale=00 tim_ov=1 (int=0 stop=0) cnt1_ov=0 cnt0_ov=0 (int=0 stop=0)
+                                       mode=0=Indepnd func1=0=Freerun,+val     func0=0=Freerun,+val     enable=on)
+0x167.0x02.0x00000304 0x00000705 SEL  (version=1 sel1=0x07 sel0=0x05)
+0x167.0x02.0x00000308 0x00000000 CMP0
+0x167.0x02.0x0000030c 0x00000000 CMP1
+0x167.0x02.0x00000310 0x0001e55e CNT0 (sel0=0x05 = Read address transactions. The compare input is unsupported.)
+0x167.0x02.0x00000314 0x000378a4 CNT1 (sel1=0x07 = Write address transactions. The compare input (bits [21:11]) is set to the ID.)
+0x167.0x02.0x00000318 0x1605827e TIM
+0x167.0x02.0x0000031c 0x00000000 MAX
+------------------------------------------------------------------------------------------------------------------------
+- SMON for elm3
+------------------------------------------------------------------------------------------------------------------------
+0x167.0x03.0x00000300 0x40400001 CTL  (prescale=00 tim_ov=1 (int=0 stop=0) cnt1_ov=0 cnt0_ov=0 (int=0 stop=0)
+                                       mode=0=Indepnd func1=0=Freerun,+val     func0=0=Freerun,+val     enable=on)
+0x167.0x03.0x00000304 0x00000705 SEL  (version=1 sel1=0x07 sel0=0x05)
+0x167.0x03.0x00000308 0x00000000 CMP0
+0x167.0x03.0x0000030c 0x00000000 CMP1
+0x167.0x03.0x00000310 0x0001e69e CNT0 (sel0=0x05 = Read address transactions. The compare input is unsupported.)
+0x167.0x03.0x00000314 0x00037bfb CNT1 (sel1=0x07 = Write address transactions. The compare input (bits [21:11]) is set to the ID.)
+0x167.0x03.0x00000318 0x1625424c TIM
+0x167.0x03.0x0000031c 0x00000000 MAX
+
+Running LMbench bw_mem_rd - 512m size - 16 cores
+
+\npre sample
+\n post sample
+------------------------------------------------------------------------------------------------------------------------
+- SMON for elm1
+------------------------------------------------------------------------------------------------------------------------
+0x167.0x01.0x00000300 0x47400001 CTL  (prescale=07 tim_ov=1 (int=0 stop=0) cnt1_ov=0 cnt0_ov=0 (int=0 stop=0)
+                                       mode=0=Indepnd func1=0=Freerun,+val     func0=0=Freerun,+val     enable=on)
+0x167.0x01.0x00000304 0x00000705 SEL  (version=1 sel1=0x07 sel0=0x05)
+0x167.0x01.0x00000308 0x00000000 CMP0
+0x167.0x01.0x0000030c 0x00000000 CMP1
+0x167.0x01.0x00000310 0x0b06ded5 CNT0 (sel0=0x05 = Read address transactions. The compare input is unsupported.)
+0x167.0x01.0x00000314 0x0249224e CNT1 (sel1=0x07 = Write address transactions. The compare input (bits [21:11]) is set to the ID.)
+0x167.0x01.0x00000318 0x781e7376 TIM
+0x167.0x01.0x0000031c 0x00000000 MAX
+------------------------------------------------------------------------------------------------------------------------
+- SMON for elm3
+------------------------------------------------------------------------------------------------------------------------
+0x167.0x03.0x00000300 0x47400001 CTL  (prescale=07 tim_ov=1 (int=0 stop=0) cnt1_ov=0 cnt0_ov=0 (int=0 stop=0)
+                                       mode=0=Indepnd func1=0=Freerun,+val     func0=0=Freerun,+val     enable=on)
+0x167.0x03.0x00000304 0x00000705 SEL  (version=1 sel1=0x07 sel0=0x05)
+0x167.0x03.0x00000308 0x00000000 CMP0
+0x167.0x03.0x0000030c 0x00000000 CMP1
+0x167.0x03.0x00000310 0x0b06a2a9 CNT0 (sel0=0x05 = Read address transactions. The compare input is unsupported.)
+0x167.0x03.0x00000314 0x02402c5c CNT1 (sel1=0x07 = Write address transactions. The compare input (bits [21:11]) is set to the ID.)
+0x167.0x03.0x00000318 0x1ba57c6c TIM
+0x167.0x03.0x0000031c 0x00000000 MAX
+------------------------------------------------------------------------------------------------------------------------
+- SMON for elm2
+------------------------------------------------------------------------------------------------------------------------
+0x167.0x02.0x00000300 0x47400001 CTL  (prescale=07 tim_ov=1 (int=0 stop=0) cnt1_ov=0 cnt0_ov=0 (int=0 stop=0)
+                                       mode=0=Indepnd func1=0=Freerun,+val     func0=0=Freerun,+val     enable=on)
+0x167.0x02.0x00000304 0x00000705 SEL  (version=1 sel1=0x07 sel0=0x05)
+0x167.0x02.0x00000308 0x00000000 CMP0
+0x167.0x02.0x0000030c 0x00000000 CMP1
+0x167.0x02.0x00000310 0x0b1c8801 CNT0 (sel0=0x05 = Read address transactions. The compare input is unsupported.)
+0x167.0x02.0x00000314 0x0249e949 CNT1 (sel1=0x07 = Write address transactions. The compare input (bits [21:11]) is set to the ID.)
+0x167.0x02.0x00000318 0x4999865d TIM
+0x167.0x02.0x0000031c 0x00000000 MAX
+------------------------------------------------------------------------------------------------------------------------
+- SMON for elm0
+------------------------------------------------------------------------------------------------------------------------
+0x167.0x00.0x00000300 0x47400001 CTL  (prescale=07 tim_ov=1 (int=0 stop=0) cnt1_ov=0 cnt0_ov=0 (int=0 stop=0)
+                                       mode=0=Indepnd func1=0=Freerun,+val     func0=0=Freerun,+val     enable=on)
+0x167.0x00.0x00000304 0x00000705 SEL  (version=1 sel1=0x07 sel0=0x05)
+0x167.0x00.0x00000308 0x00000000 CMP0
+0x167.0x00.0x0000030c 0x00000000 CMP1
+0x167.0x00.0x00000310 0x0b26e18c CNT0 (sel0=0x05 = Read address transactions. The compare input is unsupported.)
+0x167.0x00.0x00000314 0x024ffa88 CNT1 (sel1=0x07 = Write address transactions. The compare input (bits [21:11]) is set to the ID.)
+0x167.0x00.0x00000318 0xa676176e TIM
+0x167.0x00.0x0000031c 0x00000000 MAX
+------------------------------------------------------------------------------------------------------------------------
+- SMON for elm1
+------------------------------------------------------------------------------------------------------------------------
+0x167.0x01.0x00000300 0x47400001 CTL  (prescale=07 tim_ov=1 (int=0 stop=0) cnt1_ov=0 cnt0_ov=0 (int=0 stop=0)
+                                       mode=0=Indepnd func1=0=Freerun,+val     func0=0=Freerun,+val     enable=on)
+0x167.0x01.0x00000304 0x00000705 SEL  (version=1 sel1=0x07 sel0=0x05)
+0x167.0x01.0x00000308 0x00000000 CMP0
+0x167.0x01.0x0000030c 0x00000000 CMP1
+0x167.0x01.0x00000310 0x128d374b CNT0 (sel0=0x05 = Read address transactions. The compare input is unsupported.)
+0x167.0x01.0x00000314 0x0263d4b0 CNT1 (sel1=0x07 = Write address transactions. The compare input (bits [21:11]) is set to the ID.)
+0x167.0x01.0x00000318 0x788e5aa2 TIM
+0x167.0x01.0x0000031c 0x00000000 MAX
+------------------------------------------------------------------------------------------------------------------------
+- SMON for elm2
+------------------------------------------------------------------------------------------------------------------------
+0x167.0x02.0x00000300 0x47400001 CTL  (prescale=07 tim_ov=1 (int=0 stop=0) cnt1_ov=0 cnt0_ov=0 (int=0 stop=0)
+                                       mode=0=Indepnd func1=0=Freerun,+val     func0=0=Freerun,+val     enable=on)
+0x167.0x02.0x00000304 0x00000705 SEL  (version=1 sel1=0x07 sel0=0x05)
+0x167.0x02.0x00000308 0x00000000 CMP0
+0x167.0x02.0x0000030c 0x00000000 CMP1
+0x167.0x02.0x00000310 0x128d2a07 CNT0 (sel0=0x05 = Read address transactions. The compare input is unsupported.)
+0x167.0x02.0x00000314 0x0263a94b CNT1 (sel1=0x07 = Write address transactions. The compare input (bits [21:11]) is set to the ID.)
+0x167.0x02.0x00000318 0x4a083707 TIM
+0x167.0x02.0x0000031c 0x00000000 MAX
+------------------------------------------------------------------------------------------------------------------------
+- SMON for elm3
+------------------------------------------------------------------------------------------------------------------------
+0x167.0x03.0x00000300 0x47400001 CTL  (prescale=07 tim_ov=1 (int=0 stop=0) cnt1_ov=0 cnt0_ov=0 (int=0 stop=0)
+                                       mode=0=Indepnd func1=0=Freerun,+val     func0=0=Freerun,+val     enable=on)
+0x167.0x03.0x00000304 0x00000705 SEL  (version=1 sel1=0x07 sel0=0x05)
+0x167.0x03.0x00000308 0x00000000 CMP0
+0x167.0x03.0x0000030c 0x00000000 CMP1
+0x167.0x03.0x00000310 0x1294b5ee CNT0 (sel0=0x05 = Read address transactions. The compare input is unsupported.)
+0x167.0x03.0x00000314 0x025a9170 CNT1 (sel1=0x07 = Write address transactions. The compare input (bits [21:11]) is set to the ID.)
+0x167.0x03.0x00000318 0x1c15d35a TIM
+0x167.0x03.0x0000031c 0x00000000 MAX
+------------------------------------------------------------------------------------------------------------------------
+- SMON for elm0
+------------------------------------------------------------------------------------------------------------------------
+0x167.0x00.0x00000300 0x47400001 CTL  (prescale=07 tim_ov=1 (int=0 stop=0) cnt1_ov=0 cnt0_ov=0 (int=0 stop=0)
+                                       mode=0=Indepnd func1=0=Freerun,+val     func0=0=Freerun,+val     enable=on)
+0x167.0x00.0x00000304 0x00000705 SEL  (version=1 sel1=0x07 sel0=0x05)
+0x167.0x00.0x00000308 0x00000000 CMP0
+0x167.0x00.0x0000030c 0x00000000 CMP1
+0x167.0x00.0x00000310 0x12a10bb6 CNT0 (sel0=0x05 = Read address transactions. The compare input is unsupported.)
+0x167.0x00.0x00000314 0x0269c96a CNT1 (sel1=0x07 = Write address transactions. The compare input (bits [21:11]) is set to the ID.)
+0x167.0x00.0x00000318 0xa6e55260 TIM
+0x167.0x00.0x0000031c 0x00000000 MAX
+536.87 998.02
+536.87 1000.56
+536.87 998.60
+536.87 1001.91
+536.87 1001.81
+536.87 1002.02
+536.87 1001.99
+536.87 1000.87
+536.87 999.25
+536.87 1000.41
+536.87 999.92
+536.87 998.40
+536.87 998.46
+536.87 998.22
+536.87 996.43
+536.87 990.28
+
+Completed LMbench bw_mem_rd - 512m size - 16 cores
+
+Waiting for few seconds to start the next test ........
+
+
+************* All tests completed! *************
+

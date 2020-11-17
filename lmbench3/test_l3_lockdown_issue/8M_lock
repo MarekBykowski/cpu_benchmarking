@@ -1,0 +1,2247 @@
+
+_______              _____            _____________________  
+___    |___  _____  ____(_)_____ _    __  ___/__  __ \__  / 
+__  /| |_  |/_/_  |/_/_  /_  __ `/    _____ \__  /_/ /_  /  
+_  ___ |_>  < __>  < _  / / /_/ /     ____/ /_  ____/_  /___ 
+/_/  |_/_/|_| /_/|_| /_/  \__,_/      /____/ /_/     /_____/
+
+Axxia Version: UNKNOWN
+Axxia ATF Version: UNKNOWN
+XLF CHIP VERSION: (0x18) A0
+Parameter table has wrong magic number!
+Parameters: Watchdog 0 A/B Valid 1/0 A/B Sequence 0/0 => A
+Parameter Table Version: 9
+mb: non-secure access to Shelley? yes
+mb: write 0x89900000 @ 0x4000200048
+mb: read back 0x89900000 @ 0x4000200048
+mb: write 0x80000000 @ 0x400020004c
+mb: read back 0x80000000 @ 0x400020004c
+mb: write 0x89900000 @ 0x4000210048
+mb: read back 0x89900000 @ 0x4000210048
+mb: write 0x80000000 @ 0x400021004c
+mb: read back 0x80000000 @ 0x400021004c
+mb: write 0x89900000 @ 0x4000220048
+mb: read back 0x89900000 @ 0x4000220048
+mb: write 0x80000000 @ 0x400022004c
+mb: read back 0x80000000 @ 0x400022004c
+mb: write 0x89900000 @ 0x4000230048
+mb: read back 0x89900000 @ 0x4000230048
+mb: write 0x80000000 @ 0x400023004c
+mb: read back 0x80000000 @ 0x400023004c
+mb: write 0x89900000 @ 0x4000240048
+mb: read back 0x89900000 @ 0x4000240048
+mb: write 0x80000000 @ 0x400024004c
+mb: read back 0x80000000 @ 0x400024004c
+mb: write 0x89900000 @ 0x4000250048
+mb: read back 0x89900000 @ 0x4000250048
+mb: write 0x80000000 @ 0x400025004c
+mb: read back 0x80000000 @ 0x400025004c
+mb: write 0x89900000 @ 0x4000260048
+mb: read back 0x89900000 @ 0x4000260048
+mb: write 0x80000000 @ 0x400026004c
+mb: read back 0x80000000 @ 0x400026004c
+mb: write 0x89900000 @ 0x4000270048
+mb: read back 0x89900000 @ 0x4000270048
+mb: write 0x80000000 @ 0x400027004c
+mb: read back 0x80000000 @ 0x400027004c
+mb: write 0x89b00000 @ 0x4000200050
+mb: read back 0x89b00000 @ 0x4000200050
+mb: write 0x80000000 @ 0x4000200054
+mb: read back 0x80000000 @ 0x4000200054
+mb: write 0x89b00000 @ 0x4000210050
+mb: read back 0x89b00000 @ 0x4000210050
+mb: write 0x80000000 @ 0x4000210054
+mb: read back 0x80000000 @ 0x4000210054
+mb: write 0x89b00000 @ 0x4000220050
+mb: read back 0x89b00000 @ 0x4000220050
+mb: write 0x80000000 @ 0x4000220054
+mb: read back 0x80000000 @ 0x4000220054
+mb: write 0x89b00000 @ 0x4000230050
+mb: read back 0x89b00000 @ 0x4000230050
+mb: write 0x80000000 @ 0x4000230054
+mb: read back 0x80000000 @ 0x4000230054
+mb: write 0x89b00000 @ 0x4000240050
+mb: read back 0x89b00000 @ 0x4000240050
+mb: write 0x80000000 @ 0x4000240054
+mb: read back 0x80000000 @ 0x4000240054
+mb: write 0x89b00000 @ 0x4000250050
+mb: read back 0x89b00000 @ 0x4000250050
+mb: write 0x80000000 @ 0x4000250054
+mb: read back 0x80000000 @ 0x4000250054
+mb: write 0x89b00000 @ 0x4000260050
+mb: read back 0x89b00000 @ 0x4000260050
+mb: write 0x80000000 @ 0x4000260054
+mb: read back 0x80000000 @ 0x4000260054
+mb: write 0x89b00000 @ 0x4000270050
+mb: read back 0x89b00000 @ 0x4000270050
+mb: write 0x80000000 @ 0x4000270054
+mb: read back 0x80000000 @ 0x4000270054
+mb: write 0x89d00000 @ 0x4000200058
+mb: read back 0x89d00000 @ 0x4000200058
+mb: write 0x80000000 @ 0x400020005c
+mb: read back 0x80000000 @ 0x400020005c
+mb: write 0x89d00000 @ 0x4000210058
+mb: read back 0x89d00000 @ 0x4000210058
+mb: write 0x80000000 @ 0x400021005c
+mb: read back 0x80000000 @ 0x400021005c
+mb: write 0x89d00000 @ 0x4000220058
+mb: read back 0x89d00000 @ 0x4000220058
+mb: write 0x80000000 @ 0x400022005c
+mb: read back 0x80000000 @ 0x400022005c
+mb: write 0x89d00000 @ 0x4000230058
+mb: read back 0x89d00000 @ 0x4000230058
+mb: write 0x80000000 @ 0x400023005c
+mb: read back 0x80000000 @ 0x400023005c
+mb: write 0x89d00000 @ 0x4000240058
+mb: read back 0x89d00000 @ 0x4000240058
+mb: write 0x80000000 @ 0x400024005c
+mb: read back 0x80000000 @ 0x400024005c
+mb: write 0x89d00000 @ 0x4000250058
+mb: read back 0x89d00000 @ 0x4000250058
+mb: write 0x80000000 @ 0x400025005c
+mb: read back 0x80000000 @ 0x400025005c
+mb: write 0x89d00000 @ 0x4000260058
+mb: read back 0x89d00000 @ 0x4000260058
+mb: write 0x80000000 @ 0x400026005c
+mb: read back 0x80000000 @ 0x400026005c
+mb: write 0x89d00000 @ 0x4000270058
+mb: read back 0x89d00000 @ 0x4000270058
+mb: write 0x80000000 @ 0x400027005c
+mb: read back 0x80000000 @ 0x400027005c
+mb: write 0x89f00000 @ 0x4000200060
+mb: read back 0x89f00000 @ 0x4000200060
+mb: write 0x80000000 @ 0x4000200064
+mb: read back 0x80000000 @ 0x4000200064
+mb: write 0x89f00000 @ 0x4000210060
+mb: read back 0x89f00000 @ 0x4000210060
+mb: write 0x80000000 @ 0x4000210064
+mb: read back 0x80000000 @ 0x4000210064
+mb: write 0x89f00000 @ 0x4000220060
+mb: read back 0x89f00000 @ 0x4000220060
+mb: write 0x80000000 @ 0x4000220064
+mb: read back 0x80000000 @ 0x4000220064
+mb: write 0x89f00000 @ 0x4000230060
+mb: read back 0x89f00000 @ 0x4000230060
+mb: write 0x80000000 @ 0x4000230064
+mb: read back 0x80000000 @ 0x4000230064
+mb: write 0x89f00000 @ 0x4000240060
+mb: read back 0x89f00000 @ 0x4000240060
+mb: write 0x80000000 @ 0x4000240064
+mb: read back 0x80000000 @ 0x4000240064
+mb: write 0x89f00000 @ 0x4000250060
+mb: read back 0x89f00000 @ 0x4000250060
+mb: write 0x80000000 @ 0x4000250064
+mb: read back 0x80000000 @ 0x4000250064
+mb: write 0x89f00000 @ 0x4000260060
+mb: read back 0x89f00000 @ 0x4000260060
+mb: write 0x80000000 @ 0x4000260064
+mb: read back 0x80000000 @ 0x4000260064
+mb: write 0x89f00000 @ 0x4000270060
+mb: read back 0x89f00000 @ 0x4000270060
+mb: write 0x80000000 @ 0x4000270064
+mb: read back 0x80000000 @ 0x4000270064
+mb: LockedWays 8 @ 0x4000200040
+mb: read back LockedWays 0x8
+mb: LockedWays 8 @ 0x4000210040
+mb: read back LockedWays 0x8
+mb: LockedWays 8 @ 0x4000220040
+mb: read back LockedWays 0x8
+mb: LockedWays 8 @ 0x4000230040
+mb: read back LockedWays 0x8
+mb: LockedWays 8 @ 0x4000240040
+mb: read back LockedWays 0x8
+mb: LockedWays 8 @ 0x4000250040
+mb: read back LockedWays 0x8
+mb: LockedWays 8 @ 0x4000260040
+mb: read back LockedWays 0x8
+mb: LockedWays 8 @ 0x4000270040
+mb: read back LockedWays 0x8
+L3 Cache Line Locking -- Total Size is 8 MB
+	Base 0 : 0x89900000 (valid)
+	Base 1 : 0x89b00000 (valid)
+	Base 2 : 0x89d00000 (valid)
+	Base 3 : 0x89f00000 (valid)
+System Initialized
+
+INFO:    Options: 6700, emulation, none, 2 MHz, 9600
+INFO:    Options: cache protection enabled
+NOTICE:  BL31: v1.2(debug):c051fd455d
+NOTICE:  BL31: Built : 22:11:27, Jun 11 2018
+INFO:    Force timer 7 int to Secure 
+INFO:    Enable timer 7 int in GICD 
+INFO:    BL31: Initializing runtime services
+INFO:    plat_setup_psci_ops called
+INFO:    BL31: Preparing for EL3 exit to normal world
+INFO:    Entry point address = 0x0
+INFO:    SPSR = 0x9
+INFO:    Adding cluster 0 to the coherency domain.
+INFO:    Setting the DSP State from 0x0 to 0x0
+ _______              _____            _____  __     ________            _____ 
+ ___    |___  _____  ____(_)_____ _    __  / / /     ___  __ )_____________  /_
+ __  /| |_  |/_/_  |/_/_  /_  __ `/    _  / / /________  __  |  __ \  __ \  __/
+ _  ___ |_>  < __>  < _  / / /_/ /     / /_/ /_/_____/  /_/ // /_/ / /_/ / /_  
+ /_/  |_/_/|_| /_/|_| /_/  \__,_/      \____/        /_____/ \____/\____/\__/  
+
+Axxia Version: UNKNOWN
+EL2
+
+U-Boot 2015.10-00004-g5c0d45cfee-dirty (Jun 11 2018 - 17:11:56 -0500)
+
+DRAM:  1 GiB
+Sysmem Size: 4096 MB
+Relocation Address: 0x3ff79000
+SF: Detected S25FL032A with page size 256 Bytes, erase size 64 KiB, total 4 MiB
+In:    serial
+Out:   serial
+Err:   serial
+Net:   NEMAC
+Hit any key to stop autoboot: 12 11 10  9  8  7  6  5  4  3  2  1  0 
+NEMAC Waiting for PHY auto negotiation to complete.. done
+NEMAC: 100Mbps, full duplex
+BOOTP broadcast 1
+*** Unhandled DHCP Option in OFFER/ACK: 40
+*** Unhandled DHCP Option in OFFER/ACK: 119
+*** Unhandled DHCP Option in OFFER/ACK: 41
+*** Unhandled DHCP Option in OFFER/ACK: 40
+*** Unhandled DHCP Option in OFFER/ACK: 119
+*** Unhandled DHCP Option in OFFER/ACK: 41
+DHCP client bound to address 10.123.78.234 (354 ms)
+Using NEMAC device
+TFTP from server 10.123.116.21; our IP address is 10.123.78.234; sending through gateway 10.123.72.1
+Filename 'kernel-frio-037-a15'.
+Load address: 0x4000000
+Loading: *#################################################################
+	 #################################################################
+	 #################################################################
+	 #################################################################
+	 #################################################################
+	 ##############
+	 410.2 KiB/s
+done
+Bytes transferred = 4965272 (4bc398 hex)
+## Loading kernel from FIT Image at 04000000 ...
+   Using 'conf' configuration
+   Trying 'kernel' kernel subimage
+     Description:  Linux Kernel
+     Type:         Kernel Image
+     Compression:  gzip compressed
+     Data Start:   0x040000d0
+     Data Size:    4949148 Bytes = 4.7 MiB
+     Architecture: AArch64
+     OS:           Linux
+     Load Address: 0x00080000
+     Entry Point:  0x00080000
+     Hash algo:    crc32
+     Hash value:   44841943
+     Hash algo:    sha1
+     Hash value:   20645bd070d5e5b998a5e02a8c0bb3776fb54a88
+   Verifying Hash Integrity ... crc32+ sha1+ OK
+## Loading fdt from FIT Image at 04000000 ...
+   Using 'conf' configuration
+   Trying 'fdt' fdt subimage
+     Description:  Flattened Device Tree blob
+     Type:         Flat Device Tree
+     Compression:  uncompressed
+     Data Start:   0x044b8694
+     Data Size:    14799 Bytes = 14.5 KiB
+     Architecture: AArch64
+     Hash algo:    crc32
+     Hash value:   b702b82c
+     Hash algo:    sha1
+     Hash value:   1ff9047f2aada5f22caf446a4f3e05df3102b6e1
+   Verifying Hash Integrity ... crc32+ sha1+ OK
+   Booting using the fdt blob at 0x44b8694
+   Uncompressing Kernel Image ... OK
+   Loading Device Tree to 000000001fff9000, end 000000001ffff9ce ... OK
+Peripheral frequency: 2000000
+
+Starting kernel ...
+
+INFO:    Adding cluster 2 to the coherency domain.
+INFO:    Adding cluster 4 to the coherency domain.
+Booting Linux on physical CPU 0x0
+Initializing cgroup subsys cpuset
+Initializing cgroup subsys cpu
+Initializing cgroup subsys cpuacct
+Linux version 4.1.49-rt23-axxia_rt_1.71 (jjacques@txasoft16) (gcc version 5.2.0 (GCC) ) #1 SMP PREEMPT RT Tue Feb 27 09:06:22 CST 2018
+CPU: AArch64 Processor [410fd034] revision 4
+Detected VIPT I-cache on CPU0
+alternatives: enabling workaround for ARM erratum 845719
+Memory limited to 1024MB
+efi: Getting EFI parameters from FDT:
+efi: UEFI not found.
+cma: Reserved 16 MiB at 0x000000003f000000
+psci: probing for conduit method from DT.
+psci: PSCIv1.0 detected in firmware.
+psci: Using standard PSCI v0.2 function IDs
+PERCPU: Embedded 18 pages/cpu @ffffffc03eeff000 s35200 r8192 d30336 u73728
+Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 258048
+Kernel command line: root=/dev/nfs rw mem=1024M console=ttyAMA0 ip=dhcp
+log_buf_len individual max cpu contribution: 4096 bytes
+log_buf_len total cpu_extra contributions: 45056 bytes
+log_buf_len min size: 16384 bytes
+log_buf_len: 65536 bytes
+early log buf free: 14608(89%)
+PID hash table entries: 4096 (order: 3, 32768 bytes)
+Dentry cache hash table entries: 131072 (order: 9, 2097152 bytes)
+Inode-cache hash table entries: 65536 (order: 7, 524288 bytes)
+software IO TLB [mem 0x39a00000-0x3da00000] (64MB) mapped at [ffffffc039a00000-ffffffc03d9fffff]
+Memory: 934516K/1048576K available (7190K kernel code, 769K rwdata, 2616K rodata, 612K init, 404K bss, 97676K reserved, 16384K cma-reserved)
+Virtual kernel memory layout:
+    vmalloc : 0xffffff8000000000 - 0xffffffbdbfff0000   (   246 GB)
+    vmemmap : 0xffffffbdc0000000 - 0xffffffbfc0000000   (     8 GB maximum)
+              0xffffffbdc0000000 - 0xffffffbdc1000000   (    16 MB actual)
+    fixed   : 0xffffffbffabfd000 - 0xffffffbffac00000   (    12 KB)
+    PCI I/O : 0xffffffbffae00000 - 0xffffffbffbe00000   (    16 MB)
+    modules : 0xffffffbffc000000 - 0xffffffc000000000   (    64 MB)
+    memory  : 0xffffffc000000000 - 0xffffffc040000000   (  1024 MB)
+      .init : 0xffffffc000a16000 - 0xffffffc000aaf000   (   612 KB)
+      .text : 0xffffffc000080000 - 0xffffffc000a158f4   (  9815 KB)
+      .data : 0xffffffc000ab3000 - 0xffffffc000b73400   (   769 KB)
+SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=12, Nodes=1
+Preemptible hierarchical RCU implementation.
+	Additional per-CPU info printed with stalls.
+	RCU restricting CPUs from NR_CPUS=64 to nr_cpu_ids=12.
+	RCU kthread priority: 1.
+RCU: Adjusting geometry for rcu_fanout_leaf=16, nr_cpu_ids=12
+NR_IRQS:64 nr_irqs:64 0
+CPU0: found redistributor 0 region 0:0x0000008010400000
+Architected cp15 timer(s) running at 5.00MHz (phys).
+clocksource arch_sys_counter: mask: 0xffffffffffffff max_cycles: 0x127350b88, max_idle_ns: 440795202120 ns
+sched_clock: 56 bits at 5MHz, resolution 200ns, wraps every 4398046511100ns
+Console: colour dummy device 80x25
+Calibrating delay loop (skipped), value calculated using timer frequency.. 10.00 BogoMIPS (lpj=50000)
+pid_max: default: 32768 minimum: 301
+Security Framework initialized
+Mount-cache hash table entries: 2048 (order: 2, 16384 bytes)
+Mountpoint-cache hash table entries: 2048 (order: 2, 16384 bytes)
+Initializing cgroup subsys blkio
+Initializing cgroup subsys memory
+Initializing cgroup subsys devices
+Initializing cgroup subsys freezer
+Initializing cgroup subsys hugetlb
+ftrace: allocating 25386 entries in 100 pages
+hw perfevents: enabled with arm/armv8-pmuv3 PMU driver, 7 counters available
+EFI services will not be available.
+CPU1: Booted secondary processor
+Detected VIPT I-cache on CPU1
+CPU1: found redistributor 1 region 0:0x0000008010420000
+CPU2: Booted secondary processor
+Detected VIPT I-cache on CPU2
+CPU2: found redistributor 2 region 0:0x0000008010440000
+CPU3: Booted secondary processor
+Detected VIPT I-cache on CPU3
+CPU3: found redistributor 3 region 0:0x0000008010460000
+CPU4: Booted secondary processor
+Detected VIPT I-cache on CPU4
+CPU4: found redistributor 200 region 0:0x0000008010500000
+CPU5: Booted secondary processor
+Detected VIPT I-cache on CPU5
+CPU5: found redistributor 201 region 0:0x0000008010520000
+CPU6: Booted secondary processor
+Detected VIPT I-cache on CPU6
+CPU6: found redistributor 202 region 0:0x0000008010540000
+CPU7: Booted secondary processor
+Detected VIPT I-cache on CPU7
+CPU7: found redistributor 203 region 0:0x0000008010560000
+CPU8: Booted secondary processor
+
+Detected VIPT I-cache on CPU8
+CPU8: found redistributor 400 region 0:0x0000008010600000
+CPU9: Booted secondary processor
+Detected VIPT I-cache on CPU9
+CPU9: found redistributor 401 region 0:0x0000008010620000
+CPU10: Booted secondary processor
+Detected VIPT I-cache on CPU10
+CPU10: found redistributor 402 region 0:0x0000008010640000
+CPU11: Booted secondary processor
+Detected VIPT I-cache on CPU11
+CPU11: found redistributor 403 region 0:0x0000008010660000
+Brought up 12 CPUs
+SMP: Total of 12 processors activated.
+CPU: All CPU(s) started at EL2
+alternatives: patching kernel code
+devtmpfs: initialized
+DMI not present or invalid.
+clocksource jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 19112604462750000 ns
+futex hash table entries: 4096 (order: 7, 524288 bytes)
+NET: Registered protocol family 16
+cpuidle: using governor ladder
+cpuidle: using governor menu
+vdso: 2 pages (1 code @ ffffffc000ab9000, 1 data @ ffffffc000ab8000)
+hw-breakpoint: found 6 breakpoint and 4 watchpoint registers.
+DMA: preallocated 256 KiB pool for atomic allocations
+Serial: AMBA PL011 UART driver
+ncr: available
+No Parameters Available for PEI Setup!
+8080000000.uart: ttyAMA0 at MMIO 0x8080000000 (irq = 13, base_baud = 0) is a PL011 rev2
+console [ttyAMA0] enabled
+ACPI: Interpreter disabled.
+vgaarb: loaded
+SCSI subsystem initialized
+ssp-pl022 8080100000.ssp: ARM PL022 driver, device ID: 0x000b6022
+pl022: mapped registers from 0x8080100000 to ffffff8000054000
+ssp-pl022 8080100000.ssp: Max speed that can be programmed is 1000000 Hz, you requested 25000000
+usbcore: registered new interface driver usbfs
+usbcore: registered new interface driver hub
+usbcore: registered new device driver usb
+EDAC MC: Ver: 3.0.0
+Switched to clocksource arch_sys_counter
+pnp: PnP ACPI: disabled
+NET: Registered protocol family 2
+TCP established hash table entries: 8192 (order: 4, 65536 bytes)
+TCP bind hash table entries: 8192 (order: 6, 458752 bytes)
+TCP: Hash tables configured (established 8192 bind 8192)
+UDP hash table entries: 512 (order: 4, 65536 bytes)
+UDP-Lite hash table entries: 512 (order: 4, 65536 bytes)
+NET: Registered protocol family 1
+RPC: Registered named UNIX socket transport module.
+RPC: Registered udp transport module.
+RPC: Registered tcp transport module.
+RPC: Registered tcp NFSv4.1 backchannel transport module.
+kvm [1]: GICv3: no GICV resource entry
+kvm [1]: disabling GICv2 emulation
+kvm [1]: interrupt-controller@ffffffc0000b37d0 IRQ5
+kvm [1]: timer IRQ3
+kvm [1]: Hyp mode initialized successfully
+audit: initializing netlink subsys (disabled)
+audit: type=2000 audit(73.990:1): initialized
+HugeTLB registered 2 MB page size, pre-allocated 0 pages
+squashfs: version 4.0 (2009/01/31) Phillip Lougher
+Installing knfsd (copyright (C) 1996 okir@monad.swb.de).
+fuse init (API version 7.23)
+9p: Installing v9fs 9p2000 file system support
+NET: Registered protocol family 38
+io scheduler noop registered
+io scheduler cfq registered (default)
+Serial: 8250/16550 driver, 4 ports, IRQ sharing disabled
+Unable to detect cache hierarcy from DT for CPU 0
+brd: module loaded
+loop: module loaded
+Axxia DSP Control Initialized
+Axxia ACTLR_EL3 Control Initialized
+Axxia ACTLR_EL3 Control Initialized
+libphy: Axxia MDIO: probed
+m25p80 spi0.0: found s25sl032p, expected s25fl016k
+m25p80 spi0.0: s25sl032p (4096 Kbytes)
+8 ofpart partitions found on MTD device spi0.0
+Creating 8 MTD partitions on "spi0.0":
+0x000000000000-0x000000040000 : "spl-0"
+0x000000040000-0x000000080000 : "spl-1"
+0x000000080000-0x000000090000 : "parameters-0"
+0x000000090000-0x0000000a0000 : "parameters-1"
+0x0000000a0000-0x0000000b0000 : "env-0"
+0x0000000b0000-0x0000000c0000 : "env-1"
+0x000000100000-0x000000300000 : "u-boot-0"
+0x000000300000-0x000000500000 : "u-boot-1"
+mtd: partition "u-boot-1" extends beyond the end of device "spi0.0" -- size truncated to 0x100000
+libphy: Fixed MDIO Bus: probed
+tun: Universal TUN/TAP device driver, 1.6
+tun: (C) 1999-2004 Max Krasnyansky <maxk@qualcomm.com>
+axxia-nemac 8080240000.ethernet: NEMAC HW rev 3.4
+usbcore: registered new interface driver usb-storage
+mousedev: PS/2 mouse device common for all mice
+i2c /dev entries driver
+DDR Retention Reset Initialized
+sdhci: Secure Digital Host Controller Interface driver
+sdhci: Copyright(c) Pierre Ossman
+sdhci-pltfm: SDHCI platform and OF driver helper
+usbcore: registered new interface driver usbhid
+usbhid: USB HID core driver
+nf_conntrack version 0.5.0 (7428 buckets, 29712 max)
+ip_tables: (C) 2000-2006 Netfilter Core Team
+NET: Registered protocol family 10
+ip6_tables: (C) 2000-2006 Netfilter Core Team
+sit: IPv6 over IPv4 tunneling driver
+NET: Registered protocol family 17
+bridge: automatic filtering via arp/ip/ip6tables has been deprecated. Update your scripts to load br_netfilter if you need this.
+8021q: 802.1Q VLAN Support v1.8
+9pnet: Installing 9P2000 support
+registered taskstats version 1
+hctosys: unable to open rtc device (rtc0)
+IPv6: ADDRCONF(NETDEV_UP): eth0: link is not ready
+axxia-nemac 8080240000.ethernet eth0: Link is Up - 10Mbps/Full - flow control off
+Sending DHCP requests .
+IPv6: ADDRCONF(NETDEV_CHANGE): eth0: link becomes ready
+., OK
+IP-Config: Got DHCP answer from 10.123.72.2, my address is 10.123.78.234
+IP-Config: Complete:
+     device=eth0, hwaddr=00:02:2d:84:13:f0, ipaddr=10.123.78.234, mask=255.255.248.0, gw=10.123.72.1
+     host=frio-037-a15, domain=, nis-domain=agere
+     bootserver=10.123.116.21, rootserver=10.123.116.21, rootpath=/export/labsrv6/lab/ARM/frio-037-a15
+     nameserver0=10.248.2.1, nameserver1=10.2.71.13, nameserver2=10.19.1.12
+uart-pl011 8080000000.uart: no DMA platform data
+VFS: Mounted root (nfs filesystem) on device 0:16.
+devtmpfs: mounted
+Freeing unused kernel memory: 612K
+Freeing alternatives memory: 8K
+INIT: version 2.88 booting
+random: nonblocking pool is initialized
+Starting udev
+udevd[226]: starting version 182
+
+udevadm settle - timeout of 3 seconds reached, the event queue contains:
+  /sys/devices/virtual/bdi/1:3 (782)
+  /sys/devices/virtual/bdi/1:4 (783)
+  /sys/devices/virtual/bdi/1:5 (784)
+  /sys/devices/virtual/bdi/1:6 (785)
+  /sys/devices/virtual/bdi/1:7 (786)
+udevd[226]: worker [264] timeout, kill it
+
+udevd[226]: seq 812 '/devices/virtual/block/ram14' killed
+
+udevd[226]: worker [265] timeout, kill it
+
+udevd[226]: seq 813 '/devices/virtual/block/ram15' killed
+
+udevd[226]: worker [267] timeout, kill it
+
+udevd[226]: seq 814 '/devices/virtual/block/ram2' killed
+
+udevd[226]: worker [268] timeout, kill it
+
+udevd[226]: seq 815 '/devices/virtual/block/ram3' killed
+
+udevd[226]: worker [269] timeout, kill it
+
+udevd[226]: seq 816 '/devices/virtual/block/ram4' killed
+
+udevd[226]: worker [270] timeout, kill it
+
+udevd[226]: seq 817 '/devices/virtual/block/ram5' killed
+
+udevd[226]: worker [271] timeout, kill it
+
+udevd[226]: seq 818 '/devices/virtual/block/ram6' killed
+
+udevd[226]: worker [273] timeout, kill it
+
+udevd[226]: seq 819 '/devices/virtual/block/ram7' killed
+
+udevd[226]: worker [274] timeout, kill it
+
+udevd[226]: seq 820 '/devices/virtual/block/ram8' killed
+
+udevd[226]: worker [276] timeout, kill it
+
+udevd[226]: seq 821 '/devices/virtual/block/ram9' killed
+
+udevd[226]: worker [264] terminated by signal 9 (Killed)
+
+udevd[226]: worker [265] terminated by signal 9 (Killed)
+
+hwclock: can't open '/dev/misc/rtc': No such file or directory
+Mon Aug 24 20:22:17 UTC 2015
+hwclock: can't open '/dev/misc/rtc': No such file or directory
+INIT: Entering runlevel: 5
+Configuring network interfaces... ifup skipped for nfsroot interface eth0
+run-parts: /etc/network/if-pre-up.d/nfsroot exited with code 1
+Starting system message bus: dbus.
+Starting udev
+udevd[423]: starting version 182
+
+udevadm settle - timeout of 3 seconds reached, the event queue contains:
+  /sys/devices/platform/soc/soc:amba/8080100000.ssp/spi_master/spi0/spi0.0/mtd/mtd4ro (863)
+  /sys/devices/platform/soc/soc:amba/8080100000.ssp/spi_master/spi0/spi0.0/mtd/mtd5ro (865)
+  /sys/devices/platform/soc/soc:amba/8080100000.ssp/spi_master/spi0/spi0.0/mtd/mtd6ro (867)
+  /sys/devices/platform/soc/soc:amba/8080100000.ssp/spi_master/spi0/spi0.0/mtd/mtd7ro (869)
+  /sys/devices/system/cpu/cpu3 (893)
+  /sys/devices/system/cpu/cpu4 (894)
+  /sys/devices/system/cpu/cpu5 (895)
+  /sys/devices/system/cpu/cpu6 (896)
+Starting portmap daemon...
+Starting rpcbind daemon...done.
+Starting watchdog: [1;34m[[1;32m  OK  [1;34m][0;39m
+starting statd: done
+Starting atd: OK
+Starting domain name service: named.
+exportfs: can't open /etc/exports for reading
+starting 8 nfsd kernel threads: done
+starting mountd: done
+Starting system log daemon...0
+Starting kernel log daemon...0
+Starting internet superserver: xinetd.
+ * Starting Avahi mDNS/DNS-SD Daemon: avahi-daemon
+[A[74G[ ok ]
+Starting ypbind .Starting crond: OK
+Running local boot scripts (/etc/rc.local)Starting automount: done.
+.
+
+Poky (Yocto Project Reference Distro) 1.8+snapshot-20150824 frio-037-a15 /dev/ttyAMA0
+
+frio-037-a15 login: root
+Password: 
+root@frio-037-a15:~# cd /workspace/sw/mbykowsx/lionfish/perf/trunk/nuevo/cpu/axm 6732/asic_v1.1/lmbench3
+root@frio-037-a15:/workspace/sw/mbykowsx/lionfish/perf/trunk/nuevo/cpu/axm6732/assic_v1.1/lmbench3# cd test_l3_lockdown_issue/
+root@frio-037-a15:/workspace/sw/mbykowsx/lionfish/perf/trunk/nuevo/cpu/axm6732/assic_v1.1/lmbench3/test_l3_lockdown_issue# ./run_bw_mem.sh 
+0.524288 5.88
+1.05 2.41
+2.10 1.71
+3.15 1.39
+4.19 1.33
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   [?25l[13;116H[K[1;12r[12;1H
+[1;13r[13;116H218,0-1[7C25%[12;1H[34h[?25h[?25l[13;116H[K[1;12r[12;1H
+[1;13r[13;116H219,0-1[7C25%[12;1H[34h[?25h[?25l[13;116H[K[1;12r[12;1H
+[1;13r[13;116H220,0-1[7C25%[12;1H[34h[?25h[?25l[13;116H[K[1;12r[12;1H
+[1;13r[13;116H221,0-1[7C25%[12;1H[34h[?25h[?25l[13;116H[K[13;1H:[34h[?25hq[?25l[34h[?25h[?25l[1m[37m[41mE37: No write since last change (add ! to override)[0m[64C221,0-1[7C25%[12;1H[34h[?25h[?25l[13;1H[K[13;1H:[34h[?25hQ[?25l[34h[?25h![?25l[34h[?25h[?25l[13;3H[K[13;3H[34h[?25h[?25l[13;2H[K[13;2H[34h[?25hq[?25l[34h[?25h![?25l[34h[?25h[?25l[13;1H[K[13;1H[?1l>[34h[?25h[?1049lmbykowsx@aus-labsrv2:lmbench3/test_l3_lockdown_issue$ 
+mbykowsx@aus-labsrv2:lmbench3/test_l3_lockdown_issue$ 
+mbykowsx@aus-labsrv2:lmbench3/test_l3_lockdown_issue$ 
+mbykowsx@aus-labsrv2:lmbench3/test_l3_lockdown_issue$ 
+mbykowsx@aus-labsrv2:lmbench3/test_l3_lockdown_issue$ 
+mbykowsx@aus-labsrv2:lmbench3/test_l3_lockdown_issue$ ll -ty
+ls: invalid option -- 'y'
+Try `ls --help' for more information.
+mbykowsx@aus-labsrv2:lmbench3/test_l3_lockdown_issue$ cd
+mbykowsx@aus-labsrv2:/home/mbykowsx$ ll -rt
+total 667412
+-rw-------  1 mbykowsx intelall        31 Aug  4  2015 .mcoprc
+drwxr-xr-x  3 mbykowsx intelall      4096 Aug  4  2015 [0m[01;34m.mcop[0m/
+drwxr-xr-x  3 mbykowsx intelall      4096 Aug  4  2015 [01;34m.subversion[0m/
+drwx------  2 mbykowsx intelall      4096 Aug  4  2015 [01;34m.gvfs[0m/
+drwxr-xr-x  2 mbykowsx intelall      4096 Aug  4  2015 [01;34m.graphon[0m/
+drwxr-xr-x  3 mbykowsx intelall      4096 Aug  5  2015 [01;34m.eclipse[0m/
+-rw-------  1 mbykowsx intelall      1874 Aug  5  2015 .history
+-rw-r--r--  1 mbykowsx intelall       114 Aug  5  2015 .cshrc
+drwx--S---  3 mbykowsx intelall      4096 Aug  6  2015 [01;34mDesktop[0m/
+drwxr-xr-x  2 mbykowsx intelall      4096 Aug  6  2015 [01;34msource[0m/
+drwx------  3 mbykowsx intelall      4096 Aug  6  2015 [01;34m.gnupg[0m/
+drwxr-xr-x  2 mbykowsx intelall      4096 Aug 11  2015 [01;34mdownload[0m/
+-rw-r--r--  1 mbykowsx intelall         0 Aug 13  2015 .screenrc
+-rw-rw-r--  1 mbykowsx intelall      1057 Aug 13  2015 screenlog.0
+lrwxrwxrwx  1 mbykowsx intelall        81 Aug 19  2015 [40;31;01mncp_rte[0m -> [40;31;01m/workspace/sw/mbykowsx/lionfish/trunk/images/ncp_linux-ep8572_xlf_rte_bin/ncp_rte[0m
+drwx------  2 mbykowsx intelall      4096 Sep 25  2015 [01;34m.gnome2_private[0m/
+drwx------  4 mbykowsx intelall      4096 Sep 25  2015 [01;34m.gnome2[0m/
+drwx------  3 mbykowsx intelall      4096 Sep 25  2015 [01;34m.dbus[0m/
+-rw-r--r--  1 mbykowsx intelall       762 Sep 25  2015 .recently-used.xbel
+-rw-r--r--  1 mbykowsx intelall       804 Oct  9  2015 xlf_fbrs.ovr
+drwx------  2 mbykowsx intelall      4096 Oct 28  2015 [01;34m.XStep[0m/
+drwxr-xr-x  4 mbykowsx intelall      4096 Oct 28  2015 [01;34mXStep_workspace[0m/
+drwxr-xr-x 21 mbykowsx intelall     65536 Nov  6  2015 [01;34mgit-2.6.2[0m/
+drwxr-xr-x  3 mbykowsx intelall      4096 Nov  6  2015 [01;34mlibexec[0m/
+drwxr-xr-x  3 mbykowsx intelall      4096 Nov  6  2015 [01;34mlib64[0m/
+drwxr-xr-x  8 mbykowsx intelall      4096 Nov  6  2015 [01;34mshare[0m/
+drwxr-xr-x  8 mbykowsx intelall      4096 Jan 22  2016 [01;34mgcc-linaro-5.2-2015.11-2-x86_64_arm-linux-gnueabi[0m/
+drwxr-xr-x  9 mbykowsx intelall      4096 Feb  4  2016 [01;34mnerdtree[0m/
+-rw-r--r--  1 mbykowsx intelall      3505 Feb 11  2016 rif_api_mb.nsh
+drwxr-xr-x  5 mbykowsx intelall      4096 Feb 15  2016 [01;34m.mozilla[0m/
+drwxr-xr-x 10 mbykowsx intelall      4096 Feb 18  2016 [01;34mRIFmapper[0m/
+-rw-r--r--  1 mbykowsx intelall       675 Mar 31  2016 .profile
+drwxr-xr-x  2 mbykowsx intelall      4096 Apr 12  2016 [01;34myocto[0m/
+drwxr-xr-x  2 mbykowsx intelall      4096 Apr 26  2016 [01;34m.oracle_jre_usage[0m/
+drwxr-----  3 mbykowsx intelall      4096 Aug  2  2016 [01;34m.pki[0m/
+drwxr-xr-x  2 mbykowsx intelall      4096 Aug  3  2016 [01;34mrf[0m/
+drwxr-xr-x  7 mbykowsx intelall      4096 Sep  9  2016 [01;34maxxia_u-boot_nokia_bringup.git[0m/
+drwxr-xr-x  7 mbykowsx intelall      4096 Sep  9  2016 [01;34maxxia_atf_nokia_bringup.git[0m/
+-rw-r--r--  1 mbykowsx intelall      7326 Sep 24  2016 xlf_1MHz_clock.rvc
+-rw-r--r--  1 mbykowsx intelall      1568 Oct  3  2016 multi3.its
+-rwxr-xr-x  1 mbykowsx intelall       266 Oct  3  2016 [01;32mrun.sh[0m*
+-rwxr-xr-x  1 mbykowsx intelall    143426 Oct  3  2016 [01;32mmkimage[0m*
+drwxr-xr-x  5 mbykowsx intelall      4096 Oct  4  2016 [01;34m.local[0m/
+drwxr-xr-x  2 mbykowsx intelall      4096 Oct  4  2016 [01;34m.idlerc[0m/
+-rw-------  1 mbykowsx intelall         0 Oct  4  2016 .python_history
+-rwxr-xr-x  1 mbykowsx intelall      2880 Oct  5  2016 [01;32msetup_xlf_clk_nrcp2_pll[0m*
+-rwxr-xr-x  1 mbykowsx intelall      8622 Oct  5  2016 [01;32msetup_xlf_clk_nrcp_dpll[0m*
+-rwxr-xr-x  1 mbykowsx intelall     13928 Oct  5  2016 [01;32msetup_dpll_frac[0m*
+-rw-r--r--  1 mbykowsx intelall      4096 Oct 21  2016 AXC6700.bin
+drwxr-xr-x  2 mbykowsx intelall      4096 Oct 25  2016 [01;34m.wireshark[0m/
+-rw-r--r--  1 mbykowsx intelall        77 Oct 31  2016 .NERDTreeBookmarks
+-rw-r--r--  1 mbykowsx intelall      5435 Nov 16  2016 tmux-client-7178.log
+-rwxrwxrwx  1 mbykowsx intelall       230 Nov 24  2016 [01;32mtelnet.sh[0m*
+-rw-r--r--  1 mbykowsx intelall       699 Nov 24  2016 sh-tmux.log
+-rw-r--r--  1 mbykowsx intelall      4574 Nov 24  2016 bash-tmux.log
+-rw-r--r--  1 mbykowsx intelall     29727 Nov 24  2016 telnet-tmux.log
+-rw-------  1 mbykowsx intelall         0 Dec  7  2016 .gtk-bookmarks
+-rwxr-x---  1 mbykowsx intelall 164004052 Dec  9  2016 [01;32mgcc-linaro-5.2-2015.11-2-x86_64_arm-linux-gnueabi.tar.xz[0m*
+drwxr-xr-x  2 mbykowsx intelall      4096 Dec 17  2016 [01;34mtesting[0m/
+drwxr-xr-x  5 mbykowsx intelall      4096 Jan 21  2017 [01;34m.kde[0m/
+lrwxrwxrwx  1 mbykowsx intelall        35 Jan 31  2017 [40;31;01mlibgcc.so[0m -> [40;31;01m/lib64/libgcc_s-4.4.7-20120601.so.1[0m
+drwxr-xr-x  2 mbykowsx intelall     20480 Feb 15  2017 [01;34m.fontconfig[0m/
+drwxr-xr-x  2 mbykowsx intelall      4096 Feb 21  2017 [01;34m.qt[0m/
+-rw-r--r--  1 mbykowsx intelall   2596213 Feb 26  2017 log_52_marek
+-rw-r--r--  1 mbykowsx intelall   4603777 Feb 26  2017 log_52_marek_tree
+-rw-r--r--  1 mbykowsx intelall     31400 Feb 28  2017 for_mariusz.patch
+drwxr-xr-x  8 mbykowsx intelall      4096 Mar  8  2017 [01;34mcscope[0m/
+drwxr-xr-x  3 mbykowsx intelall      4096 Mar 30  2017 [01;34mv122[0m/
+drwx------  2 mbykowsx intelall      4096 May 29  2017 [01;34m.elinks[0m/
+-rw-r--r--  1 mbykowsx intelall     16384 May 31  2017 .bashrc_mine.swo
+-rw-------  1 mbykowsx intelall      4926 Jun  6  2017 .ICEauthority
+-rw-r--r--  1 mbykowsx intelall     26432 Jun  6  2017 .bashrc_mine_b
+-rw-r--r--  1 mbykowsx intelall     26409 Jun  6  2017 .bashrc_mine_c
+-rw-r--r--  1 mbykowsx intelall     23699 Jun 22  2017 atf_in_flash.log
+-rw-r--r--  1 mbykowsx intelall     23035 Jun 22  2017 atf_part_of_spl.log
+-rw-r--r--  1 mbykowsx intelall     69901 Jul  2  2017 booting_by_nokia.log
+drwx------  2 mbykowsx intelall      4096 Jul 24  2017 [01;34m.gconf[0m/
+-rw-r--r--  1 mbykowsx intelall      9418 Sep 12  2017 malloc_axxia.log
+drwxr-xr-x  2 mbykowsx intelall      4096 Oct  4  2017 [01;34m.vnc[0m/
+drwxr-xr-x  3 mbykowsx intelall      4096 Oct 31  2017 [01;34m.arm[0m/
+-rwxr-xr-x  1 mbykowsx intelall        99 Oct 31  2017 [01;32m.flexlmrc[0m*
+drwxr-xr-x  4 mbykowsx intelall      4096 Oct 31  2017 [01;34mDS-5-Workspace[0m/
+drwxr-xr-x  5 mbykowsx intelall      4096 Oct 31  2017 [01;34m.cache[0m/
+drwx------  2 mbykowsx intelall      4096 Oct 31  2017 [01;34m.gconfd[0m/
+-rwxr-xr-x  1 mbykowsx intelall       318 Nov  2  2017 [01;32mtunnel.sh[0m*
+-rw-r--r--  1 mbykowsx intelall        38 Nov 29  2017 .bash_profile
+drwxrwxr-x  7 mbykowsx intelall      4096 Dec 12 07:32 [01;34msrift_dont_use.git[0m/
+-rw-r--r--  1 mbykowsx intelall       572 Jan 10 05:16 .mareksm
+-rw-r--r--  1 mbykowsx intelall      8020 Jan 24 04:33 .bashrc~
+drwxr-xr-x  3 mbykowsx intelall      4096 Jan 24 04:36 [01;34m.emacs.d[0m/
+-rw-r--r--  1 mbykowsx intelall      8021 Jan 24 04:48 #.bashrc#
+-rw-r--r--  1 mbykowsx intelall     28289 Jan 26 04:32 074
+drwx------  2 mbykowsx intelall      4096 Mar  8 16:07 [01;34m.ssh[0m/
+-rw-r--r--  1 mbykowsx intelall        12 Mar 11 10:31 sss
+drwxr-xr-x  6 mbykowsx intelall      4096 Mar 12 06:03 [01;34mlib[0m/
+drwxr-xr-x  2 mbykowsx intelall      4096 Mar 12 06:24 [01;34mcerts[0m/
+-rw-r--r--  1 mbykowsx intelall       577 Mar 12 06:25 .gitconfig
+drwxr-xr-x  2 mbykowsx intelall      4096 Mar 12 08:29 [01;34m.ncftp[0m/
+drwxr-xr-x  5 mbykowsx intelall      4096 Mar 12 10:51 [01;34mlocalperl[0m/
+-rw-------  1 mbykowsx intelall         3 Mar 12 14:48 .sqlite_history
+drwxr-xr-x  5 mbykowsx intelall      4096 Mar 13 03:30 [01;34m.cpan[0m/
+-rwxr--r--  1 mbykowsx intelall 227310887 Mar 14 03:31 [01;32mSnowCPK1.mp4[0m*
+-rwxr--r--  1 mbykowsx intelall 278087219 Mar 14 03:31 [01;32mSnowCPK2.mp4[0m*
+drwxrwxr-x 11 mbykowsx intelall      4096 Apr 23 09:29 [01;34m.config[0m/
+-rw-r--r--  1 mbykowsx intelall      9660 Apr 26 07:00 .bashrc
+-rw-r--r--  1 mbykowsx intelall   2945511 Apr 26 14:20 cscope.out
+-rw-r--r--  1 mbykowsx intelall      2437 May 16 18:25 .vimrc
+drwxr-xr-x 20 mbykowsx intelall      4096 May 18 04:44 [01;34mbin[0m/
+-rw-------  1 mbykowsx intelall       878 May 18 06:28 .Xauthority
+-rw-r--r--  1 mbykowsx intelall      3340 May 29 10:05 instructions.txt
+-rw-r--r--  1 mbykowsx intelall     25067 Jun  4 06:40 .bashrc_mine
+-rw-r--r--  1 mbykowsx intelall      7732 Jun  5 06:55 .bashrc_uboot
+drwxrwxrwx  6 mbykowsx intelall      4096 Jun  6 03:32 [34;42m.vim[0m/
+-rw-------  1 mbykowsx intelall       995 Jun  6 04:25 .lesshst
+drwxr-xr-x  2 mbykowsx intelall      4096 Jun  7 03:09 [01;34mtmp[0m/
+-rw-r--r--  1 mbykowsx intelall     58854 Jun  7 07:26 tmux.log.4_12_ways
+-rw-r--r--  1 mbykowsx intelall        60 Jun 11 04:32 .vimbuffer
+-rw-------  1 mbykowsx intelall     40116 Jun 11 10:59 .bash_history
+-rw-r--r--  1 mbykowsx intelall       249 Jun 11 14:24 .tmux.conf
+drwxrwxrwx 20 root     root          4096 Jun 11 16:00 [34;42m.snapshot[0m/
+-rw-r--r--  1 mbykowsx intelall         0 Jun 11 17:21 tmux.log
+drwxr-xr-x 17 root     root             0 Jun 11 17:22 [01;34m..[0m/
+-rw-------  1 mbykowsx intelall     18033 Jun 11 17:22 .viminfo
+drwxr-xr-x 58 mbykowsx intelall     12288 Jun 11 17:22 [01;34m.[0m/
+[mmbykowsx@aus-labsrv2:/home/mbykowsx$ date
+Mon Jun 11 17:22:20 CDT 2018
+mbykowsx@aus-labsrv2:/home/mbykowsx$ datell -rt
+total 667432
+-rw-------  1 mbykowsx intelall        31 Aug  4  2015 .mcoprc
+drwxr-xr-x  3 mbykowsx intelall      4096 Aug  4  2015 [0m[01;34m.mcop[0m/
+drwxr-xr-x  3 mbykowsx intelall      4096 Aug  4  2015 [01;34m.subversion[0m/
+drwx------  2 mbykowsx intelall      4096 Aug  4  2015 [01;34m.gvfs[0m/
+drwxr-xr-x  2 mbykowsx intelall      4096 Aug  4  2015 [01;34m.graphon[0m/
+drwxr-xr-x  3 mbykowsx intelall      4096 Aug  5  2015 [01;34m.eclipse[0m/
+-rw-------  1 mbykowsx intelall      1874 Aug  5  2015 .history
+-rw-r--r--  1 mbykowsx intelall       114 Aug  5  2015 .cshrc
+drwx--S---  3 mbykowsx intelall      4096 Aug  6  2015 [01;34mDesktop[0m/
+drwxr-xr-x  2 mbykowsx intelall      4096 Aug  6  2015 [01;34msource[0m/
+drwx------  3 mbykowsx intelall      4096 Aug  6  2015 [01;34m.gnupg[0m/
+drwxr-xr-x  2 mbykowsx intelall      4096 Aug 11  2015 [01;34mdownload[0m/
+-rw-r--r--  1 mbykowsx intelall         0 Aug 13  2015 .screenrc
+-rw-rw-r--  1 mbykowsx intelall      1057 Aug 13  2015 screenlog.0
+lrwxrwxrwx  1 mbykowsx intelall        81 Aug 19  2015 [40;31;01mncp_rte[0m -> [40;31;01m/workspace/sw/mbykowsx/lionfish/trunk/images/ncp_linux-ep8572_xlf_rte_bin/ncp_rte[0m
+drwx------  2 mbykowsx intelall      4096 Sep 25  2015 [01;34m.gnome2_private[0m/
+drwx------  4 mbykowsx intelall      4096 Sep 25  2015 [01;34m.gnome2[0m/
+drwx------  3 mbykowsx intelall      4096 Sep 25  2015 [01;34m.dbus[0m/
+-rw-r--r--  1 mbykowsx intelall       762 Sep 25  2015 .recently-used.xbel
+-rw-r--r--  1 mbykowsx intelall       804 Oct  9  2015 xlf_fbrs.ovr
+drwx------  2 mbykowsx intelall      4096 Oct 28  2015 [01;34m.XStep[0m/
+drwxr-xr-x  4 mbykowsx intelall      4096 Oct 28  2015 [01;34mXStep_workspace[0m/
+drwxr-xr-x 21 mbykowsx intelall     65536 Nov  6  2015 [01;34mgit-2.6.2[0m/
+drwxr-xr-x  3 mbykowsx intelall      4096 Nov  6  2015 [01;34mlibexec[0m/
+drwxr-xr-x  3 mbykowsx intelall      4096 Nov  6  2015 [01;34mlib64[0m/
+drwxr-xr-x  8 mbykowsx intelall      4096 Nov  6  2015 [01;34mshare[0m/
+drwxr-xr-x  8 mbykowsx intelall      4096 Jan 22  2016 [01;34mgcc-linaro-5.2-2015.11-2-x86_64_arm-linux-gnueabi[0m/
+drwxr-xr-x  9 mbykowsx intelall      4096 Feb  4  2016 [01;34mnerdtree[0m/
+-rw-r--r--  1 mbykowsx intelall      3505 Feb 11  2016 rif_api_mb.nsh
+drwxr-xr-x  5 mbykowsx intelall      4096 Feb 15  2016 [01;34m.mozilla[0m/
+drwxr-xr-x 10 mbykowsx intelall      4096 Feb 18  2016 [01;34mRIFmapper[0m/
+-rw-r--r--  1 mbykowsx intelall       675 Mar 31  2016 .profile
+drwxr-xr-x  2 mbykowsx intelall      4096 Apr 12  2016 [01;34myocto[0m/
+drwxr-xr-x  2 mbykowsx intelall      4096 Apr 26  2016 [01;34m.oracle_jre_usage[0m/
+drwxr-----  3 mbykowsx intelall      4096 Aug  2  2016 [01;34m.pki[0m/
+drwxr-xr-x  2 mbykowsx intelall      4096 Aug  3  2016 [01;34mrf[0m/
+drwxr-xr-x  7 mbykowsx intelall      4096 Sep  9  2016 [01;34maxxia_u-boot_nokia_bringup.git[0m/
+drwxr-xr-x  7 mbykowsx intelall      4096 Sep  9  2016 [01;34maxxia_atf_nokia_bringup.git[0m/
+-rw-r--r--  1 mbykowsx intelall      7326 Sep 24  2016 xlf_1MHz_clock.rvc
+-rw-r--r--  1 mbykowsx intelall      1568 Oct  3  2016 multi3.its
+-rwxr-xr-x  1 mbykowsx intelall       266 Oct  3  2016 [01;32mrun.sh[0m*
+-rwxr-xr-x  1 mbykowsx intelall    143426 Oct  3  2016 [01;32mmkimage[0m*
+drwxr-xr-x  5 mbykowsx intelall      4096 Oct  4  2016 [01;34m.local[0m/
+drwxr-xr-x  2 mbykowsx intelall      4096 Oct  4  2016 [01;34m.idlerc[0m/
+-rw-------  1 mbykowsx intelall         0 Oct  4  2016 .python_history
+-rwxr-xr-x  1 mbykowsx intelall      2880 Oct  5  2016 [01;32msetup_xlf_clk_nrcp2_pll[0m*
+-rwxr-xr-x  1 mbykowsx intelall      8622 Oct  5  2016 [01;32msetup_xlf_clk_nrcp_dpll[0m*
+-rwxr-xr-x  1 mbykowsx intelall     13928 Oct  5  2016 [01;32msetup_dpll_frac[0m*
+-rw-r--r--  1 mbykowsx intelall      4096 Oct 21  2016 AXC6700.bin
+drwxr-xr-x  2 mbykowsx intelall      4096 Oct 25  2016 [01;34m.wireshark[0m/
+-rw-r--r--  1 mbykowsx intelall        77 Oct 31  2016 .NERDTreeBookmarks
+-rw-r--r--  1 mbykowsx intelall      5435 Nov 16  2016 tmux-client-7178.log
+-rwxrwxrwx  1 mbykowsx intelall       230 Nov 24  2016 [01;32mtelnet.sh[0m*
+-rw-r--r--  1 mbykowsx intelall       699 Nov 24  2016 sh-tmux.log
+-rw-r--r--  1 mbykowsx intelall      4574 Nov 24  2016 bash-tmux.log
+-rw-r--r--  1 mbykowsx intelall     29727 Nov 24  2016 telnet-tmux.log
+-rw-------  1 mbykowsx intelall         0 Dec  7  2016 .gtk-bookmarks
+-rwxr-x---  1 mbykowsx intelall 164004052 Dec  9  2016 [01;32mgcc-linaro-5.2-2015.11-2-x86_64_arm-linux-gnueabi.tar.xz[0m*
+drwxr-xr-x  2 mbykowsx intelall      4096 Dec 17  2016 [01;34mtesting[0m/
+drwxr-xr-x  5 mbykowsx intelall      4096 Jan 21  2017 [01;34m.kde[0m/
+lrwxrwxrwx  1 mbykowsx intelall        35 Jan 31  2017 [40;31;01mlibgcc.so[0m -> [40;31;01m/lib64/libgcc_s-4.4.7-20120601.so.1[0m
+drwxr-xr-x  2 mbykowsx intelall     20480 Feb 15  2017 [01;34m.fontconfig[0m/
+drwxr-xr-x  2 mbykowsx intelall      4096 Feb 21  2017 [01;34m.qt[0m/
+-rw-r--r--  1 mbykowsx intelall   2596213 Feb 26  2017 log_52_marek
+-rw-r--r--  1 mbykowsx intelall   4603777 Feb 26  2017 log_52_marek_tree
+-rw-r--r--  1 mbykowsx intelall     31400 Feb 28  2017 for_mariusz.patch
+drwxr-xr-x  8 mbykowsx intelall      4096 Mar  8  2017 [01;34mcscope[0m/
+drwxr-xr-x  3 mbykowsx intelall      4096 Mar 30  2017 [01;34mv122[0m/
+drwx------  2 mbykowsx intelall      4096 May 29  2017 [01;34m.elinks[0m/
+-rw-r--r--  1 mbykowsx intelall     16384 May 31  2017 .bashrc_mine.swo
+-rw-------  1 mbykowsx intelall      4926 Jun  6  2017 .ICEauthority
+-rw-r--r--  1 mbykowsx intelall     26432 Jun  6  2017 .bashrc_mine_b
+-rw-r--r--  1 mbykowsx intelall     26409 Jun  6  2017 .bashrc_mine_c
+-rw-r--r--  1 mbykowsx intelall     23699 Jun 22  2017 atf_in_flash.log
+-rw-r--r--  1 mbykowsx intelall     23035 Jun 22  2017 atf_part_of_spl.log
+-rw-r--r--  1 mbykowsx intelall     69901 Jul  2  2017 booting_by_nokia.log
+drwx------  2 mbykowsx intelall      4096 Jul 24  2017 [01;34m.gconf[0m/
+-rw-r--r--  1 mbykowsx intelall      9418 Sep 12  2017 malloc_axxia.log
+drwxr-xr-x  2 mbykowsx intelall      4096 Oct  4  2017 [01;34m.vnc[0m/
+drwxr-xr-x  3 mbykowsx intelall      4096 Oct 31  2017 [01;34m.arm[0m/
+-rwxr-xr-x  1 mbykowsx intelall        99 Oct 31  2017 [01;32m.flexlmrc[0m*
+drwxr-xr-x  4 mbykowsx intelall      4096 Oct 31  2017 [01;34mDS-5-Workspace[0m/
+drwxr-xr-x  5 mbykowsx intelall      4096 Oct 31  2017 [01;34m.cache[0m/
+drwx------  2 mbykowsx intelall      4096 Oct 31  2017 [01;34m.gconfd[0m/
+-rwxr-xr-x  1 mbykowsx intelall       318 Nov  2  2017 [01;32mtunnel.sh[0m*
+-rw-r--r--  1 mbykowsx intelall        38 Nov 29  2017 .bash_profile
+drwxrwxr-x  7 mbykowsx intelall      4096 Dec 12 07:32 [01;34msrift_dont_use.git[0m/
+-rw-r--r--  1 mbykowsx intelall       572 Jan 10 05:16 .mareksm
+-rw-r--r--  1 mbykowsx intelall      8020 Jan 24 04:33 .bashrc~
+drwxr-xr-x  3 mbykowsx intelall      4096 Jan 24 04:36 [01;34m.emacs.d[0m/
+-rw-r--r--  1 mbykowsx intelall      8021 Jan 24 04:48 #.bashrc#
+-rw-r--r--  1 mbykowsx intelall     28289 Jan 26 04:32 074
+drwx------  2 mbykowsx intelall      4096 Mar  8 16:07 [01;34m.ssh[0m/
+-rw-r--r--  1 mbykowsx intelall        12 Mar 11 10:31 sss
+drwxr-xr-x  6 mbykowsx intelall      4096 Mar 12 06:03 [01;34mlib[0m/
+drwxr-xr-x  2 mbykowsx intelall      4096 Mar 12 06:24 [01;34mcerts[0m/
+-rw-r--r--  1 mbykowsx intelall       577 Mar 12 06:25 .gitconfig
+drwxr-xr-x  2 mbykowsx intelall      4096 Mar 12 08:29 [01;34m.ncftp[0m/
+drwxr-xr-x  5 mbykowsx intelall      4096 Mar 12 10:51 [01;34mlocalperl[0m/
+-rw-------  1 mbykowsx intelall         3 Mar 12 14:48 .sqlite_history
+drwxr-xr-x  5 mbykowsx intelall      4096 Mar 13 03:30 [01;34m.cpan[0m/
+-rwxr--r--  1 mbykowsx intelall 227310887 Mar 14 03:31 [01;32mSnowCPK1.mp4[0m*
+-rwxr--r--  1 mbykowsx intelall 278087219 Mar 14 03:31 [01;32mSnowCPK2.mp4[0m*
+drwxrwxr-x 11 mbykowsx intelall      4096 Apr 23 09:29 [01;34m.config[0m/
+-rw-r--r--  1 mbykowsx intelall      9660 Apr 26 07:00 .bashrc
+-rw-r--r--  1 mbykowsx intelall   2945511 Apr 26 14:20 cscope.out
+-rw-r--r--  1 mbykowsx intelall      2437 May 16 18:25 .vimrc
+drwxr-xr-x 20 mbykowsx intelall      4096 May 18 04:44 [01;34mbin[0m/
+-rw-------  1 mbykowsx intelall       878 May 18 06:28 .Xauthority
+-rw-r--r--  1 mbykowsx intelall      3340 May 29 10:05 instructions.txt
+-rw-r--r--  1 mbykowsx intelall     25067 Jun  4 06:40 .bashrc_mine
+-rw-r--r--  1 mbykowsx intelall      7732 Jun  5 06:55 .bashrc_uboot
+drwxrwxrwx  6 mbykowsx intelall      4096 Jun  6 03:32 [34;42m.vim[0m/
+-rw-------  1 mbykowsx intelall       995 Jun  6 04:25 .lesshst
+drwxr-xr-x  2 mbykowsx intelall      4096 Jun  7 03:09 [01;34mtmp[0m/
+-rw-r--r--  1 mbykowsx intelall     58854 Jun  7 07:26 tmux.log.4_12_ways
+-rw-r--r--  1 mbykowsx intelall        60 Jun 11 04:32 .vimbuffer
+-rw-------  1 mbykowsx intelall     40116 Jun 11 10:59 .bash_history
+-rw-r--r--  1 mbykowsx intelall       249 Jun 11 14:24 .tmux.conf
+drwxrwxrwx 20 root     root          4096 Jun 11 16:00 [34;42m.snapshot[0m/
+drwxr-xr-x 17 root     root             0 Jun 11 17:22 [01;34m..[0m/
+-rw-------  1 mbykowsx intelall     18033 Jun 11 17:22 .viminfo
+drwxr-xr-x 58 mbykowsx intelall     12288 Jun 11 17:22 [01;34m.[0m/
+-rw-r--r--  1 mbykowsx intelall     49214 Jun 11 17:22 tmux.log
+[mmbykowsx@aus-labsrv2:/home/mbykowsx$ ll -rt
+total 667432
+-rw-------  1 mbykowsx intelall        31 Aug  4  2015 .mcoprc
+drwxr-xr-x  3 mbykowsx intelall      4096 Aug  4  2015 [0m[01;34m.mcop[0m/
+drwxr-xr-x  3 mbykowsx intelall      4096 Aug  4  2015 [01;34m.subversion[0m/
+drwx------  2 mbykowsx intelall      4096 Aug  4  2015 [01;34m.gvfs[0m/
+drwxr-xr-x  2 mbykowsx intelall      4096 Aug  4  2015 [01;34m.graphon[0m/
+drwxr-xr-x  3 mbykowsx intelall      4096 Aug  5  2015 [01;34m.eclipse[0m/
+-rw-------  1 mbykowsx intelall      1874 Aug  5  2015 .history
+-rw-r--r--  1 mbykowsx intelall       114 Aug  5  2015 .cshrc
+drwx--S---  3 mbykowsx intelall      4096 Aug  6  2015 [01;34mDesktop[0m/
+drwxr-xr-x  2 mbykowsx intelall      4096 Aug  6  2015 [01;34msource[0m/
+drwx------  3 mbykowsx intelall      4096 Aug  6  2015 [01;34m.gnupg[0m/
+drwxr-xr-x  2 mbykowsx intelall      4096 Aug 11  2015 [01;34mdownload[0m/
+-rw-r--r--  1 mbykowsx intelall         0 Aug 13  2015 .screenrc
+-rw-rw-r--  1 mbykowsx intelall      1057 Aug 13  2015 screenlog.0
+lrwxrwxrwx  1 mbykowsx intelall        81 Aug 19  2015 [40;31;01mncp_rte[0m -> [40;31;01m/workspace/sw/mbykowsx/lionfish/trunk/images/ncp_linux-ep8572_xlf_rte_bin/ncp_rte[0m
+drwx------  2 mbykowsx intelall      4096 Sep 25  2015 [01;34m.gnome2_private[0m/
+drwx------  4 mbykowsx intelall      4096 Sep 25  2015 [01;34m.gnome2[0m/
+drwx------  3 mbykowsx intelall      4096 Sep 25  2015 [01;34m.dbus[0m/
+-rw-r--r--  1 mbykowsx intelall       762 Sep 25  2015 .recently-used.xbel
+-rw-r--r--  1 mbykowsx intelall       804 Oct  9  2015 xlf_fbrs.ovr
+drwx------  2 mbykowsx intelall      4096 Oct 28  2015 [01;34m.XStep[0m/
+drwxr-xr-x  4 mbykowsx intelall      4096 Oct 28  2015 [01;34mXStep_workspace[0m/
+drwxr-xr-x 21 mbykowsx intelall     65536 Nov  6  2015 [01;34mgit-2.6.2[0m/
+drwxr-xr-x  3 mbykowsx intelall      4096 Nov  6  2015 [01;34mlibexec[0m/
+drwxr-xr-x  3 mbykowsx intelall      4096 Nov  6  2015 [01;34mlib64[0m/
+drwxr-xr-x  8 mbykowsx intelall      4096 Nov  6  2015 [01;34mshare[0m/
+drwxr-xr-x  8 mbykowsx intelall      4096 Jan 22  2016 [01;34mgcc-linaro-5.2-2015.11-2-x86_64_arm-linux-gnueabi[0m/
+drwxr-xr-x  9 mbykowsx intelall      4096 Feb  4  2016 [01;34mnerdtree[0m/
+-rw-r--r--  1 mbykowsx intelall      3505 Feb 11  2016 rif_api_mb.nsh
+drwxr-xr-x  5 mbykowsx intelall      4096 Feb 15  2016 [01;34m.mozilla[0m/
+drwxr-xr-x 10 mbykowsx intelall      4096 Feb 18  2016 [01;34mRIFmapper[0m/
+-rw-r--r--  1 mbykowsx intelall       675 Mar 31  2016 .profile
+drwxr-xr-x  2 mbykowsx intelall      4096 Apr 12  2016 [01;34myocto[0m/
+drwxr-xr-x  2 mbykowsx intelall      4096 Apr 26  2016 [01;34m.oracle_jre_usage[0m/
+drwxr-----  3 mbykowsx intelall      4096 Aug  2  2016 [01;34m.pki[0m/
+drwxr-xr-x  2 mbykowsx intelall      4096 Aug  3  2016 [01;34mrf[0m/
+drwxr-xr-x  7 mbykowsx intelall      4096 Sep  9  2016 [01;34maxxia_u-boot_nokia_bringup.git[0m/
+drwxr-xr-x  7 mbykowsx intelall      4096 Sep  9  2016 [01;34maxxia_atf_nokia_bringup.git[0m/
+-rw-r--r--  1 mbykowsx intelall      7326 Sep 24  2016 xlf_1MHz_clock.rvc
+-rw-r--r--  1 mbykowsx intelall      1568 Oct  3  2016 multi3.its
+-rwxr-xr-x  1 mbykowsx intelall       266 Oct  3  2016 [01;32mrun.sh[0m*
+-rwxr-xr-x  1 mbykowsx intelall    143426 Oct  3  2016 [01;32mmkimage[0m*
+drwxr-xr-x  5 mbykowsx intelall      4096 Oct  4  2016 [01;34m.local[0m/
+drwxr-xr-x  2 mbykowsx intelall      4096 Oct  4  2016 [01;34m.idlerc[0m/
+-rw-------  1 mbykowsx intelall         0 Oct  4  2016 .python_history
+-rwxr-xr-x  1 mbykowsx intelall      2880 Oct  5  2016 [01;32msetup_xlf_clk_nrcp2_pll[0m*
+-rwxr-xr-x  1 mbykowsx intelall      8622 Oct  5  2016 [01;32msetup_xlf_clk_nrcp_dpll[0m*
+-rwxr-xr-x  1 mbykowsx intelall     13928 Oct  5  2016 [01;32msetup_dpll_frac[0m*
+-rw-r--r--  1 mbykowsx intelall      4096 Oct 21  2016 AXC6700.bin
+drwxr-xr-x  2 mbykowsx intelall      4096 Oct 25  2016 [01;34m.wireshark[0m/
+-rw-r--r--  1 mbykowsx intelall        77 Oct 31  2016 .NERDTreeBookmarks
+-rw-r--r--  1 mbykowsx intelall      5435 Nov 16  2016 tmux-client-7178.log
+-rwxrwxrwx  1 mbykowsx intelall       230 Nov 24  2016 [01;32mtelnet.sh[0m*
+-rw-r--r--  1 mbykowsx intelall       699 Nov 24  2016 sh-tmux.log
+-rw-r--r--  1 mbykowsx intelall      4574 Nov 24  2016 bash-tmux.log
+-rw-r--r--  1 mbykowsx intelall     29727 Nov 24  2016 telnet-tmux.log
+-rw-------  1 mbykowsx intelall         0 Dec  7  2016 .gtk-bookmarks
+-rwxr-x---  1 mbykowsx intelall 164004052 Dec  9  2016 [01;32mgcc-linaro-5.2-2015.11-2-x86_64_arm-linux-gnueabi.tar.xz[0m*
+drwxr-xr-x  2 mbykowsx intelall      4096 Dec 17  2016 [01;34mtesting[0m/
+drwxr-xr-x  5 mbykowsx intelall      4096 Jan 21  2017 [01;34m.kde[0m/
+lrwxrwxrwx  1 mbykowsx intelall        35 Jan 31  2017 [40;31;01mlibgcc.so[0m -> [40;31;01m/lib64/libgcc_s-4.4.7-20120601.so.1[0m
+drwxr-xr-x  2 mbykowsx intelall     20480 Feb 15  2017 [01;34m.fontconfig[0m/
+drwxr-xr-x  2 mbykowsx intelall      4096 Feb 21  2017 [01;34m.qt[0m/
+-rw-r--r--  1 mbykowsx intelall   2596213 Feb 26  2017 log_52_marek
+-rw-r--r--  1 mbykowsx intelall   4603777 Feb 26  2017 log_52_marek_tree
+-rw-r--r--  1 mbykowsx intelall     31400 Feb 28  2017 for_mariusz.patch
+drwxr-xr-x  8 mbykowsx intelall      4096 Mar  8  2017 [01;34mcscope[0m/
+drwxr-xr-x  3 mbykowsx intelall      4096 Mar 30  2017 [01;34mv122[0m/
+drwx------  2 mbykowsx intelall      4096 May 29  2017 [01;34m.elinks[0m/
+-rw-r--r--  1 mbykowsx intelall     16384 May 31  2017 .bashrc_mine.swo
+-rw-------  1 mbykowsx intelall      4926 Jun  6  2017 .ICEauthority
+-rw-r--r--  1 mbykowsx intelall     26432 Jun  6  2017 .bashrc_mine_b
+-rw-r--r--  1 mbykowsx intelall     26409 Jun  6  2017 .bashrc_mine_c
+-rw-r--r--  1 mbykowsx intelall     23699 Jun 22  2017 atf_in_flash.log
+-rw-r--r--  1 mbykowsx intelall     23035 Jun 22  2017 atf_part_of_spl.log
+-rw-r--r--  1 mbykowsx intelall     69901 Jul  2  2017 booting_by_nokia.log
+drwx------  2 mbykowsx intelall      4096 Jul 24  2017 [01;34m.gconf[0m/
+-rw-r--r--  1 mbykowsx intelall      9418 Sep 12  2017 malloc_axxia.log
+drwxr-xr-x  2 mbykowsx intelall      4096 Oct  4  2017 [01;34m.vnc[0m/
+drwxr-xr-x  3 mbykowsx intelall      4096 Oct 31  2017 [01;34m.arm[0m/
+-rwxr-xr-x  1 mbykowsx intelall        99 Oct 31  2017 [01;32m.flexlmrc[0m*
+drwxr-xr-x  4 mbykowsx intelall      4096 Oct 31  2017 [01;34mDS-5-Workspace[0m/
+drwxr-xr-x  5 mbykowsx intelall      4096 Oct 31  2017 [01;34m.cache[0m/
+drwx------  2 mbykowsx intelall      4096 Oct 31  2017 [01;34m.gconfd[0m/
+-rwxr-xr-x  1 mbykowsx intelall       318 Nov  2  2017 [01;32mtunnel.sh[0m*
+-rw-r--r--  1 mbykowsx intelall        38 Nov 29  2017 .bash_profile
+drwxrwxr-x  7 mbykowsx intelall      4096 Dec 12 07:32 [01;34msrift_dont_use.git[0m/
+-rw-r--r--  1 mbykowsx intelall       572 Jan 10 05:16 .mareksm
+-rw-r--r--  1 mbykowsx intelall      8020 Jan 24 04:33 .bashrc~
+drwxr-xr-x  3 mbykowsx intelall      4096 Jan 24 04:36 [01;34m.emacs.d[0m/
+-rw-r--r--  1 mbykowsx intelall      8021 Jan 24 04:48 #.bashrc#
+-rw-r--r--  1 mbykowsx intelall     28289 Jan 26 04:32 074
+drwx------  2 mbykowsx intelall      4096 Mar  8 16:07 [01;34m.ssh[0m/
+-rw-r--r--  1 mbykowsx intelall        12 Mar 11 10:31 sss
+drwxr-xr-x  6 mbykowsx intelall      4096 Mar 12 06:03 [01;34mlib[0m/
+drwxr-xr-x  2 mbykowsx intelall      4096 Mar 12 06:24 [01;34mcerts[0m/
+-rw-r--r--  1 mbykowsx intelall       577 Mar 12 06:25 .gitconfig
+drwxr-xr-x  2 mbykowsx intelall      4096 Mar 12 08:29 [01;34m.ncftp[0m/
+drwxr-xr-x  5 mbykowsx intelall      4096 Mar 12 10:51 [01;34mlocalperl[0m/
+-rw-------  1 mbykowsx intelall         3 Mar 12 14:48 .sqlite_history
+drwxr-xr-x  5 mbykowsx intelall      4096 Mar 13 03:30 [01;34m.cpan[0m/
+-rwxr--r--  1 mbykowsx intelall 227310887 Mar 14 03:31 [01;32mSnowCPK1.mp4[0m*
+-rwxr--r--  1 mbykowsx intelall 278087219 Mar 14 03:31 [01;32mSnowCPK2.mp4[0m*
+drwxrwxr-x 11 mbykowsx intelall      4096 Apr 23 09:29 [01;34m.config[0m/
+-rw-r--r--  1 mbykowsx intelall      9660 Apr 26 07:00 .bashrc
+-rw-r--r--  1 mbykowsx intelall   2945511 Apr 26 14:20 cscope.out
+-rw-r--r--  1 mbykowsx intelall      2437 May 16 18:25 .vimrc
+drwxr-xr-x 20 mbykowsx intelall      4096 May 18 04:44 [01;34mbin[0m/
+-rw-------  1 mbykowsx intelall       878 May 18 06:28 .Xauthority
+-rw-r--r--  1 mbykowsx intelall      3340 May 29 10:05 instructions.txt
+-rw-r--r--  1 mbykowsx intelall     25067 Jun  4 06:40 .bashrc_mine
+-rw-r--r--  1 mbykowsx intelall      7732 Jun  5 06:55 .bashrc_uboot
+drwxrwxrwx  6 mbykowsx intelall      4096 Jun  6 03:32 [34;42m.vim[0m/
+-rw-------  1 mbykowsx intelall       995 Jun  6 04:25 .lesshst
+drwxr-xr-x  2 mbykowsx intelall      4096 Jun  7 03:09 [01;34mtmp[0m/
+-rw-r--r--  1 mbykowsx intelall     58854 Jun  7 07:26 tmux.log.4_12_ways
+-rw-r--r--  1 mbykowsx intelall        60 Jun 11 04:32 .vimbuffer
+-rw-------  1 mbykowsx intelall     40116 Jun 11 10:59 .bash_history
+-rw-r--r--  1 mbykowsx intelall       249 Jun 11 14:24 .tmux.conf
+drwxrwxrwx 20 root     root          4096 Jun 11 16:00 [34;42m.snapshot[0m/
+drwxr-xr-x 17 root     root             0 Jun 11 17:22 [01;34m..[0m/
+-rw-------  1 mbykowsx intelall     18033 Jun 11 17:22 .viminfo
+drwxr-xr-x 58 mbykowsx intelall     12288 Jun 11 17:22 [01;34m.[0m/
+-rw-r--r--  1 mbykowsx intelall     49214 Jun 11 17:22 tmux.log
+[mmbykowsx@aus-labsrv2:/home/mbykowsx$ [Kmbykowsx@aus-labsrv2:/home/mbykowsx$ [Kmbykowsx@aus-labsrv2:/home/mbykowsx$ [Kmbykowsx@aus-labsrv2:/home/mbykowsx$ ll -rt
+total 667472
+-rw-------  1 mbykowsx intelall        31 Aug  4  2015 .mcoprc
+drwxr-xr-x  3 mbykowsx intelall      4096 Aug  4  2015 [0m[01;34m.mcop[0m/
+drwxr-xr-x  3 mbykowsx intelall      4096 Aug  4  2015 [01;34m.subversion[0m/
+drwx------  2 mbykowsx intelall      4096 Aug  4  2015 [01;34m.gvfs[0m/
+drwxr-xr-x  2 mbykowsx intelall      4096 Aug  4  2015 [01;34m.graphon[0m/
+drwxr-xr-x  3 mbykowsx intelall      4096 Aug  5  2015 [01;34m.eclipse[0m/
+-rw-------  1 mbykowsx intelall      1874 Aug  5  2015 .history
+-rw-r--r--  1 mbykowsx intelall       114 Aug  5  2015 .cshrc
+drwx--S---  3 mbykowsx intelall      4096 Aug  6  2015 [01;34mDesktop[0m/
+drwxr-xr-x  2 mbykowsx intelall      4096 Aug  6  2015 [01;34msource[0m/
+drwx------  3 mbykowsx intelall      4096 Aug  6  2015 [01;34m.gnupg[0m/
+drwxr-xr-x  2 mbykowsx intelall      4096 Aug 11  2015 [01;34mdownload[0m/
+-rw-r--r--  1 mbykowsx intelall         0 Aug 13  2015 .screenrc
+-rw-rw-r--  1 mbykowsx intelall      1057 Aug 13  2015 screenlog.0
+lrwxrwxrwx  1 mbykowsx intelall        81 Aug 19  2015 [40;31;01mncp_rte[0m -> [40;31;01m/workspace/sw/mbykowsx/lionfish/trunk/images/ncp_linux-ep8572_xlf_rte_bin/ncp_rte[0m
+drwx------  2 mbykowsx intelall      4096 Sep 25  2015 [01;34m.gnome2_private[0m/
+drwx------  4 mbykowsx intelall      4096 Sep 25  2015 [01;34m.gnome2[0m/
+drwx------  3 mbykowsx intelall      4096 Sep 25  2015 [01;34m.dbus[0m/
+-rw-r--r--  1 mbykowsx intelall       762 Sep 25  2015 .recently-used.xbel
+-rw-r--r--  1 mbykowsx intelall       804 Oct  9  2015 xlf_fbrs.ovr
+drwx------  2 mbykowsx intelall      4096 Oct 28  2015 [01;34m.XStep[0m/
+drwxr-xr-x  4 mbykowsx intelall      4096 Oct 28  2015 [01;34mXStep_workspace[0m/
+drwxr-xr-x 21 mbykowsx intelall     65536 Nov  6  2015 [01;34mgit-2.6.2[0m/
+drwxr-xr-x  3 mbykowsx intelall      4096 Nov  6  2015 [01;34mlibexec[0m/
+drwxr-xr-x  3 mbykowsx intelall      4096 Nov  6  2015 [01;34mlib64[0m/
+drwxr-xr-x  8 mbykowsx intelall      4096 Nov  6  2015 [01;34mshare[0m/
+drwxr-xr-x  8 mbykowsx intelall      4096 Jan 22  2016 [01;34mgcc-linaro-5.2-2015.11-2-x86_64_arm-linux-gnueabi[0m/
+drwxr-xr-x  9 mbykowsx intelall      4096 Feb  4  2016 [01;34mnerdtree[0m/
+-rw-r--r--  1 mbykowsx intelall      3505 Feb 11  2016 rif_api_mb.nsh
+drwxr-xr-x  5 mbykowsx intelall      4096 Feb 15  2016 [01;34m.mozilla[0m/
+drwxr-xr-x 10 mbykowsx intelall      4096 Feb 18  2016 [01;34mRIFmapper[0m/
+-rw-r--r--  1 mbykowsx intelall       675 Mar 31  2016 .profile
+drwxr-xr-x  2 mbykowsx intelall      4096 Apr 12  2016 [01;34myocto[0m/
+drwxr-xr-x  2 mbykowsx intelall      4096 Apr 26  2016 [01;34m.oracle_jre_usage[0m/
+drwxr-----  3 mbykowsx intelall      4096 Aug  2  2016 [01;34m.pki[0m/
+drwxr-xr-x  2 mbykowsx intelall      4096 Aug  3  2016 [01;34mrf[0m/
+drwxr-xr-x  7 mbykowsx intelall      4096 Sep  9  2016 [01;34maxxia_u-boot_nokia_bringup.git[0m/
+drwxr-xr-x  7 mbykowsx intelall      4096 Sep  9  2016 [01;34maxxia_atf_nokia_bringup.git[0m/
+-rw-r--r--  1 mbykowsx intelall      7326 Sep 24  2016 xlf_1MHz_clock.rvc
+-rw-r--r--  1 mbykowsx intelall      1568 Oct  3  2016 multi3.its
+-rwxr-xr-x  1 mbykowsx intelall       266 Oct  3  2016 [01;32mrun.sh[0m*
+-rwxr-xr-x  1 mbykowsx intelall    143426 Oct  3  2016 [01;32mmkimage[0m*
+drwxr-xr-x  5 mbykowsx intelall      4096 Oct  4  2016 [01;34m.local[0m/
+drwxr-xr-x  2 mbykowsx intelall      4096 Oct  4  2016 [01;34m.idlerc[0m/
+-rw-------  1 mbykowsx intelall         0 Oct  4  2016 .python_history
+-rwxr-xr-x  1 mbykowsx intelall      2880 Oct  5  2016 [01;32msetup_xlf_clk_nrcp2_pll[0m*
+-rwxr-xr-x  1 mbykowsx intelall      8622 Oct  5  2016 [01;32msetup_xlf_clk_nrcp_dpll[0m*
+-rwxr-xr-x  1 mbykowsx intelall     13928 Oct  5  2016 [01;32msetup_dpll_frac[0m*
+-rw-r--r--  1 mbykowsx intelall      4096 Oct 21  2016 AXC6700.bin
+drwxr-xr-x  2 mbykowsx intelall      4096 Oct 25  2016 [01;34m.wireshark[0m/
+-rw-r--r--  1 mbykowsx intelall        77 Oct 31  2016 .NERDTreeBookmarks
+-rw-r--r--  1 mbykowsx intelall      5435 Nov 16  2016 tmux-client-7178.log
+-rwxrwxrwx  1 mbykowsx intelall       230 Nov 24  2016 [01;32mtelnet.sh[0m*
+-rw-r--r--  1 mbykowsx intelall       699 Nov 24  2016 sh-tmux.log
+-rw-r--r--  1 mbykowsx intelall      4574 Nov 24  2016 bash-tmux.log
+-rw-r--r--  1 mbykowsx intelall     29727 Nov 24  2016 telnet-tmux.log
+-rw-------  1 mbykowsx intelall         0 Dec  7  2016 .gtk-bookmarks
+-rwxr-x---  1 mbykowsx intelall 164004052 Dec  9  2016 [01;32mgcc-linaro-5.2-2015.11-2-x86_64_arm-linux-gnueabi.tar.xz[0m*
+drwxr-xr-x  2 mbykowsx intelall      4096 Dec 17  2016 [01;34mtesting[0m/
+drwxr-xr-x  5 mbykowsx intelall      4096 Jan 21  2017 [01;34m.kde[0m/
+lrwxrwxrwx  1 mbykowsx intelall        35 Jan 31  2017 [40;31;01mlibgcc.so[0m -> [40;31;01m/lib64/libgcc_s-4.4.7-20120601.so.1[0m
+drwxr-xr-x  2 mbykowsx intelall     20480 Feb 15  2017 [01;34m.fontconfig[0m/
+drwxr-xr-x  2 mbykowsx intelall      4096 Feb 21  2017 [01;34m.qt[0m/
+-rw-r--r--  1 mbykowsx intelall   2596213 Feb 26  2017 log_52_marek
+-rw-r--r--  1 mbykowsx intelall   4603777 Feb 26  2017 log_52_marek_tree
+-rw-r--r--  1 mbykowsx intelall     31400 Feb 28  2017 for_mariusz.patch
+drwxr-xr-x  8 mbykowsx intelall      4096 Mar  8  2017 [01;34mcscope[0m/
+drwxr-xr-x  3 mbykowsx intelall      4096 Mar 30  2017 [01;34mv122[0m/
+drwx------  2 mbykowsx intelall      4096 May 29  2017 [01;34m.elinks[0m/
+-rw-r--r--  1 mbykowsx intelall     16384 May 31  2017 .bashrc_mine.swo
+-rw-------  1 mbykowsx intelall      4926 Jun  6  2017 .ICEauthority
+-rw-r--r--  1 mbykowsx intelall     26432 Jun  6  2017 .bashrc_mine_b
+-rw-r--r--  1 mbykowsx intelall     26409 Jun  6  2017 .bashrc_mine_c
+-rw-r--r--  1 mbykowsx intelall     23699 Jun 22  2017 atf_in_flash.log
+-rw-r--r--  1 mbykowsx intelall     23035 Jun 22  2017 atf_part_of_spl.log
+-rw-r--r--  1 mbykowsx intelall     69901 Jul  2  2017 booting_by_nokia.log
+drwx------  2 mbykowsx intelall      4096 Jul 24  2017 [01;34m.gconf[0m/
+-rw-r--r--  1 mbykowsx intelall      9418 Sep 12  2017 malloc_axxia.log
+drwxr-xr-x  2 mbykowsx intelall      4096 Oct  4  2017 [01;34m.vnc[0m/
+drwxr-xr-x  3 mbykowsx intelall      4096 Oct 31  2017 [01;34m.arm[0m/
+-rwxr-xr-x  1 mbykowsx intelall        99 Oct 31  2017 [01;32m.flexlmrc[0m*
+drwxr-xr-x  4 mbykowsx intelall      4096 Oct 31  2017 [01;34mDS-5-Workspace[0m/
+drwxr-xr-x  5 mbykowsx intelall      4096 Oct 31  2017 [01;34m.cache[0m/
+drwx------  2 mbykowsx intelall      4096 Oct 31  2017 [01;34m.gconfd[0m/
+-rwxr-xr-x  1 mbykowsx intelall       318 Nov  2  2017 [01;32mtunnel.sh[0m*
+-rw-r--r--  1 mbykowsx intelall        38 Nov 29  2017 .bash_profile
+drwxrwxr-x  7 mbykowsx intelall      4096 Dec 12 07:32 [01;34msrift_dont_use.git[0m/
+-rw-r--r--  1 mbykowsx intelall       572 Jan 10 05:16 .mareksm
+-rw-r--r--  1 mbykowsx intelall      8020 Jan 24 04:33 .bashrc~
+drwxr-xr-x  3 mbykowsx intelall      4096 Jan 24 04:36 [01;34m.emacs.d[0m/
+-rw-r--r--  1 mbykowsx intelall      8021 Jan 24 04:48 #.bashrc#
+-rw-r--r--  1 mbykowsx intelall     28289 Jan 26 04:32 074
+drwx------  2 mbykowsx intelall      4096 Mar  8 16:07 [01;34m.ssh[0m/
+-rw-r--r--  1 mbykowsx intelall        12 Mar 11 10:31 sss
+drwxr-xr-x  6 mbykowsx intelall      4096 Mar 12 06:03 [01;34mlib[0m/
+drwxr-xr-x  2 mbykowsx intelall      4096 Mar 12 06:24 [01;34mcerts[0m/
+-rw-r--r--  1 mbykowsx intelall       577 Mar 12 06:25 .gitconfig
+drwxr-xr-x  2 mbykowsx intelall      4096 Mar 12 08:29 [01;34m.ncftp[0m/
+drwxr-xr-x  5 mbykowsx intelall      4096 Mar 12 10:51 [01;34mlocalperl[0m/
+-rw-------  1 mbykowsx intelall         3 Mar 12 14:48 .sqlite_history
+drwxr-xr-x  5 mbykowsx intelall      4096 Mar 13 03:30 [01;34m.cpan[0m/
+-rwxr--r--  1 mbykowsx intelall 227310887 Mar 14 03:31 [01;32mSnowCPK1.mp4[0m*
+-rwxr--r--  1 mbykowsx intelall 278087219 Mar 14 03:31 [01;32mSnowCPK2.mp4[0m*
+drwxrwxr-x 11 mbykowsx intelall      4096 Apr 23 09:29 [01;34m.config[0m/
+-rw-r--r--  1 mbykowsx intelall      9660 Apr 26 07:00 .bashrc
+-rw-r--r--  1 mbykowsx intelall   2945511 Apr 26 14:20 cscope.out
+-rw-r--r--  1 mbykowsx intelall      2437 May 16 18:25 .vimrc
+drwxr-xr-x 20 mbykowsx intelall      4096 May 18 04:44 [01;34mbin[0m/
+-rw-------  1 mbykowsx intelall       878 May 18 06:28 .Xauthority
+-rw-r--r--  1 mbykowsx intelall      3340 May 29 10:05 instructions.txt
+-rw-r--r--  1 mbykowsx intelall     25067 Jun  4 06:40 .bashrc_mine
+-rw-r--r--  1 mbykowsx intelall      7732 Jun  5 06:55 .bashrc_uboot
+drwxrwxrwx  6 mbykowsx intelall      4096 Jun  6 03:32 [34;42m.vim[0m/
+-rw-------  1 mbykowsx intelall       995 Jun  6 04:25 .lesshst
+drwxr-xr-x  2 mbykowsx intelall      4096 Jun  7 03:09 [01;34mtmp[0m/
+-rw-r--r--  1 mbykowsx intelall     58854 Jun  7 07:26 tmux.log.4_12_ways
+-rw-r--r--  1 mbykowsx intelall        60 Jun 11 04:32 .vimbuffer
+-rw-r--r--  1 mbykowsx intelall       249 Jun 11 14:24 .tmux.conf
+drwxr-xr-x 17 root     root             0 Jun 11 17:22 [01;34m..[0m/
+-rw-------  1 mbykowsx intelall     40126 Jun 11 17:55 .bash_history
+drwxrwxrwx 20 root     root          4096 Jun 11 18:00 [34;42m.snapshot[0m/
+-rw-------  1 mbykowsx intelall     18168 Jun 11 18:29 .viminfo
+drwxr-xr-x 58 mbykowsx intelall     12288 Jun 11 18:29 [01;34m.[0m/
+-rw-r--r--  1 mbykowsx intelall     68439 Jun 11 18:38 tmux.log
+[mmbykowsx@aus-labsrv2:/home/mbykowsx$ cat tmux.log
+
+_______              _____            _____________________  
+___    |___  _____  ____(_)_____ _    __  ___/__  __ \__  / 
+__  /| |_  |/_/_  |/_/_  /_  __ `/    _____ \__  /_/ /_  /  
+_  ___ |_>  < __>  < _  / / /_/ /     ____/ /_  ____/_  /___ 
+/_/  |_/_/|_| /_/|_| /_/  \__,_/      /____/ /_/     /_____/
+
+Axxia Version: UNKNOWN
+Axxia ATF Version: UNKNOWN
+XLF CHIP VERSION: (0x18) A0
+Parameter table has wrong magic number!
+Parameters: Watchdog 0 A/B Valid 1/0 A/B Sequence 0/0 => A
+Parameter Table Version: 9
+mb: non-secure access to Shelley? yes
+mb: write 0x89900000 @ 0x4000200048
+mb: read back 0x89900000 @ 0x4000200048
+mb: write 0x80000000 @ 0x400020004c
+mb: read back 0x80000000 @ 0x400020004c
+mb: write 0x89900000 @ 0x4000210048
+mb: read back 0x89900000 @ 0x4000210048
+mb: write 0x80000000 @ 0x400021004c
+mb: read back 0x80000000 @ 0x400021004c
+mb: write 0x89900000 @ 0x4000220048
+mb: read back 0x89900000 @ 0x4000220048
+mb: write 0x80000000 @ 0x400022004c
+mb: read back 0x80000000 @ 0x400022004c
+mb: write 0x89900000 @ 0x4000230048
+mb: read back 0x89900000 @ 0x4000230048
+mb: write 0x80000000 @ 0x400023004c
+mb: read back 0x80000000 @ 0x400023004c
+mb: write 0x89900000 @ 0x4000240048
+mb: read back 0x89900000 @ 0x4000240048
+mb: write 0x80000000 @ 0x400024004c
+mb: read back 0x80000000 @ 0x400024004c
+mb: write 0x89900000 @ 0x4000250048
+mb: read back 0x89900000 @ 0x4000250048
+mb: write 0x80000000 @ 0x400025004c
+mb: read back 0x80000000 @ 0x400025004c
+mb: write 0x89900000 @ 0x4000260048
+mb: read back 0x89900000 @ 0x4000260048
+mb: write 0x80000000 @ 0x400026004c
+mb: read back 0x80000000 @ 0x400026004c
+mb: write 0x89900000 @ 0x4000270048
+mb: read back 0x89900000 @ 0x4000270048
+mb: write 0x80000000 @ 0x400027004c
+mb: read back 0x80000000 @ 0x400027004c
+mb: write 0x89b00000 @ 0x4000200050
+mb: read back 0x89b00000 @ 0x4000200050
+mb: write 0x80000000 @ 0x4000200054
+mb: read back 0x80000000 @ 0x4000200054
+mb: write 0x89b00000 @ 0x4000210050
+mb: read back 0x89b00000 @ 0x4000210050
+mb: write 0x80000000 @ 0x4000210054
+mb: read back 0x80000000 @ 0x4000210054
+mb: write 0x89b00000 @ 0x4000220050
+mb: read back 0x89b00000 @ 0x4000220050
+mb: write 0x80000000 @ 0x4000220054
+mb: read back 0x80000000 @ 0x4000220054
+mb: write 0x89b00000 @ 0x4000230050
+mb: read back 0x89b00000 @ 0x4000230050
+mb: write 0x80000000 @ 0x4000230054
+mb: read back 0x80000000 @ 0x4000230054
+mb: write 0x89b00000 @ 0x4000240050
+mb: read back 0x89b00000 @ 0x4000240050
+mb: write 0x80000000 @ 0x4000240054
+mb: read back 0x80000000 @ 0x4000240054
+mb: write 0x89b00000 @ 0x4000250050
+mb: read back 0x89b00000 @ 0x4000250050
+mb: write 0x80000000 @ 0x4000250054
+mb: read back 0x80000000 @ 0x4000250054
+mb: write 0x89b00000 @ 0x4000260050
+mb: read back 0x89b00000 @ 0x4000260050
+mb: write 0x80000000 @ 0x4000260054
+mb: read back 0x80000000 @ 0x4000260054
+mb: write 0x89b00000 @ 0x4000270050
+mb: read back 0x89b00000 @ 0x4000270050
+mb: write 0x80000000 @ 0x4000270054
+mb: read back 0x80000000 @ 0x4000270054
+mb: write 0x89d00000 @ 0x4000200058
+mb: read back 0x89d00000 @ 0x4000200058
+mb: write 0x80000000 @ 0x400020005c
+mb: read back 0x80000000 @ 0x400020005c
+mb: write 0x89d00000 @ 0x4000210058
+mb: read back 0x89d00000 @ 0x4000210058
+mb: write 0x80000000 @ 0x400021005c
+mb: read back 0x80000000 @ 0x400021005c
+mb: write 0x89d00000 @ 0x4000220058
+mb: read back 0x89d00000 @ 0x4000220058
+mb: write 0x80000000 @ 0x400022005c
+mb: read back 0x80000000 @ 0x400022005c
+mb: write 0x89d00000 @ 0x4000230058
+mb: read back 0x89d00000 @ 0x4000230058
+mb: write 0x80000000 @ 0x400023005c
+mb: read back 0x80000000 @ 0x400023005c
+mb: write 0x89d00000 @ 0x4000240058
+mb: read back 0x89d00000 @ 0x4000240058
+mb: write 0x80000000 @ 0x400024005c
+mb: read back 0x80000000 @ 0x400024005c
+mb: write 0x89d00000 @ 0x4000250058
+mb: read back 0x89d00000 @ 0x4000250058
+mb: write 0x80000000 @ 0x400025005c
+mb: read back 0x80000000 @ 0x400025005c
+mb: write 0x89d00000 @ 0x4000260058
+mb: read back 0x89d00000 @ 0x4000260058
+mb: write 0x80000000 @ 0x400026005c
+mb: read back 0x80000000 @ 0x400026005c
+mb: write 0x89d00000 @ 0x4000270058
+mb: read back 0x89d00000 @ 0x4000270058
+mb: write 0x80000000 @ 0x400027005c
+mb: read back 0x80000000 @ 0x400027005c
+mb: write 0x89f00000 @ 0x4000200060
+mb: read back 0x89f00000 @ 0x4000200060
+mb: write 0x80000000 @ 0x4000200064
+mb: read back 0x80000000 @ 0x4000200064
+mb: write 0x89f00000 @ 0x4000210060
+mb: read back 0x89f00000 @ 0x4000210060
+mb: write 0x80000000 @ 0x4000210064
+mb: read back 0x80000000 @ 0x4000210064
+mb: write 0x89f00000 @ 0x4000220060
+mb: read back 0x89f00000 @ 0x4000220060
+mb: write 0x80000000 @ 0x4000220064
+mb: read back 0x80000000 @ 0x4000220064
+mb: write 0x89f00000 @ 0x4000230060
+mb: read back 0x89f00000 @ 0x4000230060
+mb: write 0x80000000 @ 0x4000230064
+mb: read back 0x80000000 @ 0x4000230064
+mb: write 0x89f00000 @ 0x4000240060
+mb: read back 0x89f00000 @ 0x4000240060
+mb: write 0x80000000 @ 0x4000240064
+mb: read back 0x80000000 @ 0x4000240064
+mb: write 0x89f00000 @ 0x4000250060
+mb: read back 0x89f00000 @ 0x4000250060
+mb: write 0x80000000 @ 0x4000250064
+mb: read back 0x80000000 @ 0x4000250064
+mb: write 0x89f00000 @ 0x4000260060
+mb: read back 0x89f00000 @ 0x4000260060
+mb: write 0x80000000 @ 0x4000260064
+mb: read back 0x80000000 @ 0x4000260064
+mb: write 0x89f00000 @ 0x4000270060
+mb: read back 0x89f00000 @ 0x4000270060
+mb: write 0x80000000 @ 0x4000270064
+mb: read back 0x80000000 @ 0x4000270064
+mb: LockedWays 8 @ 0x4000200040
+mb: read back LockedWays 0x8
+mb: LockedWays 8 @ 0x4000210040
+mb: read back LockedWays 0x8
+mb: LockedWays 8 @ 0x4000220040
+mb: read back LockedWays 0x8
+mb: LockedWays 8 @ 0x4000230040
+mb: read back LockedWays 0x8
+mb: LockedWays 8 @ 0x4000240040
+mb: read back LockedWays 0x8
+mb: LockedWays 8 @ 0x4000250040
+mb: read back LockedWays 0x8
+mb: LockedWays 8 @ 0x4000260040
+mb: read back LockedWays 0x8
+mb: LockedWays 8 @ 0x4000270040
+mb: read back LockedWays 0x8
+L3 Cache Line Locking -- Total Size is 8 MB
+	Base 0 : 0x89900000 (valid)
+	Base 1 : 0x89b00000 (valid)
+	Base 2 : 0x89d00000 (valid)
+	Base 3 : 0x89f00000 (valid)
+System Initialized
+
+INFO:    Options: 6700, emulation, none, 2 MHz, 9600
+INFO:    Options: cache protection enabled
+NOTICE:  BL31: v1.2(debug):c051fd455d
+NOTICE:  BL31: Built : 22:11:27, Jun 11 2018
+INFO:    Force timer 7 int to Secure 
+INFO:    Enable timer 7 int in GICD 
+INFO:    BL31: Initializing runtime services
+INFO:    plat_setup_psci_ops called
+INFO:    BL31: Preparing for EL3 exit to normal world
+INFO:    Entry point address = 0x0
+INFO:    SPSR = 0x9
+INFO:    Adding cluster 0 to the coherency domain.
+INFO:    Setting the DSP State from 0x0 to 0x0
+ _______              _____            _____  __     ________            _____ 
+ ___    |___  _____  ____(_)_____ _    __  / / /     ___  __ )_____________  /_
+ __  /| |_  |/_/_  |/_/_  /_  __ `/    _  / / /________  __  |  __ \  __ \  __/
+ _  ___ |_>  < __>  < _  / / /_/ /     / /_/ /_/_____/  /_/ // /_/ / /_/ / /_  
+ /_/  |_/_/|_| /_/|_| /_/  \__,_/      \____/        /_____/ \____/\____/\__/  
+
+Axxia Version: UNKNOWN
+EL2
+
+U-Boot 2015.10-00004-g5c0d45cfee-dirty (Jun 11 2018 - 17:11:56 -0500)
+
+DRAM:  1 GiB
+Sysmem Size: 4096 MB
+Relocation Address: 0x3ff79000
+SF: Detected S25FL032A with page size 256 Bytes, erase size 64 KiB, total 4 MiB
+In:    serial
+Out:   serial
+Err:   serial
+Net:   NEMAC
+Hit any key to stop autoboot: 12 11 10  9  8  7  6  5  4  3  2  1  0 
+NEMAC Waiting for PHY auto negotiation to complete.. done
+NEMAC: 100Mbps, full duplex
+BOOTP broadcast 1
+*** Unhandled DHCP Option in OFFER/ACK: 40
+*** Unhandled DHCP Option in OFFER/ACK: 119
+*** Unhandled DHCP Option in OFFER/ACK: 41
+*** Unhandled DHCP Option in OFFER/ACK: 40
+*** Unhandled DHCP Option in OFFER/ACK: 119
+*** Unhandled DHCP Option in OFFER/ACK: 41
+DHCP client bound to address 10.123.78.234 (354 ms)
+Using NEMAC device
+TFTP from server 10.123.116.21; our IP address is 10.123.78.234; sending through gateway 10.123.72.1
+Filename 'kernel-frio-037-a15'.
+Load address: 0x4000000
+Loading: *#################################################################
+	 #################################################################
+	 #################################################################
+	 #################################################################
+	 #################################################################
+	 ##############
+	 410.2 KiB/s
+done
+Bytes transferred = 4965272 (4bc398 hex)
+## Loading kernel from FIT Image at 04000000 ...
+   Using 'conf' configuration
+   Trying 'kernel' kernel subimage
+     Description:  Linux Kernel
+     Type:         Kernel Image
+     Compression:  gzip compressed
+     Data Start:   0x040000d0
+     Data Size:    4949148 Bytes = 4.7 MiB
+     Architecture: AArch64
+     OS:           Linux
+     Load Address: 0x00080000
+     Entry Point:  0x00080000
+     Hash algo:    crc32
+     Hash value:   44841943
+     Hash algo:    sha1
+     Hash value:   20645bd070d5e5b998a5e02a8c0bb3776fb54a88
+   Verifying Hash Integrity ... crc32+ sha1+ OK
+## Loading fdt from FIT Image at 04000000 ...
+   Using 'conf' configuration
+   Trying 'fdt' fdt subimage
+     Description:  Flattened Device Tree blob
+     Type:         Flat Device Tree
+     Compression:  uncompressed
+     Data Start:   0x044b8694
+     Data Size:    14799 Bytes = 14.5 KiB
+     Architecture: AArch64
+     Hash algo:    crc32
+     Hash value:   b702b82c
+     Hash algo:    sha1
+     Hash value:   1ff9047f2aada5f22caf446a4f3e05df3102b6e1
+   Verifying Hash Integrity ... crc32+ sha1+ OK
+   Booting using the fdt blob at 0x44b8694
+   Uncompressing Kernel Image ... OK
+   Loading Device Tree to 000000001fff9000, end 000000001ffff9ce ... OK
+Peripheral frequency: 2000000
+
+Starting kernel ...
+
+INFO:    Adding cluster 2 to the coherency domain.
+INFO:    Adding cluster 4 to the coherency domain.
+Booting Linux on physical CPU 0x0
+Initializing cgroup subsys cpuset
+Initializing cgroup subsys cpu
+Initializing cgroup subsys cpuacct
+Linux version 4.1.49-rt23-axxia_rt_1.71 (jjacques@txasoft16) (gcc version 5.2.0 (GCC) ) #1 SMP PREEMPT RT Tue Feb 27 09:06:22 CST 2018
+CPU: AArch64 Processor [410fd034] revision 4
+Detected VIPT I-cache on CPU0
+alternatives: enabling workaround for ARM erratum 845719
+Memory limited to 1024MB
+efi: Getting EFI parameters from FDT:
+efi: UEFI not found.
+cma: Reserved 16 MiB at 0x000000003f000000
+psci: probing for conduit method from DT.
+psci: PSCIv1.0 detected in firmware.
+psci: Using standard PSCI v0.2 function IDs
+PERCPU: Embedded 18 pages/cpu @ffffffc03eeff000 s35200 r8192 d30336 u73728
+Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 258048
+Kernel command line: root=/dev/nfs rw mem=1024M console=ttyAMA0 ip=dhcp
+log_buf_len individual max cpu contribution: 4096 bytes
+log_buf_len total cpu_extra contributions: 45056 bytes
+log_buf_len min size: 16384 bytes
+log_buf_len: 65536 bytes
+early log buf free: 14608(89%)
+PID hash table entries: 4096 (order: 3, 32768 bytes)
+Dentry cache hash table entries: 131072 (order: 9, 2097152 bytes)
+Inode-cache hash table entries: 65536 (order: 7, 524288 bytes)
+software IO TLB [mem 0x39a00000-0x3da00000] (64MB) mapped at [ffffffc039a00000-ffffffc03d9fffff]
+Memory: 934516K/1048576K available (7190K kernel code, 769K rwdata, 2616K rodata, 612K init, 404K bss, 97676K reserved, 16384K cma-reserved)
+Virtual kernel memory layout:
+    vmalloc : 0xffffff8000000000 - 0xffffffbdbfff0000   (   246 GB)
+    vmemmap : 0xffffffbdc0000000 - 0xffffffbfc0000000   (     8 GB maximum)
+              0xffffffbdc0000000 - 0xffffffbdc1000000   (    16 MB actual)
+    fixed   : 0xffffffbffabfd000 - 0xffffffbffac00000   (    12 KB)
+    PCI I/O : 0xffffffbffae00000 - 0xffffffbffbe00000   (    16 MB)
+    modules : 0xffffffbffc000000 - 0xffffffc000000000   (    64 MB)
+    memory  : 0xffffffc000000000 - 0xffffffc040000000   (  1024 MB)
+      .init : 0xffffffc000a16000 - 0xffffffc000aaf000   (   612 KB)
+      .text : 0xffffffc000080000 - 0xffffffc000a158f4   (  9815 KB)
+      .data : 0xffffffc000ab3000 - 0xffffffc000b73400   (   769 KB)
+SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=12, Nodes=1
+Preemptible hierarchical RCU implementation.
+	Additional per-CPU info printed with stalls.
+	RCU restricting CPUs from NR_CPUS=64 to nr_cpu_ids=12.
+	RCU kthread priority: 1.
+RCU: Adjusting geometry for rcu_fanout_leaf=16, nr_cpu_ids=12
+NR_IRQS:64 nr_irqs:64 0
+CPU0: found redistributor 0 region 0:0x0000008010400000
+Architected cp15 timer(s) running at 5.00MHz (phys).
+clocksource arch_sys_counter: mask: 0xffffffffffffff max_cycles: 0x127350b88, max_idle_ns: 440795202120 ns
+sched_clock: 56 bits at 5MHz, resolution 200ns, wraps every 4398046511100ns
+Console: colour dummy device 80x25
+Calibrating delay loop (skipped), value calculated using timer frequency.. 10.00 BogoMIPS (lpj=50000)
+pid_max: default: 32768 minimum: 301
+Security Framework initialized
+Mount-cache hash table entries: 2048 (order: 2, 16384 bytes)
+Mountpoint-cache hash table entries: 2048 (order: 2, 16384 bytes)
+Initializing cgroup subsys blkio
+Initializing cgroup subsys memory
+Initializing cgroup subsys devices
+Initializing cgroup subsys freezer
+Initializing cgroup subsys hugetlb
+ftrace: allocating 25386 entries in 100 pages
+hw perfevents: enabled with arm/armv8-pmuv3 PMU driver, 7 counters available
+EFI services will not be available.
+CPU1: Booted secondary processor
+Detected VIPT I-cache on CPU1
+CPU1: found redistributor 1 region 0:0x0000008010420000
+CPU2: Booted secondary processor
+Detected VIPT I-cache on CPU2
+CPU2: found redistributor 2 region 0:0x0000008010440000
+CPU3: Booted secondary processor
+Detected VIPT I-cache on CPU3
+CPU3: found redistributor 3 region 0:0x0000008010460000
+CPU4: Booted secondary processor
+Detected VIPT I-cache on CPU4
+CPU4: found redistributor 200 region 0:0x0000008010500000
+CPU5: Booted secondary processor
+Detected VIPT I-cache on CPU5
+CPU5: found redistributor 201 region 0:0x0000008010520000
+CPU6: Booted secondary processor
+Detected VIPT I-cache on CPU6
+CPU6: found redistributor 202 region 0:0x0000008010540000
+CPU7: Booted secondary processor
+Detected VIPT I-cache on CPU7
+CPU7: found redistributor 203 region 0:0x0000008010560000
+CPU8: Booted secondary processor
+Detected VIPT I-cache on CPU8
+CPU8: found redistributor 400 region 0:0x0000008010600000
+CPU9: Booted secondary processor
+Detected VIPT I-cache on CPU9
+CPU9: found redistributor 401 region 0:0x0000008010620000
+CPU10: Booted secondary processor
+Detected VIPT I-cache on CPU10
+CPU10: found redistributor 402 region 0:0x0000008010640000
+CPU11: Booted secondary processor
+Detected VIPT I-cache on CPU11
+CPU11: found redistributor 403 region 0:0x0000008010660000
+Brought up 12 CPUs
+SMP: Total of 12 processors activated.
+CPU: All CPU(s) started at EL2
+alternatives: patching kernel code
+devtmpfs: initialized
+DMI not present or invalid.
+clocksource jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 19112604462750000 ns
+futex hash table entries: 4096 (order: 7, 524288 bytes)
+NET: Registered protocol family 16
+cpuidle: using governor ladder
+cpuidle: using governor menu
+vdso: 2 pages (1 code @ ffffffc000ab9000, 1 data @ ffffffc000ab8000)
+hw-breakpoint: found 6 breakpoint and 4 watchpoint registers.
+DMA: preallocated 256 KiB pool for atomic allocations
+Serial: AMBA PL011 UART driver
+ncr: available
+No Parameters Available for PEI Setup!
+8080000000.uart: ttyAMA0 at MMIO 0x8080000000 (irq = 13, base_baud = 0) is a PL011 rev2
+console [ttyAMA0] enabled
+ACPI: Interpreter disabled.
+vgaarb: loaded
+SCSI subsystem initialized
+ssp-pl022 8080100000.ssp: ARM PL022 driver, device ID: 0x000b6022
+pl022: mapped registers from 0x8080100000 to ffffff8000054000
+ssp-pl022 8080100000.ssp: Max speed that can be programmed is 1000000 Hz, you requested 25000000
+usbcore: registered new interface driver usbfs
+usbcore: registered new interface driver hub
+usbcore: registered new device driver usb
+EDAC MC: Ver: 3.0.0
+Switched to clocksource arch_sys_counter
+pnp: PnP ACPI: disabled
+NET: Registered protocol family 2
+TCP established hash table entries: 8192 (order: 4, 65536 bytes)
+TCP bind hash table entries: 8192 (order: 6, 458752 bytes)
+TCP: Hash tables configured (established 8192 bind 8192)
+UDP hash table entries: 512 (order: 4, 65536 bytes)
+UDP-Lite hash table entries: 512 (order: 4, 65536 bytes)
+NET: Registered protocol family 1
+RPC: Registered named UNIX socket transport module.
+RPC: Registered udp transport module.
+RPC: Registered tcp transport module.
+RPC: Registered tcp NFSv4.1 backchannel transport module.
+kvm [1]: GICv3: no GICV resource entry
+kvm [1]: disabling GICv2 emulation
+kvm [1]: interrupt-controller@ffffffc0000b37d0 IRQ5
+kvm [1]: timer IRQ3
+kvm [1]: Hyp mode initialized successfully
+audit: initializing netlink subsys (disabled)
+audit: type=2000 audit(73.990:1): initialized
+HugeTLB registered 2 MB page size, pre-allocated 0 pages
+squashfs: version 4.0 (2009/01/31) Phillip Lougher
+Installing knfsd (copyright (C) 1996 okir@monad.swb.de).
+fuse init (API version 7.23)
+9p: Installing v9fs 9p2000 file system support
+NET: Registered protocol family 38
+io scheduler noop registered
+io scheduler cfq registered (default)
+Serial: 8250/16550 driver, 4 ports, IRQ sharing disabled
+Unable to detect cache hierarcy from DT for CPU 0
+brd: module loaded
+loop: module loaded
+Axxia DSP Control Initialized
+Axxia ACTLR_EL3 Control Initialized
+Axxia ACTLR_EL3 Control Initialized
+libphy: Axxia MDIO: probed
+m25p80 spi0.0: found s25sl032p, expected s25fl016k
+m25p80 spi0.0: s25sl032p (4096 Kbytes)
+8 ofpart partitions found on MTD device spi0.0
+Creating 8 MTD partitions on "spi0.0":
+0x000000000000-0x000000040000 : "spl-0"
+0x000000040000-0x000000080000 : "spl-1"
+0x000000080000-0x000000090000 : "parameters-0"
+0x000000090000-0x0000000a0000 : "parameters-1"
+0x0000000a0000-0x0000000b0000 : "env-0"
+0x0000000b0000-0x0000000c0000 : "env-1"
+0x000000100000-0x000000300000 : "u-boot-0"
+0x000000300000-0x000000500000 : "u-boot-1"
+mtd: partition "u-boot-1" extends beyond the end of device "spi0.0" -- size truncated to 0x100000
+libphy: Fixed MDIO Bus: probed
+tun: Universal TUN/TAP device driver, 1.6
+tun: (C) 1999-2004 Max Krasnyansky <maxk@qualcomm.com>
+axxia-nemac 8080240000.ethernet: NEMAC HW rev 3.4
+usbcore: registered new interface driver usb-storage
+mousedev: PS/2 mouse device common for all mice
+i2c /dev entries driver
+DDR Retention Reset Initialized
+sdhci: Secure Digital Host Controller Interface driver
+sdhci: Copyright(c) Pierre Ossman
+sdhci-pltfm: SDHCI platform and OF driver helper
+usbcore: registered new interface driver usbhid
+usbhid: USB HID core driver
+nf_conntrack version 0.5.0 (7428 buckets, 29712 max)
+ip_tables: (C) 2000-2006 Netfilter Core Team
+NET: Registered protocol family 10
+ip6_tables: (C) 2000-2006 Netfilter Core Team
+sit: IPv6 over IPv4 tunneling driver
+NET: Registered protocol family 17
+bridge: automatic filtering via arp/ip/ip6tables has been deprecated. Update your scripts to load br_netfilter if you need this.
+8021q: 802.1Q VLAN Support v1.8
+9pnet: Installing 9P2000 support
+registered taskstats version 1
+hctosys: unable to open rtc device (rtc0)
+IPv6: ADDRCONF(NETDEV_UP): eth0: link is not ready
+axxia-nemac 8080240000.ethernet eth0: Link is Up - 10Mbps/Full - flow control off
+Sending DHCP requests .
+IPv6: ADDRCONF(NETDEV_CHANGE): eth0: link becomes ready
+., OK
+IP-Config: Got DHCP answer from 10.123.72.2, my address is 10.123.78.234
+IP-Config: Complete:
+     device=eth0, hwaddr=00:02:2d:84:13:f0, ipaddr=10.123.78.234, mask=255.255.248.0, gw=10.123.72.1
+     host=frio-037-a15, domain=, nis-domain=agere
+     bootserver=10.123.116.21, rootserver=10.123.116.21, rootpath=/export/labsrv6/lab/ARM/frio-037-a15
+     nameserver0=10.248.2.1, nameserver1=10.2.71.13, nameserver2=10.19.1.12
+uart-pl011 8080000000.uart: no DMA platform data
+VFS: Mounted root (nfs filesystem) on device 0:16.
+devtmpfs: mounted
+Freeing unused kernel memory: 612K
+Freeing alternatives memory: 8K
+INIT: version 2.88 booting
+random: nonblocking pool is initialized
+Starting udev
+udevd[226]: starting version 182
+
+udevadm settle - timeout of 3 seconds reached, the event queue contains:
+  /sys/devices/virtual/bdi/1:3 (782)
+  /sys/devices/virtual/bdi/1:4 (783)
+  /sys/devices/virtual/bdi/1:5 (784)
+  /sys/devices/virtual/bdi/1:6 (785)
+  /sys/devices/virtual/bdi/1:7 (786)
+udevd[226]: worker [264] timeout, kill it
+
+udevd[226]: seq 812 '/devices/virtual/block/ram14' killed
+
+udevd[226]: worker [265] timeout, kill it
+
+udevd[226]: seq 813 '/devices/virtual/block/ram15' killed
+
+udevd[226]: worker [267] timeout, kill it
+
+udevd[226]: seq 814 '/devices/virtual/block/ram2' killed
+
+udevd[226]: worker [268] timeout, kill it
+
+udevd[226]: seq 815 '/devices/virtual/block/ram3' killed
+
+udevd[226]: worker [269] timeout, kill it
+
+udevd[226]: seq 816 '/devices/virtual/block/ram4' killed
+
+udevd[226]: worker [270] timeout, kill it
+
+udevd[226]: seq 817 '/devices/virtual/block/ram5' killed
+
+udevd[226]: worker [271] timeout, kill it
+
+udevd[226]: seq 818 '/devices/virtual/block/ram6' killed
+
+udevd[226]: worker [273] timeout, kill it
+
+udevd[226]: seq 819 '/devices/virtual/block/ram7' killed
+
+udevd[226]: worker [274] timeout, kill it
+
+udevd[226]: seq 820 '/devices/virtual/block/ram8' killed
+
+udevd[226]: worker [276] timeout, kill it
+
+udevd[226]: seq 821 '/devices/virtual/block/ram9' killed
+
+udevd[226]: worker [264] terminated by signal 9 (Killed)
+
+udevd[226]: worker [265] terminated by signal 9 (Killed)
+
+hwclock: can't open '/dev/misc/rtc': No such file or directory
+Mon Aug 24 20:22:17 UTC 2015
+hwclock: can't open '/dev/misc/rtc': No such file or directory
+INIT: Entering runlevel: 5
+Configuring network interfaces... ifup skipped for nfsroot interface eth0
+run-parts: /etc/network/if-pre-up.d/nfsroot exited with code 1
+Starting system message bus: dbus.
+Starting udev
+udevd[423]: starting version 182
+
+udevadm settle - timeout of 3 seconds reached, the event queue contains:
+  /sys/devices/platform/soc/soc:amba/8080100000.ssp/spi_master/spi0/spi0.0/mtd/mtd4ro (863)
+  /sys/devices/platform/soc/soc:amba/8080100000.ssp/spi_master/spi0/spi0.0/mtd/mtd5ro (865)
+  /sys/devices/platform/soc/soc:amba/8080100000.ssp/spi_master/spi0/spi0.0/mtd/mtd6ro (867)
+  /sys/devices/platform/soc/soc:amba/8080100000.ssp/spi_master/spi0/spi0.0/mtd/mtd7ro (869)
+  /sys/devices/system/cpu/cpu3 (893)
+  /sys/devices/system/cpu/cpu4 (894)
+  /sys/devices/system/cpu/cpu5 (895)
+  /sys/devices/system/cpu/cpu6 (896)
+Starting portmap daemon...
+Starting rpcbind daemon...done.
+Starting watchdog: [1;34m[[1;32m  OK  [1;34m][0;39m
+starting statd: done
+Starting atd: OK
+Starting domain name service: named.
+exportfs: can't open /etc/exports for reading
+starting 8 nfsd kernel threads: done
+starting mountd: done
+Starting system log daemon...0
+Starting kernel log daemon...0
+Starting internet superserver: xinetd.
+ * Starting Avahi mDNS/DNS-SD Daemon: avahi-daemon
+[A[74G[ ok ]
+Starting ypbind .Starting crond: OK
+Running local boot scripts (/etc/rc.local)Starting automount: done.
+.
+
+Poky (Yocto Project Reference Distro) 1.8+snapshot-20150824 frio-037-a15 /dev/ttyAMA0
+
+frio-037-a15 login: root
+Password: 
+root@frio-037-a15:~# cd /workspace/sw/mbykowsx/lionfish/perf/trunk/nuevo/cpu/axm 6732/asic_v1.1/lmbench3
+root@frio-037-a15:/workspace/sw/mbykowsx/lionfish/perf/trunk/nuevo/cpu/axm6732/assic_v1.1/lmbench3# cd test_l3_lockdown_issue/
+root@frio-037-a15:/workspace/sw/mbykowsx/lionfish/perf/trunk/nuevo/cpu/axm6732/assic_v1.1/lmbench3/test_l3_lockdown_issue# ./run_bw_mem.sh 
+0.524288 5.88
+1.05 2.41
+2.10 1.71
+3.15 1.39
+4.19 1.33
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   [?25l[13;116H[K[1;12r[12;1H
+[1;13r[13;116H218,0-1[7C25%[12;1H[34h[?25h[?25l[13;116H[K[1;12r[12;1H
+[1;13r[13;116H219,0-1[7C25%[12;1H[34h[?25h[?25l[13;116H[K[1;12r[12;1H
+[1;13r[13;116H220,0-1[7C25%[12;1H[34h[?25h[?25l[13;116H[K[1;12r[12;1H
+[1;13r[13;116H221,0-1[7C25%[12;1H[34h[?25h[?25l[13;116H[K[13;1H:[34h[?25hq[?25l[34h[?25h[?25l[1m[37m[41mE37: No write since last change (add ! to override)[0m[64C221,0-1[7C25%[12;1H[34h[?25h[?25l[13;1H[K[13;1H:[34h[?25hQ[?25l[34h[?25h![?25l[34h[?25h[?25l[13;3H[K[13;3H[34h[?25h[?25l[13;2H[K[13;2H[34h[?25hq[?25l[34h[?25h![?25l[34h[?25h[?25l[13;1H[K[13;1H[?1l>[34h[?25h[?1049lmbykowsx@aus-labsrv2:lmbench3/test_l3_lockdown_issue$ 
+mbykowsx@aus-labsrv2:lmbench3/test_l3_lockdown_issue$ 
+mbykowsx@aus-labsrv2:lmbench3/test_l3_lockdown_issue$ 
+mbykowsx@aus-labsrv2:lmbench3/test_l3_lockdown_issue$ 
+mbykowsx@aus-labsrv2:lmbench3/test_l3_lockdown_issue$ 
+mbykowsx@aus-labsrv2:lmbench3/test_l3_lockdown_issue$ ll -ty
+ls: invalid option -- 'y'
+Try `ls --help' for more information.
+mbykowsx@aus-labsrv2:lmbench3/test_l3_lockdown_issue$ cd
+mbykowsx@aus-labsrv2:/home/mbykowsx$ ll -rt
+total 667412
+-rw-------  1 mbykowsx intelall        31 Aug  4  2015 .mcoprc
+drwxr-xr-x  3 mbykowsx intelall      4096 Aug  4  2015 [0m[01;34m.mcop[0m/
+drwxr-xr-x  3 mbykowsx intelall      4096 Aug  4  2015 [01;34m.subversion[0m/
+drwx------  2 mbykowsx intelall      4096 Aug  4  2015 [01;34m.gvfs[0m/
+drwxr-xr-x  2 mbykowsx intelall      4096 Aug  4  2015 [01;34m.graphon[0m/
+drwxr-xr-x  3 mbykowsx intelall      4096 Aug  5  2015 [01;34m.eclipse[0m/
+-rw-------  1 mbykowsx intelall      1874 Aug  5  2015 .history
+-rw-r--r--  1 mbykowsx intelall       114 Aug  5  2015 .cshrc
+drwx--S---  3 mbykowsx intelall      4096 Aug  6  2015 [01;34mDesktop[0m/
+drwxr-xr-x  2 mbykowsx intelall      4096 Aug  6  2015 [01;34msource[0m/
+drwx------  3 mbykowsx intelall      4096 Aug  6  2015 [01;34m.gnupg[0m/
+drwxr-xr-x  2 mbykowsx intelall      4096 Aug 11  2015 [01;34mdownload[0m/
+-rw-r--r--  1 mbykowsx intelall         0 Aug 13  2015 .screenrc
+-rw-rw-r--  1 mbykowsx intelall      1057 Aug 13  2015 screenlog.0
+lrwxrwxrwx  1 mbykowsx intelall        81 Aug 19  2015 [40;31;01mncp_rte[0m -> [40;31;01m/workspace/sw/mbykowsx/lionfish/trunk/images/ncp_linux-ep8572_xlf_rte_bin/ncp_rte[0m
+drwx------  2 mbykowsx intelall      4096 Sep 25  2015 [01;34m.gnome2_private[0m/
+drwx------  4 mbykowsx intelall      4096 Sep 25  2015 [01;34m.gnome2[0m/
+drwx------  3 mbykowsx intelall      4096 Sep 25  2015 [01;34m.dbus[0m/
+-rw-r--r--  1 mbykowsx intelall       762 Sep 25  2015 .recently-used.xbel
+-rw-r--r--  1 mbykowsx intelall       804 Oct  9  2015 xlf_fbrs.ovr
+drwx------  2 mbykowsx intelall      4096 Oct 28  2015 [01;34m.XStep[0m/
+drwxr-xr-x  4 mbykowsx intelall      4096 Oct 28  2015 [01;34mXStep_workspace[0m/
+drwxr-xr-x 21 mbykowsx intelall     65536 Nov  6  2015 [01;34mgit-2.6.2[0m/
+drwxr-xr-x  3 mbykowsx intelall      4096 Nov  6  2015 [01;34mlibexec[0m/
+drwxr-xr-x  3 mbykowsx intelall      4096 Nov  6  2015 [01;34mlib64[0m/
+drwxr-xr-x  8 mbykowsx intelall      4096 Nov  6  2015 [01;34mshare[0m/
+drwxr-xr-x  8 mbykowsx intelall      4096 Jan 22  2016 [01;34mgcc-linaro-5.2-2015.11-2-x86_64_arm-linux-gnueabi[0m/
+drwxr-xr-x  9 mbykowsx intelall      4096 Feb  4  2016 [01;34mnerdtree[0m/
+-rw-r--r--  1 mbykowsx intelall      3505 Feb 11  2016 rif_api_mb.nsh
+drwxr-xr-x  5 mbykowsx intelall      4096 Feb 15  2016 [01;34m.mozilla[0m/
+drwxr-xr-x 10 mbykowsx intelall      4096 Feb 18  2016 [01;34mRIFmapper[0m/
+-rw-r--r--  1 mbykowsx intelall       675 Mar 31  2016 .profile
+drwxr-xr-x  2 mbykowsx intelall      4096 Apr 12  2016 [01;34myocto[0m/
+drwxr-xr-x  2 mbykowsx intelall      4096 Apr 26  2016 [01;34m.oracle_jre_usage[0m/
+drwxr-----  3 mbykowsx intelall      4096 Aug  2  2016 [01;34m.pki[0m/
+drwxr-xr-x  2 mbykowsx intelall      4096 Aug  3  2016 [01;34mrf[0m/
+drwxr-xr-x  7 mbykowsx intelall      4096 Sep  9  2016 [01;34maxxia_u-boot_nokia_bringup.git[0m/
+drwxr-xr-x  7 mbykowsx intelall      4096 Sep  9  2016 [01;34maxxia_atf_nokia_bringup.git[0m/
+-rw-r--r--  1 mbykowsx intelall      7326 Sep 24  2016 xlf_1MHz_clock.rvc
+-rw-r--r--  1 mbykowsx intelall      1568 Oct  3  2016 multi3.its
+-rwxr-xr-x  1 mbykowsx intelall       266 Oct  3  2016 [01;32mrun.sh[0m*
+-rwxr-xr-x  1 mbykowsx intelall    143426 Oct  3  2016 [01;32mmkimage[0m*
+drwxr-xr-x  5 mbykowsx intelall      4096 Oct  4  2016 [01;34m.local[0m/
+drwxr-xr-x  2 mbykowsx intelall      4096 Oct  4  2016 [01;34m.idlerc[0m/
+-rw-------  1 mbykowsx intelall         0 Oct  4  2016 .python_history
+-rwxr-xr-x  1 mbykowsx intelall      2880 Oct  5  2016 [01;32msetup_xlf_clk_nrcp2_pll[0m*
+-rwxr-xr-x  1 mbykowsx intelall      8622 Oct  5  2016 [01;32msetup_xlf_clk_nrcp_dpll[0m*
+-rwxr-xr-x  1 mbykowsx intelall     13928 Oct  5  2016 [01;32msetup_dpll_frac[0m*
+-rw-r--r--  1 mbykowsx intelall      4096 Oct 21  2016 AXC6700.bin
+drwxr-xr-x  2 mbykowsx intelall      4096 Oct 25  2016 [01;34m.wireshark[0m/
+-rw-r--r--  1 mbykowsx intelall        77 Oct 31  2016 .NERDTreeBookmarks
+-rw-r--r--  1 mbykowsx intelall      5435 Nov 16  2016 tmux-client-7178.log
+-rwxrwxrwx  1 mbykowsx intelall       230 Nov 24  2016 [01;32mtelnet.sh[0m*
+-rw-r--r--  1 mbykowsx intelall       699 Nov 24  2016 sh-tmux.log
+-rw-r--r--  1 mbykowsx intelall      4574 Nov 24  2016 bash-tmux.log
+-rw-r--r--  1 mbykowsx intelall     29727 Nov 24  2016 telnet-tmux.log
+-rw-------  1 mbykowsx intelall         0 Dec  7  2016 .gtk-bookmarks
+-rwxr-x---  1 mbykowsx intelall 164004052 Dec  9  2016 [01;32mgcc-linaro-5.2-2015.11-2-x86_64_arm-linux-gnueabi.tar.xz[0m*
+drwxr-xr-x  2 mbykowsx intelall      4096 Dec 17  2016 [01;34mtesting[0m/
+drwxr-xr-x  5 mbykowsx intelall      4096 Jan 21  2017 [01;34m.kde[0m/
+lrwxrwxrwx  1 mbykowsx intelall        35 Jan 31  2017 [40;31;01mlibgcc.so[0m -> [40;31;01m/lib64/libgcc_s-4.4.7-20120601.so.1[0m
+drwxr-xr-x  2 mbykowsx intelall     20480 Feb 15  2017 [01;34m.fontconfig[0m/
+drwxr-xr-x  2 mbykowsx intelall      4096 Feb 21  2017 [01;34m.qt[0m/
+-rw-r--r--  1 mbykowsx intelall   2596213 Feb 26  2017 log_52_marek
+-rw-r--r--  1 mbykowsx intelall   4603777 Feb 26  2017 log_52_marek_tree
+-rw-r--r--  1 mbykowsx intelall     31400 Feb 28  2017 for_mariusz.patch
+drwxr-xr-x  8 mbykowsx intelall      4096 Mar  8  2017 [01;34mcscope[0m/
+drwxr-xr-x  3 mbykowsx intelall      4096 Mar 30  2017 [01;34mv122[0m/
+drwx------  2 mbykowsx intelall      4096 May 29  2017 [01;34m.elinks[0m/
+-rw-r--r--  1 mbykowsx intelall     16384 May 31  2017 .bashrc_mine.swo
+-rw-------  1 mbykowsx intelall      4926 Jun  6  2017 .ICEauthority
+-rw-r--r--  1 mbykowsx intelall     26432 Jun  6  2017 .bashrc_mine_b
+-rw-r--r--  1 mbykowsx intelall     26409 Jun  6  2017 .bashrc_mine_c
+-rw-r--r--  1 mbykowsx intelall     23699 Jun 22  2017 atf_in_flash.log
+-rw-r--r--  1 mbykowsx intelall     23035 Jun 22  2017 atf_part_of_spl.log
+-rw-r--r--  1 mbykowsx intelall     69901 Jul  2  2017 booting_by_nokia.log
+drwx------  2 mbykowsx intelall      4096 Jul 24  2017 [01;34m.gconf[0m/
+-rw-r--r--  1 mbykowsx intelall      9418 Sep 12  2017 malloc_axxia.log
+drwxr-xr-x  2 mbykowsx intelall      4096 Oct  4  2017 [01;34m.vnc[0m/
+drwxr-xr-x  3 mbykowsx intelall      4096 Oct 31  2017 [01;34m.arm[0m/
+-rwxr-xr-x  1 mbykowsx intelall        99 Oct 31  2017 [01;32m.flexlmrc[0m*
+drwxr-xr-x  4 mbykowsx intelall      4096 Oct 31  2017 [01;34mDS-5-Workspace[0m/
+drwxr-xr-x  5 mbykowsx intelall      4096 Oct 31  2017 [01;34m.cache[0m/
+drwx------  2 mbykowsx intelall      4096 Oct 31  2017 [01;34m.gconfd[0m/
+-rwxr-xr-x  1 mbykowsx intelall       318 Nov  2  2017 [01;32mtunnel.sh[0m*
+-rw-r--r--  1 mbykowsx intelall        38 Nov 29  2017 .bash_profile
+drwxrwxr-x  7 mbykowsx intelall      4096 Dec 12 07:32 [01;34msrift_dont_use.git[0m/
+-rw-r--r--  1 mbykowsx intelall       572 Jan 10 05:16 .mareksm
+-rw-r--r--  1 mbykowsx intelall      8020 Jan 24 04:33 .bashrc~
+drwxr-xr-x  3 mbykowsx intelall      4096 Jan 24 04:36 [01;34m.emacs.d[0m/
+-rw-r--r--  1 mbykowsx intelall      8021 Jan 24 04:48 #.bashrc#
+-rw-r--r--  1 mbykowsx intelall     28289 Jan 26 04:32 074
+drwx------  2 mbykowsx intelall      4096 Mar  8 16:07 [01;34m.ssh[0m/
+-rw-r--r--  1 mbykowsx intelall        12 Mar 11 10:31 sss
+drwxr-xr-x  6 mbykowsx intelall      4096 Mar 12 06:03 [01;34mlib[0m/
+drwxr-xr-x  2 mbykowsx intelall      4096 Mar 12 06:24 [01;34mcerts[0m/
+-rw-r--r--  1 mbykowsx intelall       577 Mar 12 06:25 .gitconfig
+drwxr-xr-x  2 mbykowsx intelall      4096 Mar 12 08:29 [01;34m.ncftp[0m/
+drwxr-xr-x  5 mbykowsx intelall      4096 Mar 12 10:51 [01;34mlocalperl[0m/
+-rw-------  1 mbykowsx intelall         3 Mar 12 14:48 .sqlite_history
+drwxr-xr-x  5 mbykowsx intelall      4096 Mar 13 03:30 [01;34m.cpan[0m/
+-rwxr--r--  1 mbykowsx intelall 227310887 Mar 14 03:31 [01;32mSnowCPK1.mp4[0m*
+-rwxr--r--  1 mbykowsx intelall 278087219 Mar 14 03:31 [01;32mSnowCPK2.mp4[0m*
+drwxrwxr-x 11 mbykowsx intelall      4096 Apr 23 09:29 [01;34m.config[0m/
+-rw-r--r--  1 mbykowsx intelall      9660 Apr 26 07:00 .bashrc
+-rw-r--r--  1 mbykowsx intelall   2945511 Apr 26 14:20 cscope.out
+-rw-r--r--  1 mbykowsx intelall      2437 May 16 18:25 .vimrc
+drwxr-xr-x 20 mbykowsx intelall      4096 May 18 04:44 [01;34mbin[0m/
+-rw-------  1 mbykowsx intelall       878 May 18 06:28 .Xauthority
+-rw-r--r--  1 mbykowsx intelall      3340 May 29 10:05 instructions.txt
+-rw-r--r--  1 mbykowsx intelall     25067 Jun  4 06:40 .bashrc_mine
+-rw-r--r--  1 mbykowsx intelall      7732 Jun  5 06:55 .bashrc_uboot
+drwxrwxrwx  6 mbykowsx intelall      4096 Jun  6 03:32 [34;42m.vim[0m/
+-rw-------  1 mbykowsx intelall       995 Jun  6 04:25 .lesshst
+drwxr-xr-x  2 mbykowsx intelall      4096 Jun  7 03:09 [01;34mtmp[0m/
+-rw-r--r--  1 mbykowsx intelall     58854 Jun  7 07:26 tmux.log.4_12_ways
+-rw-r--r--  1 mbykowsx intelall        60 Jun 11 04:32 .vimbuffer
+-rw-------  1 mbykowsx intelall     40116 Jun 11 10:59 .bash_history
+-rw-r--r--  1 mbykowsx intelall       249 Jun 11 14:24 .tmux.conf
+drwxrwxrwx 20 root     root          4096 Jun 11 16:00 [34;42m.snapshot[0m/
+-rw-r--r--  1 mbykowsx intelall         0 Jun 11 17:21 tmux.log
+drwxr-xr-x 17 root     root             0 Jun 11 17:22 [01;34m..[0m/
+-rw-------  1 mbykowsx intelall     18033 Jun 11 17:22 .viminfo
+drwxr-xr-x 58 mbykowsx intelall     12288 Jun 11 17:22 [01;34m.[0m/
+[mmbykowsx@aus-labsrv2:/home/mbykowsx$ date
+Mon Jun 11 17:22:20 CDT 2018
+mbykowsx@aus-labsrv2:/home/mbykowsx$ datell -rt
+total 667432
+-rw-------  1 mbykowsx intelall        31 Aug  4  2015 .mcoprc
+drwxr-xr-x  3 mbykowsx intelall      4096 Aug  4  2015 [0m[01;34m.mcop[0m/
+drwxr-xr-x  3 mbykowsx intelall      4096 Aug  4  2015 [01;34m.subversion[0m/
+drwx------  2 mbykowsx intelall      4096 Aug  4  2015 [01;34m.gvfs[0m/
+drwxr-xr-x  2 mbykowsx intelall      4096 Aug  4  2015 [01;34m.graphon[0m/
+drwxr-xr-x  3 mbykowsx intelall      4096 Aug  5  2015 [01;34m.eclipse[0m/
+-rw-------  1 mbykowsx intelall      1874 Aug  5  2015 .history
+-rw-r--r--  1 mbykowsx intelall       114 Aug  5  2015 .cshrc
+drwx--S---  3 mbykowsx intelall      4096 Aug  6  2015 [01;34mDesktop[0m/
+drwxr-xr-x  2 mbykowsx intelall      4096 Aug  6  2015 [01;34msource[0m/
+drwx------  3 mbykowsx intelall      4096 Aug  6  2015 [01;34m.gnupg[0m/
+drwxr-xr-x  2 mbykowsx intelall      4096 Aug 11  2015 [01;34mdownload[0m/
+-rw-r--r--  1 mbykowsx intelall         0 Aug 13  2015 .screenrc
+-rw-rw-r--  1 mbykowsx intelall      1057 Aug 13  2015 screenlog.0
+lrwxrwxrwx  1 mbykowsx intelall        81 Aug 19  2015 [40;31;01mncp_rte[0m -> [40;31;01m/workspace/sw/mbykowsx/lionfish/trunk/images/ncp_linux-ep8572_xlf_rte_bin/ncp_rte[0m
+drwx------  2 mbykowsx intelall      4096 Sep 25  2015 [01;34m.gnome2_private[0m/
+drwx------  4 mbykowsx intelall      4096 Sep 25  2015 [01;34m.gnome2[0m/
+drwx------  3 mbykowsx intelall      4096 Sep 25  2015 [01;34m.dbus[0m/
+-rw-r--r--  1 mbykowsx intelall       762 Sep 25  2015 .recently-used.xbel
+-rw-r--r--  1 mbykowsx intelall       804 Oct  9  2015 xlf_fbrs.ovr
+drwx------  2 mbykowsx intelall      4096 Oct 28  2015 [01;34m.XStep[0m/
+drwxr-xr-x  4 mbykowsx intelall      4096 Oct 28  2015 [01;34mXStep_workspace[0m/
+drwxr-xr-x 21 mbykowsx intelall     65536 Nov  6  2015 [01;34mgit-2.6.2[0m/
+drwxr-xr-x  3 mbykowsx intelall      4096 Nov  6  2015 [01;34mlibexec[0m/
+drwxr-xr-x  3 mbykowsx intelall      4096 Nov  6  2015 [01;34mlib64[0m/
+drwxr-xr-x  8 mbykowsx intelall      4096 Nov  6  2015 [01;34mshare[0m/
+drwxr-xr-x  8 mbykowsx intelall      4096 Jan 22  2016 [01;34mgcc-linaro-5.2-2015.11-2-x86_64_arm-linux-gnueabi[0m/
+drwxr-xr-x  9 mbykowsx intelall      4096 Feb  4  2016 [01;34mnerdtree[0m/
+-rw-r--r--  1 mbykowsx intelall      3505 Feb 11  2016 rif_api_mb.nsh
+drwxr-xr-x  5 mbykowsx intelall      4096 Feb 15  2016 [01;34m.mozilla[0m/
+drwxr-xr-x 10 mbykowsx intelall      4096 Feb 18  2016 [01;34mRIFmapper[0m/
+-rw-r--r--  1 mbykowsx intelall       675 Mar 31  2016 .profile
+drwxr-xr-x  2 mbykowsx intelall      4096 Apr 12  2016 [01;34myocto[0m/
+drwxr-xr-x  2 mbykowsx intelall      4096 Apr 26  2016 [01;34m.oracle_jre_usage[0m/
+drwxr-----  3 mbykowsx intelall      4096 Aug  2  2016 [01;34m.pki[0m/
+drwxr-xr-x  2 mbykowsx intelall      4096 Aug  3  2016 [01;34mrf[0m/
+drwxr-xr-x  7 mbykowsx intelall      4096 Sep  9  2016 [01;34maxxia_u-boot_nokia_bringup.git[0m/
+drwxr-xr-x  7 mbykowsx intelall      4096 Sep  9  2016 [01;34maxxia_atf_nokia_bringup.git[0m/
+-rw-r--r--  1 mbykowsx intelall      7326 Sep 24  2016 xlf_1MHz_clock.rvc
+-rw-r--r--  1 mbykowsx intelall      1568 Oct  3  2016 multi3.its
+-rwxr-xr-x  1 mbykowsx intelall       266 Oct  3  2016 [01;32mrun.sh[0m*
+-rwxr-xr-x  1 mbykowsx intelall    143426 Oct  3  2016 [01;32mmkimage[0m*
+drwxr-xr-x  5 mbykowsx intelall      4096 Oct  4  2016 [01;34m.local[0m/
+drwxr-xr-x  2 mbykowsx intelall      4096 Oct  4  2016 [01;34m.idlerc[0m/
+-rw-------  1 mbykowsx intelall         0 Oct  4  2016 .python_history
+-rwxr-xr-x  1 mbykowsx intelall      2880 Oct  5  2016 [01;32msetup_xlf_clk_nrcp2_pll[0m*
+-rwxr-xr-x  1 mbykowsx intelall      8622 Oct  5  2016 [01;32msetup_xlf_clk_nrcp_dpll[0m*
+-rwxr-xr-x  1 mbykowsx intelall     13928 Oct  5  2016 [01;32msetup_dpll_frac[0m*
+-rw-r--r--  1 mbykowsx intelall      4096 Oct 21  2016 AXC6700.bin
+drwxr-xr-x  2 mbykowsx intelall      4096 Oct 25  2016 [01;34m.wireshark[0m/
+-rw-r--r--  1 mbykowsx intelall        77 Oct 31  2016 .NERDTreeBookmarks
+-rw-r--r--  1 mbykowsx intelall      5435 Nov 16  2016 tmux-client-7178.log
+-rwxrwxrwx  1 mbykowsx intelall       230 Nov 24  2016 [01;32mtelnet.sh[0m*
+-rw-r--r--  1 mbykowsx intelall       699 Nov 24  2016 sh-tmux.log
+-rw-r--r--  1 mbykowsx intelall      4574 Nov 24  2016 bash-tmux.log
+-rw-r--r--  1 mbykowsx intelall     29727 Nov 24  2016 telnet-tmux.log
+-rw-------  1 mbykowsx intelall         0 Dec  7  2016 .gtk-bookmarks
+-rwxr-x---  1 mbykowsx intelall 164004052 Dec  9  2016 [01;32mgcc-linaro-5.2-2015.11-2-x86_64_arm-linux-gnueabi.tar.xz[0m*
+drwxr-xr-x  2 mbykowsx intelall      4096 Dec 17  2016 [01;34mtesting[0m/
+drwxr-xr-x  5 mbykowsx intelall      4096 Jan 21  2017 [01;34m.kde[0m/
+lrwxrwxrwx  1 mbykowsx intelall        35 Jan 31  2017 [40;31;01mlibgcc.so[0m -> [40;31;01m/lib64/libgcc_s-4.4.7-20120601.so.1[0m
+drwxr-xr-x  2 mbykowsx intelall     20480 Feb 15  2017 [01;34m.fontconfig[0m/
+drwxr-xr-x  2 mbykowsx intelall      4096 Feb 21  2017 [01;34m.qt[0m/
+-rw-r--r--  1 mbykowsx intelall   2596213 Feb 26  2017 log_52_marek
+-rw-r--r--  1 mbykowsx intelall   4603777 Feb 26  2017 log_52_marek_tree
+-rw-r--r--  1 mbykowsx intelall     31400 Feb 28  2017 for_mariusz.patch
+drwxr-xr-x  8 mbykowsx intelall      4096 Mar  8  2017 [01;34mcscope[0m/
+drwxr-xr-x  3 mbykowsx intelall      4096 Mar 30  2017 [01;34mv122[0m/
+drwx------  2 mbykowsx intelall      4096 May 29  2017 [01;34m.elinks[0m/
+-rw-r--r--  1 mbykowsx intelall     16384 May 31  2017 .bashrc_mine.swo
+-rw-------  1 mbykowsx intelall      4926 Jun  6  2017 .ICEauthority
+-rw-r--r--  1 mbykowsx intelall     26432 Jun  6  2017 .bashrc_mine_b
+-rw-r--r--  1 mbykowsx intelall     26409 Jun  6  2017 .bashrc_mine_c
+-rw-r--r--  1 mbykowsx intelall     23699 Jun 22  2017 atf_in_flash.log
+-rw-r--r--  1 mbykowsx intelall     23035 Jun 22  2017 atf_part_of_spl.log
+-rw-r--r--  1 mbykowsx intelall     69901 Jul  2  2017 booting_by_nokia.log
+drwx------  2 mbykowsx intelall      4096 Jul 24  2017 [01;34m.gconf[0m/
+-rw-r--r--  1 mbykowsx intelall      9418 Sep 12  2017 malloc_axxia.log
+drwxr-xr-x  2 mbykowsx intelall      4096 Oct  4  2017 [01;34m.vnc[0m/
+drwxr-xr-x  3 mbykowsx intelall      4096 Oct 31  2017 [01;34m.arm[0m/
+-rwxr-xr-x  1 mbykowsx intelall        99 Oct 31  2017 [01;32m.flexlmrc[0m*
+drwxr-xr-x  4 mbykowsx intelall      4096 Oct 31  2017 [01;34mDS-5-Workspace[0m/
+drwxr-xr-x  5 mbykowsx intelall      4096 Oct 31  2017 [01;34m.cache[0m/
+drwx------  2 mbykowsx intelall      4096 Oct 31  2017 [01;34m.gconfd[0m/
+-rwxr-xr-x  1 mbykowsx intelall       318 Nov  2  2017 [01;32mtunnel.sh[0m*
+-rw-r--r--  1 mbykowsx intelall        38 Nov 29  2017 .bash_profile
+drwxrwxr-x  7 mbykowsx intelall      4096 Dec 12 07:32 [01;34msrift_dont_use.git[0m/
+-rw-r--r--  1 mbykowsx intelall       572 Jan 10 05:16 .mareksm
+-rw-r--r--  1 mbykowsx intelall      8020 Jan 24 04:33 .bashrc~
+drwxr-xr-x  3 mbykowsx intelall      4096 Jan 24 04:36 [01;34m.emacs.d[0m/
+-rw-r--r--  1 mbykowsx intelall      8021 Jan 24 04:48 #.bashrc#
+-rw-r--r--  1 mbykowsx intelall     28289 Jan 26 04:32 074
+drwx------  2 mbykowsx intelall      4096 Mar  8 16:07 [01;34m.ssh[0m/
+-rw-r--r--  1 mbykowsx intelall        12 Mar 11 10:31 sss
+drwxr-xr-x  6 mbykowsx intelall      4096 Mar 12 06:03 [01;34mlib[0m/
+drwxr-xr-x  2 mbykowsx intelall      4096 Mar 12 06:24 [01;34mcerts[0m/
+-rw-r--r--  1 mbykowsx intelall       577 Mar 12 06:25 .gitconfig
+drwxr-xr-x  2 mbykowsx intelall      4096 Mar 12 08:29 [01;34m.ncftp[0m/
+drwxr-xr-x  5 mbykowsx intelall      4096 Mar 12 10:51 [01;34mlocalperl[0m/
+-rw-------  1 mbykowsx intelall         3 Mar 12 14:48 .sqlite_history
+drwxr-xr-x  5 mbykowsx intelall      4096 Mar 13 03:30 [01;34m.cpan[0m/
+-rwxr--r--  1 mbykowsx intelall 227310887 Mar 14 03:31 [01;32mSnowCPK1.mp4[0m*
+-rwxr--r--  1 mbykowsx intelall 278087219 Mar 14 03:31 [01;32mSnowCPK2.mp4[0m*
+drwxrwxr-x 11 mbykowsx intelall      4096 Apr 23 09:29 [01;34m.config[0m/
+-rw-r--r--  1 mbykowsx intelall      9660 Apr 26 07:00 .bashrc
+-rw-r--r--  1 mbykowsx intelall   2945511 Apr 26 14:20 cscope.out
+-rw-r--r--  1 mbykowsx intelall      2437 May 16 18:25 .vimrc
+drwxr-xr-x 20 mbykowsx intelall      4096 May 18 04:44 [01;34mbin[0m/
+-rw-------  1 mbykowsx intelall       878 May 18 06:28 .Xauthority
+-rw-r--r--  1 mbykowsx intelall      3340 May 29 10:05 instructions.txt
+-rw-r--r--  1 mbykowsx intelall     25067 Jun  4 06:40 .bashrc_mine
+-rw-r--r--  1 mbykowsx intelall      7732 Jun  5 06:55 .bashrc_uboot
+drwxrwxrwx  6 mbykowsx intelall      4096 Jun  6 03:32 [34;42m.vim[0m/
+-rw-------  1 mbykowsx intelall       995 Jun  6 04:25 .lesshst
+drwxr-xr-x  2 mbykowsx intelall      4096 Jun  7 03:09 [01;34mtmp[0m/
+-rw-r--r--  1 mbykowsx intelall     58854 Jun  7 07:26 tmux.log.4_12_ways
+-rw-r--r--  1 mbykowsx intelall        60 Jun 11 04:32 .vimbuffer
+-rw-------  1 mbykowsx intelall     40116 Jun 11 10:59 .bash_history
+-rw-r--r--  1 mbykowsx intelall       249 Jun 11 14:24 .tmux.conf
+drwxrwxrwx 20 root     root          4096 Jun 11 16:00 [34;42m.snapshot[0m/
+drwxr-xr-x 17 root     root             0 Jun 11 17:22 [01;34m..[0m/
+-rw-------  1 mbykowsx intelall     18033 Jun 11 17:22 .viminfo
+drwxr-xr-x 58 mbykowsx intelall     12288 Jun 11 17:22 [01;34m.[0m/
+-rw-r--r--  1 mbykowsx intelall     49214 Jun 11 17:22 tmux.log
+[mmbykowsx@aus-labsrv2:/home/mbykowsx$ ll -rt
+total 667432
+-rw-------  1 mbykowsx intelall        31 Aug  4  2015 .mcoprc
+drwxr-xr-x  3 mbykowsx intelall      4096 Aug  4  2015 [0m[01;34m.mcop[0m/
+drwxr-xr-x  3 mbykowsx intelall      4096 Aug  4  2015 [01;34m.subversion[0m/
+drwx------  2 mbykowsx intelall      4096 Aug  4  2015 [01;34m.gvfs[0m/
+drwxr-xr-x  2 mbykowsx intelall      4096 Aug  4  2015 [01;34m.graphon[0m/
+drwxr-xr-x  3 mbykowsx intelall      4096 Aug  5  2015 [01;34m.eclipse[0m/
+-rw-------  1 mbykowsx intelall      1874 Aug  5  2015 .history
+-rw-r--r--  1 mbykowsx intelall       114 Aug  5  2015 .cshrc
+drwx--S---  3 mbykowsx intelall      4096 Aug  6  2015 [01;34mDesktop[0m/
+drwxr-xr-x  2 mbykowsx intelall      4096 Aug  6  2015 [01;34msource[0m/
+drwx------  3 mbykowsx intelall      4096 Aug  6  2015 [01;34m.gnupg[0m/
+drwxr-xr-x  2 mbykowsx intelall      4096 Aug 11  2015 [01;34mdownload[0m/
+-rw-r--r--  1 mbykowsx intelall         0 Aug 13  2015 .screenrc
+-rw-rw-r--  1 mbykowsx intelall      1057 Aug 13  2015 screenlog.0
+lrwxrwxrwx  1 mbykowsx intelall        81 Aug 19  2015 [40;31;01mncp_rte[0m -> [40;31;01m/workspace/sw/mbykowsx/lionfish/trunk/images/ncp_linux-ep8572_xlf_rte_bin/ncp_rte[0m
+drwx------  2 mbykowsx intelall      4096 Sep 25  2015 [01;34m.gnome2_private[0m/
+drwx------  4 mbykowsx intelall      4096 Sep 25  2015 [01;34m.gnome2[0m/
+drwx------  3 mbykowsx intelall      4096 Sep 25  2015 [01;34m.dbus[0m/
+-rw-r--r--  1 mbykowsx intelall       762 Sep 25  2015 .recently-used.xbel
+-rw-r--r--  1 mbykowsx intelall       804 Oct  9  2015 xlf_fbrs.ovr
+drwx------  2 mbykowsx intelall      4096 Oct 28  2015 [01;34m.XStep[0m/
+drwxr-xr-x  4 mbykowsx intelall      4096 Oct 28  2015 [01;34mXStep_workspace[0m/
+drwxr-xr-x 21 mbykowsx intelall     65536 Nov  6  2015 [01;34mgit-2.6.2[0m/
+drwxr-xr-x  3 mbykowsx intelall      4096 Nov  6  2015 [01;34mlibexec[0m/
+drwxr-xr-x  3 mbykowsx intelall      4096 Nov  6  2015 [01;34mlib64[0m/
+drwxr-xr-x  8 mbykowsx intelall      4096 Nov  6  2015 [01;34mshare[0m/
+drwxr-xr-x  8 mbykowsx intelall      4096 Jan 22  2016 [01;34mgcc-linaro-5.2-2015.11-2-x86_64_arm-linux-gnueabi[0m/
+drwxr-xr-x  9 mbykowsx intelall      4096 Feb  4  2016 [01;34mnerdtree[0m/
+-rw-r--r--  1 mbykowsx intelall      3505 Feb 11  2016 rif_api_mb.nsh
+drwxr-xr-x  5 mbykowsx intelall      4096 Feb 15  2016 [01;34m.mozilla[0m/
+drwxr-xr-x 10 mbykowsx intelall      4096 Feb 18  2016 [01;34mRIFmapper[0m/
+-rw-r--r--  1 mbykowsx intelall       675 Mar 31  2016 .profile
+drwxr-xr-x  2 mbykowsx intelall      4096 Apr 12  2016 [01;34myocto[0m/
+drwxr-xr-x  2 mbykowsx intelall      4096 Apr 26  2016 [01;34m.oracle_jre_usage[0m/
+drwxr-----  3 mbykowsx intelall      4096 Aug  2  2016 [01;34m.pki[0m/
+drwxr-xr-x  2 mbykowsx intelall      4096 Aug  3  2016 [01;34mrf[0m/
+drwxr-xr-x  7 mbykowsx intelall      4096 Sep  9  2016 [01;34maxxia_u-boot_nokia_bringup.git[0m/
+drwxr-xr-x  7 mbykowsx intelall      4096 Sep  9  2016 [01;34maxxia_atf_nokia_bringup.git[0m/
+-rw-r--r--  1 mbykowsx intelall      7326 Sep 24  2016 xlf_1MHz_clock.rvc
+-rw-r--r--  1 mbykowsx intelall      1568 Oct  3  2016 multi3.its
+-rwxr-xr-x  1 mbykowsx intelall       266 Oct  3  2016 [01;32mrun.sh[0m*
+-rwxr-xr-x  1 mbykowsx intelall    143426 Oct  3  2016 [01;32mmkimage[0m*
+drwxr-xr-x  5 mbykowsx intelall      4096 Oct  4  2016 [01;34m.local[0m/
+drwxr-xr-x  2 mbykowsx intelall      4096 Oct  4  2016 [01;34m.idlerc[0m/
+-rw-------  1 mbykowsx intelall         0 Oct  4  2016 .python_history
+-rwxr-xr-x  1 mbykowsx intelall      2880 Oct  5  2016 [01;32msetup_xlf_clk_nrcp2_pll[0m*
+-rwxr-xr-x  1 mbykowsx intelall      8622 Oct  5  2016 [01;32msetup_xlf_clk_nrcp_dpll[0m*
+-rwxr-xr-x  1 mbykowsx intelall     13928 Oct  5  2016 [01;32msetup_dpll_frac[0m*
+-rw-r--r--  1 mbykowsx intelall      4096 Oct 21  2016 AXC6700.bin
+drwxr-xr-x  2 mbykowsx intelall      4096 Oct 25  2016 [01;34m.wireshark[0m/
+-rw-r--r--  1 mbykowsx intelall        77 Oct 31  2016 .NERDTreeBookmarks
+-rw-r--r--  1 mbykowsx intelall      5435 Nov 16  2016 tmux-client-7178.log
+-rwxrwxrwx  1 mbykowsx intelall       230 Nov 24  2016 [01;32mtelnet.sh[0m*
+-rw-r--r--  1 mbykowsx intelall       699 Nov 24  2016 sh-tmux.log
+-rw-r--r--  1 mbykowsx intelall      4574 Nov 24  2016 bash-tmux.log
+-rw-r--r--  1 mbykowsx intelall     29727 Nov 24  2016 telnet-tmux.log
+-rw-------  1 mbykowsx intelall         0 Dec  7  2016 .gtk-bookmarks
+-rwxr-x---  1 mbykowsx intelall 164004052 Dec  9  2016 [01;32mgcc-linaro-5.2-2015.11-2-x86_64_arm-linux-gnueabi.tar.xz[0m*
+drwxr-xr-x  2 mbykowsx intelall      4096 Dec 17  2016 [01;34mtesting[0m/
+drwxr-xr-x  5 mbykowsx intelall      4096 Jan 21  2017 [01;34m.kde[0m/
+lrwxrwxrwx  1 mbykowsx intelall        35 Jan 31  2017 [40;31;01mlibgcc.so[0m -> [40;31;01m/lib64/libgcc_s-4.4.7-20120601.so.1[0m
+drwxr-xr-x  2 mbykowsx intelall     20480 Feb 15  2017 [01;34m.fontconfig[0m/
+drwxr-xr-x  2 mbykowsx intelall      4096 Feb 21  2017 [01;34m.qt[0m/
+-rw-r--r--  1 mbykowsx intelall   2596213 Feb 26  2017 log_52_marek
+-rw-r--r--  1 mbykowsx intelall   4603777 Feb 26  2017 log_52_marek_tree
+-rw-r--r--  1 mbykowsx intelall     31400 Feb 28  2017 for_mariusz.patch
+drwxr-xr-x  8 mbykowsx intelall      4096 Mar  8  2017 [01;34mcscope[0m/
+drwxr-xr-x  3 mbykowsx intelall      4096 Mar 30  2017 [01;34mv122[0m/
+drwx------  2 mbykowsx intelall      4096 May 29  2017 [01;34m.elinks[0m/
+-rw-r--r--  1 mbykowsx intelall     16384 May 31  2017 .bashrc_mine.swo
+-rw-------  1 mbykowsx intelall      4926 Jun  6  2017 .ICEauthority
+-rw-r--r--  1 mbykowsx intelall     26432 Jun  6  2017 .bashrc_mine_b
+-rw-r--r--  1 mbykowsx intelall     26409 Jun  6  2017 .bashrc_mine_c
+-rw-r--r--  1 mbykowsx intelall     23699 Jun 22  2017 atf_in_flash.log
+-rw-r--r--  1 mbykowsx intelall     23035 Jun 22  2017 atf_part_of_spl.log
+-rw-r--r--  1 mbykowsx intelall     69901 Jul  2  2017 booting_by_nokia.log
+drwx------  2 mbykowsx intelall      4096 Jul 24  2017 [01;34m.gconf[0m/
+-rw-r--r--  1 mbykowsx intelall      9418 Sep 12  2017 malloc_axxia.log
+drwxr-xr-x  2 mbykowsx intelall      4096 Oct  4  2017 [01;34m.vnc[0m/
+drwxr-xr-x  3 mbykowsx intelall      4096 Oct 31  2017 [01;34m.arm[0m/
+-rwxr-xr-x  1 mbykowsx intelall        99 Oct 31  2017 [01;32m.flexlmrc[0m*
+drwxr-xr-x  4 mbykowsx intelall      4096 Oct 31  2017 [01;34mDS-5-Workspace[0m/
+drwxr-xr-x  5 mbykowsx intelall      4096 Oct 31  2017 [01;34m.cache[0m/
+drwx------  2 mbykowsx intelall      4096 Oct 31  2017 [01;34m.gconfd[0m/
+-rwxr-xr-x  1 mbykowsx intelall       318 Nov  2  2017 [01;32mtunnel.sh[0m*
+-rw-r--r--  1 mbykowsx intelall        38 Nov 29  2017 .bash_profile
+drwxrwxr-x  7 mbykowsx intelall      4096 Dec 12 07:32 [01;34msrift_dont_use.git[0m/
+-rw-r--r--  1 mbykowsx intelall       572 Jan 10 05:16 .mareksm
+-rw-r--r--  1 mbykowsx intelall      8020 Jan 24 04:33 .bashrc~
+drwxr-xr-x  3 mbykowsx intelall      4096 Jan 24 04:36 [01;34m.emacs.d[0m/
+-rw-r--r--  1 mbykowsx intelall      8021 Jan 24 04:48 #.bashrc#
+-rw-r--r--  1 mbykowsx intelall     28289 Jan 26 04:32 074
+drwx------  2 mbykowsx intelall      4096 Mar  8 16:07 [01;34m.ssh[0m/
+-rw-r--r--  1 mbykowsx intelall        12 Mar 11 10:31 sss
+drwxr-xr-x  6 mbykowsx intelall      4096 Mar 12 06:03 [01;34mlib[0m/
+drwxr-xr-x  2 mbykowsx intelall      4096 Mar 12 06:24 [01;34mcerts[0m/
+-rw-r--r--  1 mbykowsx intelall       577 Mar 12 06:25 .gitconfig
+drwxr-xr-x  2 mbykowsx intelall      4096 Mar 12 08:29 [01;34m.ncftp[0m/
+drwxr-xr-x  5 mbykowsx intelall      4096 Mar 12 10:51 [01;34mlocalperl[0m/
+-rw-------  1 mbykowsx intelall         3 Mar 12 14:48 .sqlite_history
+drwxr-xr-x  5 mbykowsx intelall      4096 Mar 13 03:30 [01;34m.cpan[0m/
+-rwxr--r--  1 mbykowsx intelall 227310887 Mar 14 03:31 [01;32mSnowCPK1.mp4[0m*
+-rwxr--r--  1 mbykowsx intelall 278087219 Mar 14 03:31 [01;32mSnowCPK2.mp4[0m*
+drwxrwxr-x 11 mbykowsx intelall      4096 Apr 23 09:29 [01;34m.config[0m/
+-rw-r--r--  1 mbykowsx intelall      9660 Apr 26 07:00 .bashrc
+-rw-r--r--  1 mbykowsx intelall   2945511 Apr 26 14:20 cscope.out
+-rw-r--r--  1 mbykowsx intelall      2437 May 16 18:25 .vimrc
+drwxr-xr-x 20 mbykowsx intelall      4096 May 18 04:44 [01;34mbin[0m/
+-rw-------  1 mbykowsx intelall       878 May 18 06:28 .Xauthority
+-rw-r--r--  1 mbykowsx intelall      3340 May 29 10:05 instructions.txt
+-rw-r--r--  1 mbykowsx intelall     25067 Jun  4 06:40 .bashrc_mine
+-rw-r--r--  1 mbykowsx intelall      7732 Jun  5 06:55 .bashrc_uboot
+drwxrwxrwx  6 mbykowsx intelall      4096 Jun  6 03:32 [34;42m.vim[0m/
+-rw-------  1 mbykowsx intelall       995 Jun  6 04:25 .lesshst
+drwxr-xr-x  2 mbykowsx intelall      4096 Jun  7 03:09 [01;34mtmp[0m/
+-rw-r--r--  1 mbykowsx intelall     58854 Jun  7 07:26 tmux.log.4_12_ways
+-rw-r--r--  1 mbykowsx intelall        60 Jun 11 04:32 .vimbuffer
+-rw-------  1 mbykowsx intelall     40116 Jun 11 10:59 .bash_history
+-rw-r--r--  1 mbykowsx intelall       249 Jun 11 14:24 .tmux.conf
+drwxrwxrwx 20 root     root          4096 Jun 11 16:00 [34;42m.snapshot[0m/
+drwxr-xr-x 17 root     root             0 Jun 11 17:22 [01;34m..[0m/
+-rw-------  1 mbykowsx intelall     18033 Jun 11 17:22 .viminfo
+drwxr-xr-x 58 mbykowsx intelall     12288 Jun 11 17:22 [01;34m.[0m/
+-rw-r--r--  1 mbykowsx intelall     49214 Jun 11 17:22 tmux.log
+[mmbykowsx@aus-labsrv2:/home/mbykowsx$ [Kmbykowsx@aus-labsrv2:/home/mbykowsx$ [Kmbykowsx@aus-labsrv2:/home/mbykowsx$ [Kmbykowsx@aus-labsrv2:/home/mbykowsx$ mbykowsx@aus-labsrv2:/home/mbykowsx$ [Kmbykowsx@aus-labsrv2:/home/mbykowsx$ vim tmux.log
+[?1049h[?1h=[1;45r[34l[34h[?25h[23m[24m[0m[H[J[?25l[45;1H"tmux.log" [noeol][dos] 974L, 68439C[2;1H_______[13C _____[11C _____________________
+___    |___  _____  ____(_)_____ _    __  ___/__  __ \__  /
+__  /| |_  |/_/_  |/_/_  /_  __ `/    _____ \__  /_/ /_  /
+_  ___ |_>  < __>  < _  / / /_/ /     ____/ /_  ____/_  /___
+/_/  |_/_/|_| /_/|_| /_/  \__,_/      /____/ /_/     /_____/
+
+Axxia Version: UNKNOWN
+Axxia ATF Version: UNKNOWN
+XLF CHIP VERSION: (0x18) A0
+Parameter table has wrong magic number!
+Parameters: Watchdog 0 A/B Valid 1/0 A/B Sequence 0/0 => A
+Parameter Table Version: 9
+mb: non-secure access to Shelley? yes
+mb: write 0x89900000 @ 0x4000200048
+mb: read back 0x89900000 @ 0x4000200048
+mb: write 0x80000000 @ 0x400020004c
+mb: read back 0x80000000 @ 0x400020004c
+mb: write 0x89900000 @ 0x4000210048
+mb: read back 0x89900000 @ 0x4000210048
+mb: write 0x80000000 @ 0x400021004c
+mb: read back 0x80000000 @ 0x400021004c
+mb: write 0x89900000 @ 0x4000220048
+mb: read back 0x89900000 @ 0x4000220048
+mb: write 0x80000000 @ 0x400022004c
+mb: read back 0x80000000 @ 0x400022004c
+mb: write 0x89900000 @ 0x4000230048
+mb: read back 0x89900000 @ 0x4000230048
+mb: write 0x80000000 @ 0x400023004c
+mb: read back 0x80000000 @ 0x400023004c
+mb: write 0x89900000 @ 0x4000240048
+mb: read back 0x89900000 @ 0x4000240048
+mb: write 0x80000000 @ 0x400024004c
+mb: read back 0x80000000 @ 0x400024004c
+mb: write 0x89900000 @ 0x4000250048
+mb: read back 0x89900000 @ 0x4000250048
+mb: write 0x80000000 @ 0x400025004c
+mb: read back 0x80000000 @ 0x400025004c
+mb: write 0x89900000 @ 0x4000260048
+mb: read back 0x89900000 @ 0x4000260048
+mb: write 0x80000000 @ 0x400026004c
+mb: read back 0x80000000 @ 0x400026004c
+mb: write 0x89900000 @ 0x4000270048
+mb: read back 0x89900000 @ 0x4000270048[45;203H1,0-1[9CTop[1;1H[34h[?25h[?25l[45;203H2,1  [2;1H[34h[?25h[?25l[45;203H3[3;1H[34h[?25h[?25l[45;203H4[4;1H[34h[?25h[?25l[45;203H5[5;1H[34h[?25h[?25l[45;203H6[6;1H[34h[?25h[?25l[45;203H7,0-1[7;1H[34h[?25h[?25l[45;203H8,1  [8;1H[34h[?25h[?25l[45;203H9[9;1H[34h[?25h[?25l[45;203H10,1[10;1H[34h[?25h[?25l[45;204H1[11;1H[34h[?25h[?25l[45;204H2[12;1H[34h[?25h[?25l[23m[24m[0m[H[J[1;1Hmb: write 0x89900000 @ 0x4000270048
+mb: read back 0x89900000 @ 0x4000270048
+mb: write 0x80000000 @ 0x400027004c
+mb: read back 0x80000000 @ 0x400027004c
+mb: write 0x89b00000 @ 0x4000200050
+mb: read back 0x89b00000 @ 0x4000200050
+mb: write 0x80000000 @ 0x4000200054
+mb: read back 0x80000000 @ 0x4000200054
+mb: write 0x89b00000 @ 0x4000210050
+mb: read back 0x89b00000 @ 0x4000210050
+mb: write 0x80000000 @ 0x4000210054
+mb: read back 0x80000000 @ 0x4000210054
+mb: write 0x89b00000 @ 0x4000220050
+mb: read back 0x89b00000 @ 0x4000220050
+mb: write 0x80000000 @ 0x4000220054
+mb: read back 0x80000000 @ 0x4000220054
+mb: write 0x89b00000 @ 0x4000230050
+mb: read back 0x89b00000 @ 0x4000230050
+mb: write 0x80000000 @ 0x4000230054
+mb: read back 0x80000000 @ 0x4000230054
+mb: write 0x89b00000 @ 0x4000240050
+mb: read back 0x89b00000 @ 0x4000240050
+mb: write 0x80000000 @ 0x4000240054
+mb: read back 0x80000000 @ 0x4000240054
+mb: write 0x89b00000 @ 0x4000250050
+mb: read back 0x89b00000 @ 0x4000250050
+mb: write 0x80000000 @ 0x4000250054
+mb: read back 0x80000000 @ 0x4000250054
+mb: write 0x89b00000 @ 0x4000260050
+mb: read back 0x89b00000 @ 0x4000260050
+mb: write 0x80000000 @ 0x4000260054
+mb: read back 0x80000000 @ 0x4000260054
+mb: write 0x89b00000 @ 0x4000270050
+mb: read back 0x89b00000 @ 0x4000270050
+mb: write 0x80000000 @ 0x4000270054
+mb: read back 0x80000000 @ 0x4000270054
+mb: write 0x89d00000 @ 0x4000200058
+mb: read back 0x89d00000 @ 0x4000200058
+mb: write 0x80000000 @ 0x400020005c
+mb: read back 0x80000000 @ 0x400020005c
+mb: write 0x89d00000 @ 0x4000210058
+mb: read back 0x89d00000 @ 0x4000210058
+mb: write 0x80000000 @ 0x400021005c
+mb: read back 0x80000000 @ 0x400021005c[45;203H43,1[11C4%[1;1H[34h[?25h[?25l[23m[24m[0m[H[J[1;1Hmb: write 0x80000000 @ 0x400021005c
+mb: read back 0x80000000 @ 0x400021005c
+mb: write 0x89d00000 @ 0x4000220058
+mb: read back 0x89d00000 @ 0x4000220058
+mb: write 0x80000000 @ 0x400022005c
+mb: read back 0x80000000 @ 0x400022005c
+mb: write 0x89d00000 @ 0x4000230058
+mb: read back 0x89d00000 @ 0x4000230058
+mb: write 0x80000000 @ 0x400023005c
+mb: read back 0x80000000 @ 0x400023005c
+mb: write 0x89d00000 @ 0x4000240058
+mb: read back 0x89d00000 @ 0x4000240058
+mb: write 0x80000000 @ 0x400024005c
+mb: read back 0x80000000 @ 0x400024005c
+mb: write 0x89d00000 @ 0x4000250058
+mb: read back 0x89d00000 @ 0x4000250058
+mb: write 0x80000000 @ 0x400025005c
+mb: read back 0x80000000 @ 0x400025005c
+mb: write 0x89d00000 @ 0x4000260058
+mb: read back 0x89d00000 @ 0x4000260058
+mb: write 0x80000000 @ 0x400026005c
+mb: read back 0x80000000 @ 0x400026005c
+mb: write 0x89d00000 @ 0x4000270058
+mb: read back 0x89d00000 @ 0x4000270058
+mb: write 0x80000000 @ 0x400027005c
+mb: read back 0x80000000 @ 0x400027005c
+mb: write 0x89f00000 @ 0x4000200060
+mb: read back 0x89f00000 @ 0x4000200060
+mb: write 0x80000000 @ 0x4000200064
+mb: read back 0x80000000 @ 0x4000200064
+mb: write 0x89f00000 @ 0x4000210060
+mb: read back 0x89f00000 @ 0x4000210060
+mb: write 0x80000000 @ 0x4000210064
+mb: read back 0x80000000 @ 0x4000210064
+mb: write 0x89f00000 @ 0x4000220060
+mb: read back 0x89f00000 @ 0x4000220060
+mb: write 0x80000000 @ 0x4000220064
+mb: read back 0x80000000 @ 0x4000220064
+mb: write 0x89f00000 @ 0x4000230060
+mb: read back 0x89f00000 @ 0x4000230060
+mb: write 0x80000000 @ 0x4000230064
+mb: read back 0x80000000 @ 0x4000230064
+mb: write 0x89f00000 @ 0x4000240060
+mb: read back 0x89f00000 @ 0x4000240060[45;203H85,1[11C9%[1;1H[34h[?25h[?25l[23m[24m[0m[H[J[1;1Hmb: write 0x89f00000 @ 0x4000240060
+mb: read back 0x89f00000 @ 0x4000240060
+mb: write 0x80000000 @ 0x4000240064
+mb: read back 0x80000000 @ 0x4000240064
+mb: write 0x89f00000 @ 0x4000250060
+mb: read back 0x89f00000 @ 0x4000250060
+mb: write 0x80000000 @ 0x4000250064
+mb: read back 0x80000000 @ 0x4000250064
+mb: write 0x89f00000 @ 0x4000260060
+mb: read back 0x89f00000 @ 0x4000260060
+mb: write 0x80000000 @ 0x4000260064
+mb: read back 0x80000000 @ 0x4000260064
+mb: write 0x89f00000 @ 0x4000270060
+mb: read back 0x89f00000 @ 0x4000270060
+mb: write 0x80000000 @ 0x4000270064
+mb: read back 0x80000000 @ 0x4000270064
+mb: LockedWays 8 @ 0x4000200040
+mb: read back LockedWays 0x8
+mb: LockedWays 8 @ 0x4000210040
+mb: read back LockedWays 0x8
+mb: LockedWays 8 @ 0x4000220040
+mb: read back LockedWays 0x8
+mb: LockedWays 8 @ 0x4000230040
+mb: read back LockedWays 0x8
+mb: LockedWays 8 @ 0x4000240040
+mb: read back LockedWays 0x8
+mb: LockedWays 8 @ 0x4000250040
+mb: read back LockedWays 0x8
+mb: LockedWays 8 @ 0x4000260040
+mb: read back LockedWays 0x8
+mb: LockedWays 8 @ 0x4000270040
+mb: read back LockedWays 0x8
+[30m[43mL3[0m Cache Line Locking -- Total Size is 8 MB
+    Base 0 : 0x89900000 (valid)
+    Base 1 : 0x89b00000 (valid)
+    Base 2 : 0x89d00000 (valid)
+    Base 3 : 0x89f00000 (valid)
+System Initialized
+
+INFO:    Options: 6700, emulation, none, 2 MHz, 9600
+INFO:    Options: cache protection enabled
+NOTICE:  B[30m[43mL3[0m1: v1.2(debug):c051fd455d
+NOTICE:  B[30m[43mL3[0m1: Built : 22:11:27, Jun 11 2018
+INFO:    Force timer 7 int to Secure[45;203H127,1[9C13%[1;1H[34h[?25h[?25l[1;44r[1;1H[L[1;45r[1;1Hmb: read back 0x80000000 @ 0x4000230064[45;203H[K[45;203H126,1[9C13%[1;1H[34h[?25h[?25l[1;44r[1;1H[L[1;45r[1;1Hmb: write 0x80000000 @ 0x4000230064[45;203H[K[45;203H125,1[9C13%[1;1H[34h[?25h[?25l[1;44r[1;1H[L[1;45r[1;1Hmb: read back 0x89f00000 @ 0x4000230060[45;203H[K[45;203H124,1[9C13%[1;1H[34h[?25h[?25l[1;44r[1;1H[L[1;45r[1;1Hmb: write 0x89f00000 @ 0x4000230060[45;203H[K[45;203H123,1[9C13%[1;1H[34h[?25h[?25l[1;44r[1;1H[L[1;45r[1;1Hmb: read back 0x80000000 @ 0x4000220064[45;203H[K[45;203H122,1[9C13%[1;1H[34h[?25h[?25l[1;44r[1;1H[L[1;45r[1;1Hmb: write 0x80000000 @ 0x4000220064[45;203H[K[45;203H121,1[9C12%[1;1H[34h[?25h[?25l[1;44r[1;1H[L[1;45r[1;1Hmb: read back 0x89f00000 @ 0x4000220060[45;203H[K[45;203H120,1[9C12%[1;1H[34h[?25h[?25l[1;44r[1;1H[L[1;45r[1;1Hmb: write 0x89f00000 @ 0x4000220060[45;203H[K[45;203H119,1[9C12%[1;1H[34h[?25h[?25l[45;204H20[2;1H[34h[?25h[?25l[45;205H1[3;1H[34h[?25h[?25l[45;205H2[4;1H[34h[?25h[?25l[45;205H3[5;1H[34h[?25h[?25l[45;205H4[6;1H[34h[?25h[?25l[45;205H5[7;1H[34h[?25h[?25l[45;205H6[8;1H[34h[?25h[?25l[45;205H7[9;1H[34h[?25h[?25l[45;205H8[10;1H[34h[?25h[?25l[45;205H9[11;1H[34h[?25h[?25l[45;204H30[12;1H[34h[?25h[?25l[45;205H1[13;1H[34h[?25h[?25l[45;205H2[14;1H[34h[?25h[?25l[45;205H3[15;1H[34h[?25h[?25l[45;205H4[16;1H[34h[?25h[?25l[45;205H5[17;1H[34h[?25h[?25l[45;205H6[18;1H[34h[?25h[?25l[45;205H7[19;1H[34h[?25h[?25l[45;205H8[20;1H[34h[?25h[?25l[45;205H9[21;1H[34h[?25h[?25l[45;204H40[22;1H[34h[?25h[?25l[45;203H[K[45;1H:[34h[?25hq[?25l[34h[?25h[?25l[45;1H[K[45;1H[?1l>[34h[?25h[?1049lmbykowsx@aus-labsrv2:/home/mbykowsx$ [Kmbykowsx@aus-labsrv2:/home/mbykowsx$ 

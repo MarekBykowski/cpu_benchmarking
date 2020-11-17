@@ -1,0 +1,295 @@
+TFTP from server 10.123.116.21; our IP address is 10.123.78.234; sending through gateway 10.123.72.1
+Filename 'kernel-frio-037-a15'.
+Load address: 0x4000000
+Loading: #################################################################
+         #################################################################
+         #################################################################
+         #################################################################
+         #################################################################
+         #######################
+         413.1 KiB/s
+done
+Bytes transferred = 5102612 (4ddc14 hex)
+## Loading kernel from FIT Image at 04000000 ...
+   Using 'conf' configuration
+   Trying 'kernel' kernel subimage
+     Description:  Linux Kernel
+     Type:         Kernel Image
+     Compression:  gzip compressed
+     Data Start:   0x040000b8
+     Data Size:    5086522 Bytes = 4.9 MiB
+     Architecture: AArch64
+     OS:           Linux
+     Load Address: 0x00080000
+     Entry Point:  0x00080000
+     Hash algo:    crc32
+     Hash value:   65d484b0
+     Hash algo:    sha1
+     Hash value:   62950609b135152c4153c6d933db0daf3e76b01f
+   Verifying Hash Integrity ... crc32+ sha1+ OK
+## Loading fdt from FIT Image at 04000000 ...
+   Using 'conf' configuration
+   Trying 'fdt' fdt subimage
+     Description:  Flattened Device Tree blob
+     Type:         Flat Device Tree
+     Compression:  uncompressed
+     Data Start:   0x044d9f1c
+     Data Size:    14799 Bytes = 14.5 KiB
+     Architecture: AArch64
+     Hash algo:    crc32
+     Hash value:   b702b82c
+     Hash algo:    sha1
+     Hash value:   1ff9047f2aada5f22caf446a4f3e05df3102b6e1
+   Verifying Hash Integrity ... crc32+ sha1+ OK
+   Booting using the fdt blob at 0x44d9f1c
+   Uncompressing Kernel Image ... OK
+   Loading Device Tree to 000000001fff9000, end 000000001ffff9ce ... OK
+Peripheral frequency: 2000000
+
+Starting kernel ...
+
+INFO:    Adding cluster 2 to the coherency domain.
+INFO:    Adding cluster 4 to the coherency domain.
+Booting Linux on physical CPU 0x0
+Linux version 4.9.82-rt61 (mbykowsx@txasoft15) (gcc version 6.2.0 (GCC) ) #1 SMP PREEMPT RT Tue Jun 12 17:44:31 CDT 2018
+Boot CPU: AArch64 Processor [410fd034]
+Memory limited to 1024MB
+efi: Getting EFI parameters from FDT:
+efi: UEFI not found.
+cma: Reserved 16 MiB at 0x000000003f000000
+On node 0 totalpages: 262144
+  DMA zone: 4096 pages used for memmap
+  DMA zone: 0 pages reserved
+  DMA zone: 262144 pages, LIFO batch:31
+psci: probing for conduit method from DT.
+psci: PSCIv1.0 detected in firmware.
+psci: Using standard PSCI v0.2 function IDs
+psci: MIGRATE_INFO_TYPE not supported.
+percpu: Embedded 83 pages/cpu @ffffffc03d81c000 s301120 r8192 d30656 u339968
+pcpu-alloc: s301120 r8192 d30656 u339968 alloc=83*4096
+pcpu-alloc: [0] 00 [0] 01 [0] 02 [0] 03 [0] 04 [0] 05 [0] 06 [0] 07
+pcpu-alloc: [0] 08 [0] 09 [0] 10 [0] 11
+Detected VIPT I-cache on CPU0
+CPU features: enabling workaround for ARM erratum 845719
+Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 258048
+Kernel command line: root=/dev/nfs rw mem=1024M console=ttyAMA0 ip=dhcp
+log_buf_len individual max cpu contribution: 4096 bytes
+log_buf_len total cpu_extra contributions: 45056 bytes
+log_buf_len min size: 16384 bytes
+log_buf_len: 65536 bytes
+early log buf free: 14720(89%)
+PID hash table entries: 4096 (order: 3, 32768 bytes)
+Dentry cache hash table entries: 131072 (order: 9, 2097152 bytes)
+Inode-cache hash table entries: 65536 (order: 7, 524288 bytes)
+Memory: 996772K/1048576K available (7420K kernel code, 798K rwdata, 2516K rodata, 1024K init, 429K bss, 35420K reserved, 16384K cma-reserved)
+Virtual kernel memory layout:
+    modules : 0xffffff8000000000 - 0xffffff8008000000   (   128 MB)
+    vmalloc : 0xffffff8008000000 - 0xffffffbebfff0000   (   250 GB)
+      .text : 0xffffff8008080000 - 0xffffff80087c0000   (  7424 KB)
+    .rodata : 0xffffff80087c0000 - 0xffffff8008a40000   (  2560 KB)
+      .init : 0xffffff8008a40000 - 0xffffff8008b40000   (  1024 KB)
+      .data : 0xffffff8008b40000 - 0xffffff8008c07a00   (   799 KB)
+       .bss : 0xffffff8008c07a00 - 0xffffff8008c73180   (   430 KB)
+    fixed   : 0xffffffbefe7fd000 - 0xffffffbefec00000   (  4108 KB)
+    PCI I/O : 0xffffffbefee00000 - 0xffffffbeffe00000   (    16 MB)
+    vmemmap : 0xffffffbf00000000 - 0xffffffc000000000   (     4 GB maximum)
+              0xffffffbf00000000 - 0xffffffbf01000000   (    16 MB actual)
+    memory  : 0xffffffc000000000 - 0xffffffc040000000   (  1024 MB)
+SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=12, Nodes=1
+Preemptible hierarchical RCU implementation.
+        RCU restricting CPUs from NR_CPUS=64 to nr_cpu_ids=12.
+        RCU kthread priority: 1.
+RCU: Adjusting geometry for rcu_fanout_leaf=16, nr_cpu_ids=12
+NR_IRQS:64 nr_irqs:64 0
+GICv3: GIC: Using split EOI/Deactivate mode
+GICv3: CPU0: found redistributor 0 region 0:0x0000008010400000
+arm_arch_timer: WARNING: Invalid trigger for IRQ2, assuming level low
+arm_arch_timer: WARNING: Please fix your firmware
+arm_arch_timer: WARNING: Invalid trigger for IRQ3, assuming level low
+arm_arch_timer: WARNING: Please fix your firmware
+arm_arch_timer: Architected cp15 timer(s) running at 5.00MHz (phys).
+clocksource: arch_sys_counter: mask: 0xffffffffffffff max_cycles: 0x127350b88, max_idle_ns: 440795202120 ns
+sched_clock: 56 bits at 5MHz, resolution 200ns, wraps every 4398046511100ns
+Console: colour dummy device 80x25
+Calibrating delay loop (skipped), value calculated using timer frequency.. 10.00 BogoMIPS (lpj=20000)
+pid_max: default: 32768 minimum: 301
+Security Framework initialized
+Mount-cache hash table entries: 2048 (order: 2, 16384 bytes)
+Mountpoint-cache hash table entries: 2048 (order: 2, 16384 bytes)
+ftrace: allocating 26118 entries in 103 pages
+ASID allocator initialised with 65536 entries
+EFI services will not be available.
+Detected VIPT I-cache on CPU1
+GICv3: CPU1: found redistributor 1 region 0:0x0000008010420000
+CPU1: Booted secondary processor [410fd034]
+Detected VIPT I-cache on CPU2
+GICv3: CPU2: found redistributor 2 region 0:0x0000008010440000
+CPU2: Booted secondary processor [410fd034]
+Detected VIPT I-cache on CPU3
+GICv3: CPU3: found redistributor 3 region 0:0x0000008010460000
+CPU3: Booted secondary processor [410fd034]
+Detected VIPT I-cache on CPU4
+GICv3: CPU4: found redistributor 200 region 0:0x0000008010500000
+CPU4: Booted secondary processor [410fd034]
+Detected VIPT I-cache on CPU5
+GICv3: CPU5: found redistributor 201 region 0:0x0000008010520000
+CPU5: Booted secondary processor [410fd034]
+Detected VIPT I-cache on CPU6
+GICv3: CPU6: found redistributor 202 region 0:0x0000008010540000
+CPU6: Booted secondary processor [410fd034]
+Detected VIPT I-cache on CPU7
+GICv3: CPU7: found redistributor 203 region 0:0x0000008010560000
+CPU7: Booted secondary processor [410fd034]
+Detected VIPT I-cache on CPU8
+GICv3: CPU8: found redistributor 400 region 0:0x0000008010600000
+CPU8: Booted secondary processor [410fd034]
+Detected VIPT I-cache on CPU9
+GICv3: CPU9: found redistributor 401 region 0:0x0000008010620000
+CPU9: Booted secondary processor [410fd034]
+Detected VIPT I-cache on CPU10
+GICv3: CPU10: found redistributor 402 region 0:0x0000008010640000
+CPU10: Booted secondary processor [410fd034]
+Detected VIPT I-cache on CPU11
+GICv3: CPU11: found redistributor 403 region 0:0x0000008010660000
+CPU11: Booted secondary processor [410fd034]
+Brought up 12 CPUs
+SMP: Total of 12 processors activated.
+CPU features: detected feature: GIC system register CPU interface
+CPU features: detected feature: 32-bit EL0 Support
+CPU: All CPU(s) started at EL2
+alternatives: patching kernel code
+devtmpfs: initialized
+DMI not present or invalid.
+clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 7645041785100000 ns
+futex hash table entries: 4096 (order: 7, 524288 bytes)
+------------[ cut here ]------------
+kernel BUG at kernel/sched/sched.h:1597!
+Internal error: Oops - BUG: 0 [#1] PREEMPT SMP
+Modules linked in:
+CPU: 2 PID: 30 Comm: ktimersoftd/2 Not tainted 4.9.82-rt61 #1
+Hardware name: Lionfish Emulation (DT)
+task: ffffffc03d233800 task.stack: ffffffc03d248000
+PC is at push_rt_task+0x290/0x3e0
+LR is at push_rt_task+0x284/0x3e0
+pc : [<ffffff800810ce50>] lr : [<ffffff800810ce44>] pstate: 80000145
+sp : ffffffc03d24bbc0
+x29: ffffffc03d24bbc0 x28: 0000000000000001
+x27: ffffff8008b56000 x26: ffffff8008b1d380
+x25: ffffff8008b1d380 x24: ffffff8008b56e78
+x23: ffffffc03d0d6218 x22: 0000000000000003
+x21: ffffffc03d864380 x20: ffffffc03d90a380
+x19: ffffffc03d0d6200 x18: 0000000000000000
+x17: 000000000000000a x16: 0000000000000001
+x15: ffffffffffffffff x14: ffffffc03c96691c
+x13: ffffffc03c96617e x12: 0000000000000020
+x11: 0101010101010101 x10: 0000000000000a00
+x9 : ffffffc03d248000 x8 : ffffffc03d234260
+x7 : 625e7272606f7861 x6 : 0000000000000000
+x5 : 0000000000000d63 x4 : 0000000000000000
+x3 : 0000000000000000 x2 : 000000000000000c
+x1 : 0000000000000000 x0 : 0000000000000000
+
+Process ktimersoftd/2 (pid: 30, stack limit = 0xffffffc03d248028)
+Stack: (0xffffffc03d24bbc0 to 0xffffffc03d24c000)
+bbc0: ffffffc03d24bc20 ffffff800810f244 ffffffc03d90a380 ffffffc03d014870
+bbe0: ffffffc03d014800 0000000000000000 ffffffc03d8c7080 ffffff8008b45180
+bc00: ffffff8008ad9ae0 ffffff8008ad9db0 ffffffc03d248000 0000000000000001
+bc20: ffffffc03d24bc50 ffffff80081ab0f0 ffffffc03d014878 0000000000000002
+bc40: 0000000000000003 ffffff8008ada000 ffffffc03d24bc80 ffffff80081ab52c
+bc60: ffffff8008b19ff8 ffffff8008ada000 ffffff8008b49000 ffffff8008b56000
+bc80: ffffffc03d24bca0 ffffff8008136710 ffffff8008ad9b28 ffffff8008136700
+bca0: ffffffc03d24bd30 ffffff80080d1294 ffffff8008ad9b28 ffffff8008b56000
+bcc0: 0000000000000001 0000000000000001 ffffffc03d248000 ffffff80080f95e0
+bce0: ffffffc03d24bd20 ffffff8008400ee8 ffffff8008ad9b28 ffffff8008b56000
+bd00: 0000000000000001 0000000000000001 ffffffc03d248000 0000000000000002
+bd20: ffffffc03d24bd30 ffffff80080d124c ffffffc03d24bdb0 ffffff80080d192c
+bd40: ffffffc03d248000 ffffffc03d085800 0000000000000001 ffffff8008b6a5f0
+bd60: 0000000000000002 0000000000000001 0000000000000002 0000000000000000
+bd80: 0000000000000000 0000000000000000 ffffff8008b45188 ffffff8004208140
+bda0: 0000000000000002 ffffff8008ad9db0 ffffffc03d24bdd0 ffffff80080f374c
+bdc0: ffffffc03d248000 ffffff80080f36ec ffffffc03d24be20 ffffff80080eecc8
+bde0: ffffffc03d085880 ffffff8008c0f0b0 ffffff8008961208 ffffffc03d248000
+be00: ffffffc03d085800 ffffff80080f3568 0000000000000000 ffffffc03d248000
+be20: 0000000000000000 ffffff8008082ec0 ffffff80080eebe0 ffffffc03d085880
+be40: 0000000000000000 0000000000000000 0000000000000000 0000000000000000
+be60: ffffffc03d0d0e00 0000000000000001 0000000000000002 ffffffc03d085800
+be80: ffffffc000000000 ffffff8000030003 ffffffc03d24be90 ffffffc03d24be90
+bea0: 0000000000000000 ffffff8000000000 ffffffc03d24beb0 ffffffc03d24beb0
+bec0: 0000000000000000 0000000000000000 0000000000000000 0000000000000000
+bee0: 0000000000000000 0000000000000000 0000000000000000 0000000000000000
+bf00: 0000000000000000 0000000000000000 0000000000000000 0000000000000000
+bf20: 0000000000000000 0000000000000000 0000000000000000 0000000000000000
+bf40: 0000000000000000 0000000000000000 0000000000000000 0000000000000000
+bf60: 0000000000000000 0000000000000000 0000000000000000 0000000000000000
+bf80: 0000000000000000 0000000000000000 0000000000000000 0000000000000000
+bfa0: 0000000000000000 0000000000000000 0000000000000000 0000000000000000
+bfc0: 0000000000000000 0000000000000005 0000000000000000 0000000000000000
+bfe0: 0000000000000000 0000000000000000 0000000000000000 0000000000000000
+Call trace:
+Exception stack(0xffffffc03d24b9e0 to 0xffffffc03d24bb10)
+b9e0: ffffffc03d0d6200 0000008000000000 ffffffc03d24bbc0 ffffff800810ce50
+ba00: 0000000080000145 000000000000003d ffffffc03d8c6000 ffffff80080827dc
+ba20: ffffffc03d24ba60 0000008000000000 ffffffc03d24bb90 ffffff80087a8b30
+ba40: ffffffc03d24ba50 ffffff800840f144 ffffffc03d24bab0 ffffff800808fc10
+ba60: 0000000000000008 ffffff80087d0298 0000000000000000 0000000000000001
+ba80: 0000000000000140 0000000000000000 0000000000000000 0000000000000000
+baa0: 000000000000000c 0000000000000000 0000000000000000 0000000000000d63
+bac0: 0000000000000000 625e7272606f7861 ffffffc03d234260 ffffffc03d248000
+bae0: 0000000000000a00 0101010101010101 0000000000000020 ffffffc03c96617e
+bb00: ffffffc03c96691c ffffffffffffffff
+[<ffffff800810ce50>] push_rt_task+0x290/0x3e0
+[<ffffff800810f244>] rto_push_irq_work_func+0x5c/0x120
+[<ffffff80081ab0f0>] irq_work_run_list+0x60/0xa8
+[<ffffff80081ab52c>] irq_work_tick_soft+0x2c/0x38
+[<ffffff8008136710>] run_timer_softirq+0x40/0x180
+[<ffffff80080d1294>] do_current_softirqs+0x21c/0x420
+[<ffffff80080d192c>] run_ksoftirqd+0x34/0x60
+[<ffffff80080f374c>] smpboot_thread_fn+0x1e4/0x2a8
+[<ffffff80080eecc8>] kthread+0xe8/0x100
+[<ffffff8008082ec0>] ret_from_fork+0x10/0x50
+Code: 97ffac4c d5384100 b9401801 340009e1 (d4210000)
+---[ end trace 0000000000000001 ]---
+NET: Registered protocol family 16
+vdso: 2 pages (1 code @ ffffff80087c7000, 1 data @ ffffff8008b44000)
+hw-breakpoint: found 6 breakpoint and 4 watchpoint registers.
+DMA: preallocated 256 KiB pool for atomic allocations
+Serial: AMBA PL011 UART driver
+ncr: available
+No Parameters Available for PEI Setup!
+irq: type mismatch, failed to map hwirq-29 for /interrupt-controller@8010010000!
+8080000000.uart: ttyAMA0 at MMIO 0x8080000000 (irq = 13, base_baud = 0) is a PL011 rev2
+console [ttyAMA0] enabled
+HugeTLB registered 2 MB page size, pre-allocated 0 pages
+vgaarb: loaded
+SCSI subsystem initialized
+libata version 3.00 loaded.
+ssp-pl022 8080100000.ssp: ARM PL022 driver, device ID: 0x000b6022
+pl022: mapped registers from 0x8080100000 to ffffff8008054000
+ssp-pl022 8080100000.ssp: Max speed that can be programmed is 1000000 Hz, you requested 25000000
+usbcore: registered new interface driver usbfs
+usbcore: registered new interface driver hub
+usbcore: registered new device driver usb
+EDAC MC: Ver: 3.0.0
+dmi: Firmware registration failed.
+clocksource: Switched to clocksource arch_sys_counter
+NOHZ: local_softirq_pending 02
+NOHZ: local_softirq_pending 02
+NOHZ: local_softirq_pending 02
+NOHZ: local_softirq_pending 02
+NOHZ: local_softirq_pending 02
+NOHZ: local_softirq_pending 02
+NOHZ: local_softirq_pending 02
+NOHZ: local_softirq_pending 02
+NOHZ: local_softirq_pending 02
+NOHZ: local_softirq_pending 02
+INFO: rcu_preempt detected stalls on CPUs/tasks:
+** 40 printk messages dropped ** rcu_preempt     S    0     8      2 0x00000000
+** 206 printk messages dropped ** [<ffffff80080eecc8>] kthread+0xe8/0x100
+** 67 printk messages dropped ** [<ffffff80087a7a20>] schedule_timeout+0x1c8/0x460
+** 88 printk messages dropped ** [<ffffff8008082840>] el1_preempt+0x8/0x48
+** 152 printk messages dropped ** [<ffffff80087a7a20>] schedule_timeout+0x1c8/0x460
+** 136 printk messages dropped ** [<ffffff80087a7a20>] schedule_timeout+0x1c8/0x460
+** 92 printk messages dropped ** [<ffffff8008082840>] el1_preempt+0x8/0x48
+** 199 printk messages dropped ** [<ffffff8008082840>] el1_preempt+0x8/0x48
+rcu_preempt kthread starv
+

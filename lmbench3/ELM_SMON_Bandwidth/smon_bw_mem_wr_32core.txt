@@ -1,0 +1,97 @@
+------------------------------------------------------------------------------------------------------------------------
+- SMON for elm0
+------------------------------------------------------------------------------------------------------------------------
+0x167.0x00.0x00000300 0x40400001 CTL  (prescale=00 tim_ov=1 (int=0 stop=0) cnt1_ov=0 cnt0_ov=0 (int=0 stop=0)
+                                       mode=0=Indepnd func1=0=Freerun,+val     func0=0=Freerun,+val     enable=on)
+0x167.0x00.0x00000304 0x00000705 SEL  (version=1 sel1=0x07 sel0=0x05)
+0x167.0x00.0x00000308 0x00000000 CMP0
+0x167.0x00.0x0000030c 0x00000000 CMP1
+0x167.0x00.0x00000310 0x0002072c CNT0 (sel0=0x05 = Read address transactions. The compare input is unsupported.)
+0x167.0x00.0x00000314 0x0003c4ae CNT1 (sel1=0x07 = Write address transactions. The compare input (bits [21:11]) is set to the ID.)
+0x167.0x00.0x00000318 0x168418c1 TIM
+0x167.0x00.0x0000031c 0x00000000 MAX
+------------------------------------------------------------------------------------------------------------------------
+- SMON for elm1
+------------------------------------------------------------------------------------------------------------------------
+0x167.0x01.0x00000300 0x40400001 CTL  (prescale=00 tim_ov=1 (int=0 stop=0) cnt1_ov=0 cnt0_ov=0 (int=0 stop=0)
+                                       mode=0=Indepnd func1=0=Freerun,+val     func0=0=Freerun,+val     enable=on)
+0x167.0x01.0x00000304 0x00000705 SEL  (version=1 sel1=0x07 sel0=0x05)
+0x167.0x01.0x00000308 0x00000000 CMP0
+0x167.0x01.0x0000030c 0x00000000 CMP1
+0x167.0x01.0x00000310 0x0001dc4b CNT0 (sel0=0x05 = Read address transactions. The compare input is unsupported.)
+0x167.0x01.0x00000314 0x00036c5e CNT1 (sel1=0x07 = Write address transactions. The compare input (bits [21:11]) is set to the ID.)
+0x167.0x01.0x00000318 0x15f683a2 TIM
+0x167.0x01.0x0000031c 0x00000000 MAX
+------------------------------------------------------------------------------------------------------------------------
+- SMON for elm2
+------------------------------------------------------------------------------------------------------------------------
+0x167.0x02.0x00000300 0x40400001 CTL  (prescale=00 tim_ov=1 (int=0 stop=0) cnt1_ov=0 cnt0_ov=0 (int=0 stop=0)
+                                       mode=0=Indepnd func1=0=Freerun,+val     func0=0=Freerun,+val     enable=on)
+0x167.0x02.0x00000304 0x00000705 SEL  (version=1 sel1=0x07 sel0=0x05)
+0x167.0x02.0x00000308 0x00000000 CMP0
+0x167.0x02.0x0000030c 0x00000000 CMP1
+0x167.0x02.0x00000310 0x00022e11 CNT0 (sel0=0x05 = Read address transactions. The compare input is unsupported.)
+0x167.0x02.0x00000314 0x00037db3 CNT1 (sel1=0x07 = Write address transactions. The compare input (bits [21:11]) is set to the ID.)
+0x167.0x02.0x00000318 0x16067b27 TIM
+0x167.0x02.0x0000031c 0x00000000 MAX
+------------------------------------------------------------------------------------------------------------------------
+- SMON for elm3
+------------------------------------------------------------------------------------------------------------------------
+0x167.0x03.0x00000300 0x40400001 CTL  (prescale=00 tim_ov=1 (int=0 stop=0) cnt1_ov=0 cnt0_ov=0 (int=0 stop=0)
+                                       mode=0=Indepnd func1=0=Freerun,+val     func0=0=Freerun,+val     enable=on)
+0x167.0x03.0x00000304 0x00000705 SEL  (version=1 sel1=0x07 sel0=0x05)
+0x167.0x03.0x00000308 0x00000000 CMP0
+0x167.0x03.0x0000030c 0x00000000 CMP1
+0x167.0x03.0x00000310 0x00024060 CNT0 (sel0=0x05 = Read address transactions. The compare input is unsupported.)
+0x167.0x03.0x00000314 0x0003ab1a CNT1 (sel1=0x07 = Write address transactions. The compare input (bits [21:11]) is set to the ID.)
+0x167.0x03.0x00000318 0x161a8d12 TIM
+0x167.0x03.0x0000031c 0x00000000 MAX
+
+Running LMbench bw_mem_wr - 360m size - 32 cores
+
+0.167.3.0000000310: 000471df 
+0.167.3.0000000314: 00098394 
+0.167.3.0000000318: 1a82b33d 
+377.49 409.12
+377.49 407.85
+377.49 374.50
+377.49 370.81
+377.49 364.82
+377.49 354.41
+377.49 339.54
+377.49 333.74
+377.49 327.95
+377.49 321.44
+377.49 326.60
+377.49 323.56
+377.49 327.62
+377.49 306.99
+377.49 325.69
+377.49 325.32
+377.49 319.33
+377.49 311.69
+377.49 321.01
+377.49 318.80
+377.49 318.95
+377.49 391.28
+377.49 309.96
+377.49 309.10
+377.49 308.81
+377.49 291.99
+377.49 288.99
+377.49 301.01
+377.49 287.84
+377.49 289.98
+377.49 287.23
+377.49 541.11
+0.167.3.0000000310: 2510dccb 
+0.167.3.0000000314: 27dede52 
+0.167.3.0000000318: 210b3326 
+
+Completed LMbench bw_mem_wr - 360m size - 32 cores
+
+Waiting for few seconds to start the next test ........
+
+
+************* All tests completed! *************
+

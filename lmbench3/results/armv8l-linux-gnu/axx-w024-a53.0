@@ -1,0 +1,216 @@
+[lmbench3.0 results for Linux axx-w024-a53 4.9.82 #3 SMP PREEMPT Thu May 10 05:41:41 CDT 2018 aarch64 aarch64 aarch64 GNU/Linux]
+[LMBENCH_VER: ]
+[BENCHMARK_HARDWARE: YES]
+[BENCHMARK_OS: YES]
+[ALL: 512 1k 2k 4k 8k 16k 32k 64k 128k 256k 512k 1m 2m 4m 8m 16m]
+[DISKS: ]
+[DISK_DESC: ]
+[ENOUGH: 5000]
+[FAST: ]
+[FASTMEM: NO]
+[FILE: /tmp/XXX]
+[FSDIR: /tmp]
+[HALF: 512 1k 2k 4k 8k 16k 32k 64k 128k 256k 512k 1m 2m 4m 8m]
+[INFO: INFO.axx-w024-a53]
+[LINE_SIZE: 64]
+[LOOP_O: 0.00000000]
+[MB: 31]
+[MHZ: 1498 MHz, 0.6676 nanosec clock]
+[MOTHERBOARD: ]
+[NETWORKS: ]
+[PROCESSORS: 32]
+[REMOTE: ]
+[SLOWFS: NO]
+[OS: armv8l-linux-gnu]
+[SYNC_MAX: 32]
+[LMBENCH_SCHED: BALANCED]
+[TIMING_O: 0]
+[LMBENCH VERSION: lmbench-3alpha4]
+[USER: root]
+[HOSTNAME: axx-w024-a53]
+[NODENAME: axx-w024-a53]
+[SYSNAME: Linux]
+[PROCESSOR: aarch64]
+[MACHINE: aarch64]
+[RELEASE: 4.9.82]
+[VERSION: #3 SMP PREEMPT Thu May 10 05:41:41 CDT 2018]
+[Mon May 28 05:36:02 CDT 2018]
+[ 05:36:02 up 12 days, 22:56, 2 users, load average: 33.54, 23.80, 29.43]
+[net: Kernel Interface table]
+Kernel: error fetching interface information: Device not found
+[net: Iface   MTU Met   RX-OK RX-ERR RX-DRP RX-OVR    TX-OK TX-ERR TX-DRP TX-OVR Flg]
+Iface: error fetching interface information: Device not found
+[net: eth0       1500 0  40239616      0      0 0      23740216      0      0      0 BMRU]
+[if: eth0      Link encap:Ethernet  HWaddr 98:4f:ee:10:e4:94]
+[if: inet addr:10.123.102.134  Bcast:10.123.103.255  Mask:255.255.252.0]
+[if: inet6 addr: fe80::9a4f:eeff:fe10:e494/64 Scope:Link]
+[if: UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1]
+[if: RX packets:40239674 errors:0 dropped:0 overruns:0 frame:40239674]
+[if: TX packets:23740276 errors:0 dropped:0 overruns:0 carrier:0]
+[if: collisions:0 txqueuelen:1000]
+[if: RX bytes:11388338333 (10.6 GiB)  TX bytes:4016325391 (3.7 GiB)]
+[if: ]
+[net: lo        65536 0  276053366      0      0 0      276053366      0      0      0 LRU]
+[if: lo        Link encap:Local Loopback]
+[if: inet addr:127.0.0.1  Mask:255.0.0.0]
+[if: inet6 addr: ::1/128 Scope:Host]
+[if: UP LOOPBACK RUNNING  MTU:65536  Metric:1]
+[if: RX packets:276053366 errors:0 dropped:0 overruns:0 frame:0]
+[if: TX packets:276053366 errors:0 dropped:0 overruns:0 carrier:0]
+[if: collisions:0 txqueuelen:1]
+[if: RX bytes:1256287778014 (1.1 TiB)  TX bytes:1256287778014 (1.1 TiB)]
+[if: ]
+[net: lxcbr0     1500 0         0      0      0 0             0      0      0      0 BMU]
+[if: lxcbr0    Link encap:Ethernet  HWaddr 00:16:3e:00:00:00]
+[if: inet addr:10.0.3.1  Bcast:0.0.0.0  Mask:255.255.255.0]
+[if: UP BROADCAST MULTICAST  MTU:1500  Metric:1]
+[if: RX packets:0 errors:0 dropped:0 overruns:0 frame:0]
+[if: TX packets:0 errors:0 dropped:0 overruns:0 carrier:0]
+[if: collisions:0 txqueuelen:1000]
+[if: RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)]
+[if: ]
+[mount: 10.123.116.21:/export/labsrv6/lab/ARM/axx-w024-a53 on / type nfs (rw,relatime,vers=2,rsize=4096,wsize=4096,namlen=255,hard,nolock,proto=udp,timeo=11,retrans=3,sec=sys,mountaddr=10.123.116.21,mountvers=1,mountproto=udp,local_lock=all,addr=10.123.116.21)]
+[mount: devtmpfs on /dev type devtmpfs (rw,relatime,size=1014920k,nr_inodes=253730,mode=755)]
+[mount: sysfs on /sys type sysfs (rw,nosuid,nodev,noexec,relatime)]
+[mount: proc on /proc type proc (rw,relatime)]
+[mount: tmpfs on /dev/shm type tmpfs (rw,nosuid,nodev)]
+[mount: devpts on /dev/pts type devpts (rw,relatime,gid=5,mode=620,ptmxmode=000)]
+[mount: tmpfs on /run type tmpfs (rw,nosuid,nodev,mode=755)]
+[mount: tmpfs on /sys/fs/cgroup type tmpfs (ro,nosuid,nodev,noexec,mode=755)]
+[mount: cgroup on /sys/fs/cgroup/systemd type cgroup (rw,nosuid,nodev,noexec,relatime,xattr,release_agent=/lib/systemd/systemd-cgroups-agent,name=systemd)]
+[mount: cgroup on /sys/fs/cgroup/hugetlb type cgroup (rw,nosuid,nodev,noexec,relatime,hugetlb)]
+[mount: cgroup on /sys/fs/cgroup/cpu,cpuacct type cgroup (rw,nosuid,nodev,noexec,relatime,cpu,cpuacct)]
+[mount: cgroup on /sys/fs/cgroup/devices type cgroup (rw,nosuid,nodev,noexec,relatime,devices)]
+[mount: cgroup on /sys/fs/cgroup/cpuset type cgroup (rw,nosuid,nodev,noexec,relatime,cpuset)]
+[mount: cgroup on /sys/fs/cgroup/memory type cgroup (rw,nosuid,nodev,noexec,relatime,memory)]
+[mount: hugetlbfs on /dev/hugepages type hugetlbfs (rw,relatime)]
+[mount: debugfs on /sys/kernel/debug type debugfs (rw,relatime)]
+[mount: tmpfs on /tmp type tmpfs (rw)]
+[mount: mqueue on /dev/mqueue type mqueue (rw,relatime)]
+[mount: nfsd on /proc/fs/nfsd type nfsd (rw,relatime)]
+[mount: configfs on /sys/kernel/config type configfs (rw,relatime)]
+[mount: fusectl on /sys/fs/fuse/connections type fusectl (rw,relatime)]
+[mount: tmpfs on /var/volatile type tmpfs (rw,relatime)]
+[mount: shm on /dev/shm type tmpfs (rw,nosuid,nodev,relatime)]
+[mount: aus-labsrv2:/export/labsrv6/lab/ARM/local-arm64-morty on /usr/local type nfs (rw,relatime,vers=3,rsize=1048576,wsize=1048576,namlen=255,hard,proto=tcp,timeo=600,retrans=2,sec=sys,mountaddr=10.123.116.21,mountvers=3,mountport=44321,mountproto=udp,local_lock=none,addr=10.123.116.21)]
+[mount: auto.output on /output type autofs (rw,relatime,fd=7,pgrp=3355,timeout=500,minproto=5,maxproto=5,indirect,pipe_ino=13393)]
+[mount: auto.utils.linux on /utils type autofs (rw,relatime,fd=13,pgrp=3355,timeout=600,minproto=5,maxproto=5,indirect,pipe_ino=13406)]
+[mount: auto.dev on /workspace/dev type autofs (rw,relatime,fd=19,pgrp=3355,timeout=600,minproto=5,maxproto=5,indirect,pipe_ino=19497)]
+[mount: auto.tp on /workspace/tp type autofs (rw,relatime,fd=25,pgrp=3355,timeout=600,minproto=5,maxproto=5,indirect,pipe_ino=13415)]
+[mount: auto.sw on /workspace/sw type autofs (rw,relatime,fd=31,pgrp=3355,timeout=600,minproto=5,maxproto=5,indirect,pipe_ino=13424)]
+[mount: auto.se on /workspace/se type autofs (rw,relatime,fd=37,pgrp=3355,timeout=600,minproto=5,maxproto=5,indirect,pipe_ino=19515)]
+[mount: auto.hw on /workspace/hw type autofs (rw,relatime,fd=43,pgrp=3355,timeout=600,minproto=5,maxproto=5,indirect,pipe_ino=19558)]
+[mount: auto.tools on /tools type autofs (rw,relatime,fd=49,pgrp=3355,timeout=600,minproto=5,maxproto=5,indirect,pipe_ino=19650)]
+[mount: auto.home on /home type autofs (rw,relatime,fd=55,pgrp=3355,timeout=600,minproto=5,maxproto=5,indirect,pipe_ino=21545)]
+[mount: auto.v on /v type autofs (rw,relatime,fd=61,pgrp=3355,timeout=600,minproto=5,maxproto=5,indirect,pipe_ino=21550)]
+[mount: auto.lsiadm on /lsi/adm type autofs (rw,relatime,fd=67,pgrp=3355,timeout=600,minproto=5,maxproto=5,indirect,pipe_ino=13672)]
+[mount: auto.lsisoft on /lsi/soft type autofs (rw,relatime,fd=73,pgrp=3355,timeout=600,minproto=5,maxproto=5,indirect,pipe_ino=13682)]
+[mount: tmpfs on /run/user/0 type tmpfs (rw,nosuid,nodev,relatime,size=204700k,mode=700)]
+[mount: ancfs04n01a-03:/sw013/ws_sw_atm-abis/mbykowsx on /workspace/sw/mbykowsx type nfs (rw,nosuid,relatime,vers=3,rsize=32768,wsize=32768,namlen=255,hard,proto=tcp,timeo=600,retrans=9,sec=sys,mountaddr=10.123.116.83,mountvers=3,mountport=635,mountproto=tcp,local_lock=none,addr=10.123.116.83)]
+
+"libc bcopy unaligned
+0.000512 209651.24
+0.001024 219533.95
+0.002048 236163.02
+0.004096 245444.74
+0.008192 250332.64
+0.016384 251956.66
+0.032768 154272.29
+0.065536 95533.38
+0.131072 75336.78
+0.262144 30806.90
+0.524288 8273.23
+1.05 5638.18
+2.10 5240.33
+4.19 5254.95
+8.39 5258.29
+
+"libc bcopy aligned
+0.000512 209652.30
+0.001024 219544.64
+0.002048 236165.58
+0.004096 245441.50
+0.008192 250315.91
+0.016384 251847.77
+0.032768 157029.59
+0.065536 94948.63
+0.131072 74801.25
+0.262144 30204.75
+0.524288 8138.12
+1.05 5555.05
+2.10 5182.93
+4.19 5182.71
+8.39 5173.92
+
+Memory bzero bandwidth
+0.000512 94739.75
+0.001024 186603.98
+0.002048 92197.75
+0.004096 191086.53
+0.008192 51378.27
+0.016384 60501.95
+0.032768 54321.98
+0.065536 47122.60
+0.131072 42359.10
+0.262144 35449.95
+0.524288 32038.20
+1.05 27262.44
+2.10 19687.63
+4.19 17871.23
+8.39 17735.50
+16.78 17725.42
+
+"unrolled bcopy unaligned
+0.000512 219004.63
+0.001024 221878.28
+0.002048 223015.52
+0.004096 223702.64
+0.008192 216970.94
+0.016384 206754.55
+0.032768 142542.22
+0.065536 87724.15
+0.131072 73547.90
+0.262144 37401.40
+0.524288 9135.72
+1.05 6560.12
+2.10 6068.29
+4.19 6051.12
+8.39 6052.72
+
+"unrolled partial bcopy unaligned
+0.000512 327063.74
+0.001024 350420.50
+0.002048 363385.79
+0.004096 370020.72
+0.008192 369928.96
+0.016384 199063.83
+0.032768 73535.35
+0.065536 61377.18
+0.131072 54850.44
+0.262144 10556.40
+0.524288 6556.23
+1.05 4408.47
+2.10 4091.11
+4.19 4047.78
+8.39 4094.99
+
+Memory read bandwidth
+0.000512 148660.63
+0.001024 150482.52
+0.002048 151413.76
+0.004096 151875.64
+0.008192 151421.98
+0.016384 151872.57
+0.032768 131044.47
+0.065536 103328.87
+0.131072 94344.79
+0.262144 86121.83
+0.524288 22156.29
+1.05 13405.67
+2.10 9219.65
+4.19 8735.58
+8.39 8731.06
+16.78 8726.99
+
+Memory partial read bandwidth
+0.000512 628182.23

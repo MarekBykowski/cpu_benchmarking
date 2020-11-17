@@ -1,0 +1,53 @@
+README for lmbench 2alpha8 net release.
+
+To build the benchmark, you should be able to say:
+
+	make
+
+This flavor of lmbench is sloppy. It doesn't take advantage of the result presenting
+so instead of automating test preparation and running tests prepared it runs individual tests 
+manually, resulting in having to copying the results to excel to plot the results. 
+
+Not to mention some of the tests in ./test directory are invalid and if run all together
+the later overrides the results of the former one. So it was author's best guess to identify
+the scripts to run to compile the numbers similarily they were compiled on A0.
+
+After make go the target, cd to ./test directory and run run.sh:
+
+	cd ./test
+	./run.sh
+
+It will produce the results for bw_mem and lat_mem_rd tests. Then format the results for bw_mem:
+
+	./results_format_bw_mem.sh 
+
+It will write them the cvs file. Import it then to excel. Unfortunately one cannot format the
+results for lat_mem_rd and therefore has to go and manually copy the results to excel cells... uff...
+
+The results can be found in ./results/LMBench_AXM6732_v1.1.xlsx
+
+
+Environment the tests were run:
+Linaro toolchain: /tools/AGRreleases/yocto/morty/2018_01_26/axxia-arm64-x9/tools/sysroots/x86_64-axxiasdk-linux/usr/bin/aarch64-axxia-linux
+GCC: aarch64-axxia-linux-gcc (GCC) 6.2.0 
+
+Kernel: 
+- repo: github.com/axxia/axxia_yocto_linux_4.9_private.git
+- branch: /standard/preempt-rt/axxia-dev/base
+- commit on the branch: af728f655c3bbd08ccd97f67a2137e7838a1f8d9 (latest then)
+Kernel config: arch/arm64/configs/axxia_xlf_rt_defconfig
+
+Uboot: 
+- repo: github.com/axxia/axxia_u-boot_private.git
+- branch: mareks_branch (branching off axxia-dev)
+- commit on the branch: 1e999ea8e770b05cd767d12f0554d2a26b17ca63
+
+ATF:
+- repo: github.com/axxia/axxia_atf_private.git
+- branch: mareks_branch
+- commit on the branch: 886e615a4ea8e01f745d73877fc1d9e63a460c40
+
+This Uboot in conjunction with ATF disable L1 D Prefetch. 
+
+
+

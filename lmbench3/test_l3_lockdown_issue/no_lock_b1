@@ -1,0 +1,979 @@
+_______              _____            _____________________
+___    |___  _____  ____(_)_____ _    __  ___/__  __ \__  /
+__  /| |_  |/_/_  |/_/_  /_  __ `/    _____ \__  /_/ /_  /
+_  ___ |_>  < __>  < _  / / /_/ /     ____/ /_  ____/_  /___
+/_/  |_/_/|_| /_/|_| /_/  \__,_/      /____/ /_/     /_____/
+
+Axxia Version: UNKNOWN
+Axxia ATF Version: UNKNOWN
+XLF CHIP VERSION: (0x18) A0
+Parameter table has wrong magic number!
+Parameters: Watchdog 0 A/B Valid 1/0 A/B Sequence 0/0 => A
+Parameter Table Version: 9
+mb: non-secure access to Shelley? yes
+mb: write 0x89900000 @ 0x4000200048
+mb: read back 0x89900000 @ 0x4000200048
+mb: write 0x0 @ 0x400020004c
+mb: read back 0x0 @ 0x400020004c
+mb: write 0x89900000 @ 0x4000210048
+mb: read back 0x89900000 @ 0x4000210048
+mb: write 0x0 @ 0x400021004c
+mb: read back 0x0 @ 0x400021004c
+mb: write 0x89900000 @ 0x4000220048
+mb: read back 0x89900000 @ 0x4000220048
+mb: write 0x0 @ 0x400022004c
+mb: read back 0x0 @ 0x400022004c
+mb: write 0x89900000 @ 0x4000230048
+mb: read back 0x89900000 @ 0x4000230048
+mb: write 0x0 @ 0x400023004c
+mb: read back 0x0 @ 0x400023004c
+mb: write 0x89900000 @ 0x4000240048
+mb: read back 0x89900000 @ 0x4000240048
+mb: write 0x0 @ 0x400024004c
+mb: read back 0x0 @ 0x400024004c
+mb: write 0x89900000 @ 0x4000250048
+mb: read back 0x89900000 @ 0x4000250048
+mb: write 0x0 @ 0x400025004c
+mb: read back 0x0 @ 0x400025004c
+mb: write 0x89900000 @ 0x4000260048
+mb: read back 0x89900000 @ 0x4000260048
+mb: write 0x0 @ 0x400026004c
+mb: read back 0x0 @ 0x400026004c
+mb: write 0x89900000 @ 0x4000270048
+mb: read back 0x89900000 @ 0x4000270048
+mb: write 0x0 @ 0x400027004c
+mb: read back 0x0 @ 0x400027004c
+mb: write 0x89b00000 @ 0x4000200050
+mb: read back 0x89b00000 @ 0x4000200050
+mb: write 0x0 @ 0x4000200054
+mb: read back 0x0 @ 0x4000200054
+mb: write 0x89b00000 @ 0x4000210050
+mb: read back 0x89b00000 @ 0x4000210050
+mb: write 0x0 @ 0x4000210054
+mb: read back 0x0 @ 0x4000210054
+mb: write 0x89b00000 @ 0x4000220050
+mb: read back 0x89b00000 @ 0x4000220050
+mb: write 0x0 @ 0x4000220054
+mb: read back 0x0 @ 0x4000220054
+mb: write 0x89b00000 @ 0x4000230050
+mb: read back 0x89b00000 @ 0x4000230050
+mb: write 0x0 @ 0x4000230054
+mb: read back 0x0 @ 0x4000230054
+mb: write 0x89b00000 @ 0x4000240050
+mb: read back 0x89b00000 @ 0x4000240050
+mb: write 0x0 @ 0x4000240054
+mb: read back 0x0 @ 0x4000240054
+mb: write 0x89b00000 @ 0x4000250050
+mb: read back 0x89b00000 @ 0x4000250050
+mb: write 0x0 @ 0x4000250054
+mb: read back 0x0 @ 0x4000250054
+mb: write 0x89b00000 @ 0x4000260050
+mb: read back 0x89b00000 @ 0x4000260050
+mb: write 0x0 @ 0x4000260054
+mb: read back 0x0 @ 0x4000260054
+mb: write 0x89b00000 @ 0x4000270050
+mb: read back 0x89b00000 @ 0x4000270050
+mb: write 0x0 @ 0x4000270054
+mb: read back 0x0 @ 0x4000270054
+mb: write 0x89d00000 @ 0x4000200058
+mb: read back 0x89d00000 @ 0x4000200058
+mb: write 0x0 @ 0x400020005c
+mb: read back 0x0 @ 0x400020005c
+mb: write 0x89d00000 @ 0x4000210058
+mb: read back 0x89d00000 @ 0x4000210058
+mb: write 0x0 @ 0x400021005c
+mb: read back 0x0 @ 0x400021005c
+mb: write 0x89d00000 @ 0x4000220058
+mb: read back 0x89d00000 @ 0x4000220058
+mb: write 0x0 @ 0x400022005c
+mb: read back 0x0 @ 0x400022005c
+mb: write 0x89d00000 @ 0x4000230058
+mb: read back 0x89d00000 @ 0x4000230058
+mb: write 0x0 @ 0x400023005c
+mb: read back 0x0 @ 0x400023005c
+mb: write 0x89d00000 @ 0x4000240058
+mb: read back 0x89d00000 @ 0x4000240058
+mb: write 0x0 @ 0x400024005c
+mb: read back 0x0 @ 0x400024005c
+mb: write 0x89d00000 @ 0x4000250058
+mb: read back 0x89d00000 @ 0x4000250058
+mb: write 0x0 @ 0x400025005c
+mb: read back 0x0 @ 0x400025005c
+mb: write 0x89d00000 @ 0x4000260058
+mb: read back 0x89d00000 @ 0x4000260058
+mb: write 0x0 @ 0x400026005c
+mb: read back 0x0 @ 0x400026005c
+mb: write 0x89d00000 @ 0x4000270058
+mb: read back 0x89d00000 @ 0x4000270058
+mb: write 0x0 @ 0x400027005c
+mb: read back 0x0 @ 0x400027005c
+mb: write 0x89f00000 @ 0x4000200060
+mb: read back 0x89f00000 @ 0x4000200060
+mb: write 0x0 @ 0x4000200064
+mb: read back 0x0 @ 0x4000200064
+mb: write 0x89f00000 @ 0x4000210060
+mb: read back 0x89f00000 @ 0x4000210060
+mb: write 0x0 @ 0x4000210064
+mb: read back 0x0 @ 0x4000210064
+mb: write 0x89f00000 @ 0x4000220060
+mb: read back 0x89f00000 @ 0x4000220060
+mb: write 0x0 @ 0x4000220064
+mb: read back 0x0 @ 0x4000220064
+mb: write 0x89f00000 @ 0x4000230060
+mb: read back 0x89f00000 @ 0x4000230060
+mb: write 0x0 @ 0x4000230064
+mb: read back 0x0 @ 0x4000230064
+mb: write 0x89f00000 @ 0x4000240060
+mb: read back 0x89f00000 @ 0x4000240060
+mb: write 0x0 @ 0x4000240064
+mb: read back 0x0 @ 0x4000240064
+mb: write 0x89f00000 @ 0x4000250060
+mb: read back 0x89f00000 @ 0x4000250060
+mb: write 0x0 @ 0x4000250064
+mb: read back 0x0 @ 0x4000250064
+mb: write 0x89f00000 @ 0x4000260060
+mb: read back 0x89f00000 @ 0x4000260060
+mb: write 0x0 @ 0x4000260064
+mb: read back 0x0 @ 0x4000260064
+mb: write 0x89f00000 @ 0x4000270060
+mb: read back 0x89f00000 @ 0x4000270060
+mb: write 0x0 @ 0x4000270064
+mb: read back 0x0 @ 0x4000270064
+mb: LockedWays 2 @ 0x4000200040
+mb: read back LockedWays 0x2
+mb: LockedWays 2 @ 0x4000210040
+mb: read back LockedWays 0x2
+mb: LockedWays 2 @ 0x4000220040
+mb: read back LockedWays 0x2
+mb: LockedWays 2 @ 0x4000230040
+mb: read back LockedWays 0x2
+mb: LockedWays 2 @ 0x4000240040
+mb: read back LockedWays 0x2
+mb: LockedWays 2 @ 0x4000250040
+mb: read back LockedWays 0x2
+mb: LockedWays 2 @ 0x4000260040
+mb: read back LockedWays 0x2
+mb: LockedWays 2 @ 0x4000270040
+mb: read back LockedWays 0x2
+L3 Cache Line Locking -- Total Size is 2 MB
+        Base 0 : 0x89900000 (invalid)
+        Base 1 : 0x89b00000 (invalid)
+        Base 2 : 0x89d00000 (invalid)
+        Base 3 : 0x89f00000 (invalid)
+System Initialized
+
+INFO:    Options: 6700, emulation, none, 2 MHz, 9600
+INFO:    Options: cache protection enabled
+NOTICE:  BL31: v1.2(debug):c051fd455d
+NOTICE:  BL31: Built : 22:11:48, Jun 13 2018
+INFO:    Force timer 7 int to Secure
+INFO:    Enable timer 7 int in GICD
+INFO:    BL31: Initializing runtime services
+INFO:    plat_setup_psci_ops called
+INFO:    BL31: Preparing for EL3 exit to normal world
+INFO:    Entry point address = 0x0
+INFO:    SPSR = 0x9
+INFO:    Adding cluster 0 to the coherency domain.
+INFO:    Setting the DSP State from 0x0 to 0x0
+ _______              _____            _____  __     ________            _____
+ ___    |___  _____  ____(_)_____ _    __  / / /     ___  __ )_____________  /_
+ __  /| |_  |/_/_  |/_/_  /_  __ `/    _  / / /________  __  |  __ \  __ \  __/
+ _  ___ |_>  < __>  < _  / / /_/ /     / /_/ /_/_____/  /_/ // /_/ / /_/ / /_
+ /_/  |_/_/|_| /_/|_| /_/  \__,_/      \____/        /_____/ \____/\____/\__/
+
+Axxia Version: UNKNOWN
+EL2
+
+U-Boot 2015.10-00005-g0abaf61c04-dirty (Jun 13 2018 - 17:11:54 -0500)
+
+DRAM:  1 GiB
+Sysmem Size: 4096 MB
+Relocation Address: 0x3ff79000
+SF: Detected S25FL032A with page size 256 Bytes, erase size 64 KiB, total 4 MiB
+In:    serial
+Out:   serial
+Err:   serial
+Net:   NEMAC
+Hit any key to stop autoboot:  0
+NEMAC Waiting for PHY auto negotiation to complete.. done
+NEMAC: 100Mbps, full duplex
+BOOTP broadcast 1
+*** Unhandled DHCP Option in OFFER/ACK: 40
+*** Unhandled DHCP Option in OFFER/ACK: 119
+*** Unhandled DHCP Option in OFFER/ACK: 41
+*** Unhandled DHCP Option in OFFER/ACK: 40
+*** Unhandled DHCP Option in OFFER/ACK: 119
+*** Unhandled DHCP Option in OFFER/ACK: 41
+DHCP client bound to address 10.123.78.234 (359 ms)
+Using NEMAC device
+TFTP from server 10.123.116.21; our IP address is 10.123.78.234; sending through gateway 10.123.72.1
+Filename 'kernel-frio-037-a15'.
+Load address: 0x4000000
+Loading: #################################################################
+         #################################################################
+         #################################################################
+         #################################################################
+         #################################################################
+         ##############
+         410.2 KiB/s
+done
+Bytes transferred = 4965272 (4bc398 hex)
+## Loading kernel from FIT Image at 04000000 ...
+   Using 'conf' configuration
+   Trying 'kernel' kernel subimage
+     Description:  Linux Kernel
+     Type:         Kernel Image
+     Compression:  gzip compressed
+     Data Start:   0x040000d0
+     Data Size:    4949148 Bytes = 4.7 MiB
+     Architecture: AArch64
+     OS:           Linux
+     Load Address: 0x00080000
+     Entry Point:  0x00080000
+     Hash algo:    crc32
+     Hash value:   44841943
+     Hash algo:    sha1
+     Hash value:   20645bd070d5e5b998a5e02a8c0bb3776fb54a88
+   Verifying Hash Integrity ... crc32+ sha1+ OK
+## Loading fdt from FIT Image at 04000000 ...
+   Using 'conf' configuration
+   Trying 'fdt' fdt subimage
+     Description:  Flattened Device Tree blob
+     Type:         Flat Device Tree
+     Compression:  uncompressed
+     Data Start:   0x044b8694
+     Data Size:    14799 Bytes = 14.5 KiB
+     Architecture: AArch64
+     Hash algo:    crc32
+     Hash value:   b702b82c
+     Hash algo:    sha1
+     Hash value:   1ff9047f2aada5f22caf446a4f3e05df3102b6e1
+   Verifying Hash Integrity ... crc32+ sha1+ OK
+   Booting using the fdt blob at 0x44b8694
+   Uncompressing Kernel Image ... OK
+   Loading Device Tree to 000000001fff9000, end 000000001ffff9ce ... OK
+Peripheral frequency: 2000000
+
+Starting kernel ...
+
+INFO:    Adding cluster 2 to the coherency domain.
+INFO:    Adding cluster 4 to the coherency domain.
+Booting Linux on physical CPU 0x0
+Initializing cgroup subsys cpuset
+Initializing cgroup subsys cpu
+Initializing cgroup subsys cpuacct
+Linux version 4.1.49-rt23-axxia_rt_1.71 (jjacques@txasoft16) (gcc version 5.2.0 (GCC) ) #1 SMP PREEMPT RT Tue Feb 27 09:06:22 CST 2018
+CPU: AArch64 Processor [410fd034] revision 4
+Detected VIPT I-cache on CPU0
+alternatives: enabling workaround for ARM erratum 845719
+Memory limited to 1024MB
+efi: Getting EFI parameters from FDT:
+efi: UEFI not found.
+cma: Reserved 16 MiB at 0x000000003f000000
+psci: probing for conduit method from DT.
+psci: PSCIv1.0 detected in firmware.
+psci: Using standard PSCI v0.2 function IDs
+PERCPU: Embedded 18 pages/cpu @ffffffc03eeff000 s35200 r8192 d30336 u73728
+Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 258048
+Kernel command line: root=/dev/nfs rw mem=1024M console=ttyAMA0 ip=dhcp
+log_buf_len individual max cpu contribution: 4096 bytes
+log_buf_len total cpu_extra contributions: 45056 bytes
+log_buf_len min size: 16384 bytes
+log_buf_len: 65536 bytes
+early log buf free: 14608(89%)
+PID hash table entries: 4096 (order: 3, 32768 bytes)
+Dentry cache hash table entries: 131072 (order: 9, 2097152 bytes)
+Inode-cache hash table entries: 65536 (order: 7, 524288 bytes)
+software IO TLB [mem 0x39a00000-0x3da00000] (64MB) mapped at [ffffffc039a00000-ffffffc03d9fffff]
+Memory: 934516K/1048576K available (7190K kernel code, 769K rwdata, 2616K rodata, 612K init, 404K bss, 97676K reserved, 16384K cma-reserved)
+Virtual kernel memory layout:
+    vmalloc : 0xffffff8000000000 - 0xffffffbdbfff0000   (   246 GB)
+    vmemmap : 0xffffffbdc0000000 - 0xffffffbfc0000000   (     8 GB maximum)
+              0xffffffbdc0000000 - 0xffffffbdc1000000   (    16 MB actual)
+    fixed   : 0xffffffbffabfd000 - 0xffffffbffac00000   (    12 KB)
+    PCI I/O : 0xffffffbffae00000 - 0xffffffbffbe00000   (    16 MB)
+    modules : 0xffffffbffc000000 - 0xffffffc000000000   (    64 MB)
+    memory  : 0xffffffc000000000 - 0xffffffc040000000   (  1024 MB)
+      .init : 0xffffffc000a16000 - 0xffffffc000aaf000   (   612 KB)
+      .text : 0xffffffc000080000 - 0xffffffc000a158f4   (  9815 KB)
+      .data : 0xffffffc000ab3000 - 0xffffffc000b73400   (   769 KB)
+SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=12, Nodes=1
+Preemptible hierarchical RCU implementation.
+        Additional per-CPU info printed with stalls.
+        RCU restricting CPUs from NR_CPUS=64 to nr_cpu_ids=12.
+        RCU kthread priority: 1.
+RCU: Adjusting geometry for rcu_fanout_leaf=16, nr_cpu_ids=12
+NR_IRQS:64 nr_irqs:64 0
+CPU0: found redistributor 0 region 0:0x0000008010400000
+Architected cp15 timer(s) running at 5.00MHz (phys).
+clocksource arch_sys_counter: mask: 0xffffffffffffff max_cycles: 0x127350b88, max_idle_ns: 440795202120 ns
+sched_clock: 56 bits at 5MHz, resolution 200ns, wraps every 4398046511100ns
+Console: colour dummy device 80x25
+Calibrating delay loop (skipped), value calculated using timer frequency.. 10.00 BogoMIPS (lpj=50000)
+pid_max: default: 32768 minimum: 301
+Security Framework initialized
+Mount-cache hash table entries: 2048 (order: 2, 16384 bytes)
+Mountpoint-cache hash table entries: 2048 (order: 2, 16384 bytes)
+Initializing cgroup subsys blkio
+Initializing cgroup subsys memory
+Initializing cgroup subsys devices
+Initializing cgroup subsys freezer
+Initializing cgroup subsys hugetlb
+ftrace: allocating 25386 entries in 100 pages
+hw perfevents: enabled with arm/armv8-pmuv3 PMU driver, 7 counters available
+EFI services will not be available.
+CPU1: Booted secondary processor
+Detected VIPT I-cache on CPU1
+CPU1: found redistributor 1 region 0:0x0000008010420000
+CPU2: Booted secondary processor
+Detected VIPT I-cache on CPU2
+CPU2: found redistributor 2 region 0:0x0000008010440000
+CPU3: Booted secondary processor
+Detected VIPT I-cache on CPU3
+CPU3: found redistributor 3 region 0:0x0000008010460000
+CPU4: Booted secondary processor
+Detected VIPT I-cache on CPU4
+CPU4: found redistributor 200 region 0:0x0000008010500000
+CPU5: Booted secondary processor
+Detected VIPT I-cache on CPU5
+CPU5: found redistributor 201 region 0:0x0000008010520000
+CPU6: Booted secondary processor
+Detected VIPT I-cache on CPU6
+CPU6: found redistributor 202 region 0:0x0000008010540000
+CPU7: Booted secondary processor
+Detected VIPT I-cache on CPU7
+CPU7: found redistributor 203 region 0:0x0000008010560000
+CPU8: Booted secondary processor
+Detected VIPT I-cache on CPU8
+CPU8: found redistributor 400 region 0:0x0000008010600000
+CPU9: Booted secondary processor
+Detected VIPT I-cache on CPU9
+CPU9: found redistributor 401 region 0:0x0000008010620000
+CPU10: Booted secondary processor
+Detected VIPT I-cache on CPU10
+CPU10: found redistributor 402 region 0:0x0000008010640000
+CPU11: Booted secondary processor
+Detected VIPT I-cache on CPU11
+CPU11: found redistributor 403 region 0:0x0000008010660000
+Brought up 12 CPUs
+SMP: Total of 12 processors activated.
+CPU: All CPU(s) started at EL2
+alternatives: patching kernel code
+devtmpfs: initialized
+DMI not present or invalid.
+clocksource jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 19112604462750000 ns
+futex hash table entries: 4096 (order: 7, 524288 bytes)
+NET: Registered protocol family 16
+cpuidle: using governor ladder
+cpuidle: using governor menu
+vdso: 2 pages (1 code @ ffffffc000ab9000, 1 data @ ffffffc000ab8000)
+hw-breakpoint: found 6 breakpoint and 4 watchpoint registers.
+DMA: preallocated 256 KiB pool for atomic allocations
+Serial: AMBA PL011 UART driver
+ncr: available
+No Parameters Available for PEI Setup!
+8080000000.uart: ttyAMA0 at MMIO 0x8080000000 (irq = 13, base_baud = 0) is a PL011 rev2
+console [ttyAMA0] enabled
+ACPI: Interpreter disabled.
+vgaarb: loaded
+SCSI subsystem initialized
+ssp-pl022 8080100000.ssp: ARM PL022 driver, device ID: 0x000b6022
+pl022: mapped registers from 0x8080100000 to ffffff8000054000
+ssp-pl022 8080100000.ssp: Max speed that can be programmed is 1000000 Hz, you requested 25000000
+usbcore: registered new interface driver usbfs
+usbcore: registered new interface driver hub
+usbcore: registered new device driver usb
+EDAC MC: Ver: 3.0.0
+Switched to clocksource arch_sys_counter
+pnp: PnP ACPI: disabled
+NET: Registered protocol family 2
+TCP established hash table entries: 8192 (order: 4, 65536 bytes)
+TCP bind hash table entries: 8192 (order: 6, 458752 bytes)
+TCP: Hash tables configured (established 8192 bind 8192)
+UDP hash table entries: 512 (order: 4, 65536 bytes)
+UDP-Lite hash table entries: 512 (order: 4, 65536 bytes)
+NET: Registered protocol family 1
+RPC: Registered named UNIX socket transport module.
+RPC: Registered udp transport module.
+RPC: Registered tcp transport module.
+RPC: Registered tcp NFSv4.1 backchannel transport module.
+kvm [1]: GICv3: no GICV resource entry
+kvm [1]: disabling GICv2 emulation
+kvm [1]: interrupt-controller@ffffffc0394dbc30 IRQ5
+kvm [1]: timer IRQ3
+kvm [1]: Hyp mode initialized successfully
+audit: initializing netlink subsys (disabled)
+audit: type=2000 audit(73.630:1): initialized
+HugeTLB registered 2 MB page size, pre-allocated 0 pages
+squashfs: version 4.0 (2009/01/31) Phillip Lougher
+Installing knfsd (copyright (C) 1996 okir@monad.swb.de).
+fuse init (API version 7.23)
+9p: Installing v9fs 9p2000 file system support
+NET: Registered protocol family 38
+io scheduler noop registered
+io scheduler cfq registered (default)
+Serial: 8250/16550 driver, 4 ports, IRQ sharing disabled
+Unable to detect cache hierarcy from DT for CPU 0
+brd: module loaded
+loop: module loaded
+Axxia DSP Control Initialized
+Axxia ACTLR_EL3 Control Initialized
+Axxia ACTLR_EL3 Control Initialized
+libphy: Axxia MDIO: probed
+m25p80 spi0.0: found s25sl032p, expected s25fl016k
+m25p80 spi0.0: s25sl032p (4096 Kbytes)
+8 ofpart partitions found on MTD device spi0.0
+Creating 8 MTD partitions on "spi0.0":
+0x000000000000-0x000000040000 : "spl-0"
+0x000000040000-0x000000080000 : "spl-1"
+0x000000080000-0x000000090000 : "parameters-0"
+0x000000090000-0x0000000a0000 : "parameters-1"
+0x0000000a0000-0x0000000b0000 : "env-0"
+0x0000000b0000-0x0000000c0000 : "env-1"
+0x000000100000-0x000000300000 : "u-boot-0"
+0x000000300000-0x000000500000 : "u-boot-1"
+mtd: partition "u-boot-1" extends beyond the end of device "spi0.0" -- size truncated to 0x100000
+libphy: Fixed MDIO Bus: probed
+tun: Universal TUN/TAP device driver, 1.6
+tun: (C) 1999-2004 Max Krasnyansky <maxk@qualcomm.com>
+axxia-nemac 8080240000.ethernet: NEMAC HW rev 3.4
+usbcore: registered new interface driver usb-storage
+mousedev: PS/2 mouse device common for all mice
+i2c /dev entries driver
+DDR Retention Reset Initialized
+sdhci: Secure Digital Host Controller Interface driver
+sdhci: Copyright(c) Pierre Ossman
+sdhci-pltfm: SDHCI platform and OF driver helper
+usbcore: registered new interface driver usbhid
+usbhid: USB HID core driver
+nf_conntrack version 0.5.0 (7428 buckets, 29712 max)
+ip_tables: (C) 2000-2006 Netfilter Core Team
+NET: Registered protocol family 10
+ip6_tables: (C) 2000-2006 Netfilter Core Team
+sit: IPv6 over IPv4 tunneling driver
+NET: Registered protocol family 17
+bridge: automatic filtering via arp/ip/ip6tables has been deprecated. Update your scripts to load br_netfilter if you need this.
+8021q: 802.1Q VLAN Support v1.8
+9pnet: Installing 9P2000 support
+registered taskstats version 1
+hctosys: unable to open rtc device (rtc0)
+IPv6: ADDRCONF(NETDEV_UP): eth0: link is not ready
+Sending DHCP requests .
+axxia-nemac 8080240000.ethernet eth0: Link is Up - 10Mbps/Full - flow control off
+IPv6: ADDRCONF(NETDEV_CHANGE): eth0: link becomes ready
+., OK
+IP-Config: Got DHCP answer from 10.123.72.2, my address is 10.123.78.234
+IP-Config: Complete:
+     device=eth0, hwaddr=00:02:2d:84:13:f0, ipaddr=10.123.78.234, mask=255.255.248.0, gw=10.123.72.1
+     host=frio-037-a15, domain=, nis-domain=agere
+     bootserver=10.123.116.21, rootserver=10.123.116.21, rootpath=/export/labsrv6/lab/ARM/frio-037-a15
+     nameserver0=10.248.2.1, nameserver1=10.2.71.13, nameserver2=10.19.1.12
+uart-pl011 8080000000.uart: no DMA platform data
+VFS: Mounted root (nfs filesystem) on device 0:16.
+devtmpfs: mounted
+Freeing unused kernel memory: 612K
+Freeing alternatives memory: 8K
+INIT: version 2.88 booting
+random: nonblocking pool is initialized
+Starting udev
+udevd[228]: starting version 182
+
+udevadm settle - timeout of 3 seconds reached, the event queue contains:
+  /sys/devices/platform/soc/soc:amba/8080100000.ssp/spi_master/spi0/spi0.0/mtd/mtd3ro (731)
+  /sys/devices/platform/soc/soc:amba/8080100000.ssp/spi_master/spi0/spi0.0/mtd/mtd4ro (733)
+  /sys/devices/platform/soc/soc:amba/8080100000.ssp/spi_master/spi0/spi0.0/mtd/mtd5ro (735)
+  /sys/devices/platform/soc/soc:amba/8080100000.ssp/spi_master/spi0/spi0.0/mtd/mtd6 (736)
+  /sys/devices/platform/soc/soc:amba/8080100000.ssp/spi_master/spi0/spi0.0/mtd/mtd6ro (737)
+  /sys/devices/platform/soc/soc:amba/8080100000.ssp/spi_master/spi0/spi0.0/mtd/mtd7 (738)
+  /sys/devices/platform/soc/soc:amba/8080100000.ssp/spi_master/spi0/spi0.0/mtd/mtd7ro (739)
+  /sys/devices/system/clockevents/clockevent8 (755)
+  /sys/devices/system/clockevents/clockevent9 (756)
+  /sys/devices/system/clocksource/clocksource0 (757)
+  /sys/devices/system/cpu/cpu0 (758)
+  /sys/devices/system/cpu/cpu1 (759)
+hwclock: can't open '/dev/misc/rtc': No such file or directory
+Mon Aug 24 20:22:17 UTC 2015
+hwclock: can't open '/dev/misc/rtc': No such file or directory
+INIT: Entering runlevel: 5
+Configuring network interfaces... ifup skipped for nfsroot interface eth0
+run-parts: /etc/network/if-pre-up.d/nfsroot exited with code 1
+
+
+
+
+
+
+
+
+
+Starting system message bus:
+
+
+
+dbus.
+Starting udev
+udevd[435]: starting version 182
+
+udevadm settle - timeout of 3 seconds reached, the event queue contains:
+  /sys/devices/platform/soc/soc:amba/8080100000.ssp/spi_master/spi0/spi0.0/mtd/mtd4ro (863)
+  /sys/devices/platform/soc/soc:amba/8080100000.ssp/spi_master/spi0/spi0.0/mtd/mtd5ro (865)
+  /sys/devices/platform/soc/soc:amba/8080100000.ssp/spi_master/spi0/spi0.0/mtd/mtd6ro (867)
+  /sys/devices/platform/soc/soc:amba/8080100000.ssp/spi_master/spi0/spi0.0/mtd/mtd7 (868)
+  /sys/devices/platform/soc/soc:amba/8080100000.ssp/spi_master/spi0/spi0.0/mtd/mtd7ro (869)
+  /sys/devices/system/cpu/cpu0 (888)
+  /sys/devices/system/cpu/cpu1 (889)
+  /sys/devices/system/cpu/cpu10 (890)
+  /sys/devices/system/cpu/cpu11 (891)
+  /sys/devices/system/cpu/cpu2 (892)
+  /sys/devices/system/cpu/cpu3 (893)
+  /sys/devices/system/cpu/cpu4 (894)
+Starting portmap daemon...
+Starting rpcbind daemon...
+
+
+
+
+done.
+Starting watchdog: [  OK  ]
+starting statd: done
+Starting atd: OK
+Starting domain name service: named.
+exportfs: can't open /etc/exports for reading
+starting 8 nfsd kernel threads: done
+starting mountd: done
+Starting system log daemon...0
+Starting kernel log daemon...0
+Starting internet superserver: xinetd.
+ * Starting Avahi mDNS/DNS-SD Daemon: avahi-daemon                       [ ok ]
+Starting ypbindStarting crond: OK
+Running local boot scripts (/etc/rc.local)Starting automount: Connection closed by foreign host.
+mbykowsx@txasoft15:/home/mbykowsx$
+mbykowsx@txasoft15:/home/mbykowsx$
+mbykowsx@txasoft15:/home/mbykowsx$
+mbykowsx@txasoft15:/home/mbykowsx$ telnet txats06 2009
+Trying 10.123.73.168...
+Connected to txats06.an.intel.com (10.123.73.168).
+Escape character is '^]'.
+
+Poky (Yocto Project Reference Distro) 1.8+snapshot-20150824 frio-037-a15 /dev/ttyAMA0
+
+frio-037-a15 login: root
+Password:
+root@frio-037-a15:~# cd /workspace/sw/mbykowsx/lionfish
+32/asic_v1.1/lmbench3rkspace/sw/mbykowsx/lionfish# cd perf/trunk/nuevo/cpu/axm67
+sic_v1.1/lmbench3# cd test_l3_lockdown_issue/fish/perf/trunk/nuevo/cpu/axm6732/as
+sic_v1.1/lmbench3/test_l3_lockdown_issue# ./run_bw_mem.sh   /nuevo/cpu/axm6732/as
+0.524288 6.95
+1.05 3.43
+2.10 2.27
+3.15 2.17
+4.19 1.85
+5.24 2.04
+6.29 1.93
+bw_mem[729]: unhandled level 2 translation fault (11) at 0x00000000, esr 0x92000006
+pgd = ffffffc038b09000
+[00000000] *pgd=0000000037ea9003, *pud=0000000037ea9003, *pmd=0000000000000000
+
+CPU: 4 PID: 729 Comm: bw_mem Not tainted 4.1.49-rt23-axxia_rt_1.71 #1
+Hardware name: Lionfish Emulation (DT)
+task: ffffffc0396a3300 ti: ffffffc03741c000 task.ti: ffffffc03741c000
+PC is at 0x7f7a2d7bfc
+LR is at 0x402aa8
+pc : [<0000007f7a2d7bfc>] lr : [<0000000000402aa8>] pstate: 40000000
+sp : 0000007fed86fa70
+x29: 0000007fed86fa70 x28: 000000000041a408
+x27: 0000007fed870df0 x26: 0000000000000001
+x25: 000000000041a000 x24: 00000000000f4240
+x23: 0000000000402058 x22: 0000007fed870fa0
+x21: 000000000041a530 x20: 0000000000000001
+x19: 000000000041a408 x18: 0000000000000000
+x17: 0000007f7a2d7bbc x16: 000000000041a330
+x15: 0000007f7a266c00 x14: 0000000000000000
+x13: 0000000000000000 x12: 0000000000000000
+x11: 0000000000000000 x10: 0000000000000000
+x9 : 0000000000000000 x8 : 0000000000000000
+x7 : 0000000000000000 x6 : 0000007fed86fa80
+x5 : 0000000000010000 x4 : 0000000000000000
+x3 : 0000000000402a88 x2 : 0000000000000000
+x1 : 0000000000402a78 x0 : 0000000000000000
+
+7.34 1.62
+8.39 1.88
+9.44 1.76
+10.49 1.62
+bw_mem[778]: unhandled level 2 translation fault (11) at 0x00000000, esr 0x92000006
+pgd = ffffffc038170000
+[00000000] *pgd=00000000376bf003, *pud=00000000376bf003, *pmd=0000000000000000
+
+CPU: 5 PID: 778 Comm: bw_mem Not tainted 4.1.49-rt23-axxia_rt_1.71 #1
+Hardware name: Lionfish Emulation (DT)
+task: ffffffc0389dd940 ti: ffffffc03741c000 task.ti: ffffffc03741c000
+PC is at 0x7f9f6a5bfc
+LR is at 0x402aa8
+pc : [<0000007f9f6a5bfc>] lr : [<0000000000402aa8>] pstate: 40000000
+sp : 0000007fec715230
+x29: 0000007fec715230 x28: 000000000041a408
+x27: 0000007fec7165b0 x26: 0000000000000001
+x25: 000000000041a000 x24: 00000000000f4240
+x23: 0000000000402058 x22: 0000007fec716760
+x21: 000000000041a530 x20: 0000000000000001
+x19: 000000000041a408 x18: 0000000000000000
+x17: 0000007f9f6a5bbc x16: 000000000041a330
+x15: 0000007f9f634c00 x14: 0000000000000000
+x13: 0000000000000000 x12: 0000000000000000
+x11: 0000000000000000 x10: 0000000000000000
+x9 : 0000000000000000 x8 : 0000000000000000
+x7 : 0000000000000000 x6 : 0000007fec715240
+x5 : 0000000000010000 x4 : 0000000000000000
+x3 : 0000000000402a88 x2 : 0000000000000000
+x1 : 0000000000402a78 x0 : 0000000000000000
+
+11.53 1.39
+bw_mem[798]: unhandled level 2 translation fault (11) at 0x00000000, esr 0x92000006
+pgd = ffffffc03770b000
+[00000000] *pgd=00000000376f0003, *pud=00000000376f0003, *pmd=0000000000000000
+
+CPU: 10 PID: 798 Comm: bw_mem Not tainted 4.1.49-rt23-axxia_rt_1.71 #1
+Hardware name: Lionfish Emulation (DT)
+task: ffffffc0375ab300 ti: ffffffc037724000 task.ti: ffffffc037724000
+PC is at 0x7fb3a0abfc
+LR is at 0x402aa8
+pc : [<0000007fb3a0abfc>] lr : [<0000000000402aa8>] pstate: 40000000
+sp : 0000007fe58bf6a0
+x29: 0000007fe58bf6a0 x28: 000000000041a408
+x27: 0000007fe58c0a20 x26: 0000000000000001
+x25: 000000000041a000 x24: 00000000000f4240
+x23: 0000000000402058 x22: 0000007fe58c0bd0
+x21: 000000000041a530 x20: 0000000000000001
+x19: 000000000041a408 x18: 0000000000000000
+x17: 0000007fb3a0abbc x16: 000000000041a330
+x15: 0000007fb3999c00 x14: 0000000000000000
+x13: 0000000000000000 x12: 0000000000000000
+x11: 0000000000000000 x10: 0000000000000000
+x9 : 0000000000000000 x8 : 0000000000000000
+x7 : 0000000000000000 x6 : 0000007fe58bf6b0
+x5 : 0000000000010000 x4 : 0000000000000000
+x3 : 0000000000402a88 x2 : 0000000000000000
+x1 : 0000000000402a78 x0 : 0000000000000000
+
+12.58 1.33
+bw_mem[813]: unhandled level 2 translation fault (11) at 0x00000000, esr 0x92000006
+pgd = ffffffc0376ae000
+[00000000] *pgd=0000000037695003, *pud=0000000037695003, *pmd=0000000000000000
+
+CPU: 10 PID: 813 Comm: bw_mem Not tainted 4.1.49-rt23-axxia_rt_1.71 #1
+Hardware name: Lionfish Emulation (DT)
+task: ffffffc037c11980 ti: ffffffc03741c000 task.ti: ffffffc03741c000
+PC is at 0x7fae7bcbfc
+LR is at 0x402aa8
+pc : [<0000007fae7bcbfc>] lr : [<0000000000402aa8>] pstate: 40000000
+sp : 0000007fca6c7f60
+x29: 0000007fca6c7f60 x28: 000000000041a408
+x27: 0000007fca6c92e0 x26: 0000000000000001
+x25: 000000000041a000 x24: 00000000000f4240
+x23: 0000000000402058 x22: 0000007fca6c9490
+x21: 000000000041a530 x20: 0000000000000001
+x19: 000000000041a408 x18: 0000000000000000
+x17: 0000007fae7bcbbc x16: 000000000041a330
+x15: 0000007fae74bc00 x14: 0000000000000000
+x13: 0000000000000000 x12: 0000000000000000
+x11: 0000000000000000 x10: 0000000000000000
+x9 : 0000000000000000 x8 : 0000000000000000
+x7 : 0000000000000000 x6 : 0000007fca6c7f70
+x5 : 0000000000010000 x4 : 0000000000000000
+x3 : 0000000000402a88 x2 : 0000000000000000
+x1 : 0000000000402a78 x0 : 0000000000000000
+
+13.63 1.28
+bw_mem[832]: unhandled level 2 translation fault (11) at 0x00000000, esr 0x92000006
+pgd = ffffffc037532000
+[00000000] *pgd=000000003770b003, *pud=000000003770b003, *pmd=0000000000000000
+
+CPU: 9 PID: 832 Comm: bw_mem Not tainted 4.1.49-rt23-axxia_rt_1.71 #1
+Hardware name: Lionfish Emulation (DT)
+task: ffffffc0375af2c0 ti: ffffffc0397a0000 task.ti: ffffffc0397a0000
+PC is at 0x7fa5306bfc
+LR is at 0x402aa8
+pc : [<0000007fa5306bfc>] lr : [<0000000000402aa8>] pstate: 40000000
+sp : 0000007fc67fc580
+x29: 0000007fc67fc580 x28: 000000000041a408
+x27: 0000007fc67fd900 x26: 0000000000000001
+x25: 000000000041a000 x24: 00000000000f4240
+x23: 0000000000402058 x22: 0000007fc67fdab0
+x21: 000000000041a530 x20: 0000000000000001
+x19: 000000000041a408 x18: 0000000000000000
+x17: 0000007fa5306bbc x16: 000000000041a330
+x15: 0000007fa5295c00 x14: 0000000000000000
+x13: 0000000000000000 x12: 0000000000000000
+x11: 0000000000000000 x10: 0000000000000000
+x9 : 0000000000000000 x8 : 0000000000000000
+x7 : 0000000000000000 x6 : 0000007fc67fc590
+x5 : 0000000000010000 x4 : 0000000000000000
+x3 : 0000000000402a88 x2 : 0000000000000000
+x1 : 0000000000402a78 x0 : 0000000000000000
+
+14.68 1.30
+bw_mem[854]: unhandled level 2 translation fault (11) at 0x00000000, esr 0x92000006
+pgd = ffffffc037f76000
+[00000000] *pgd=0000000037e63003, *pud=0000000037e63003, *pmd=0000000000000000
+
+CPU: 9 PID: 854 Comm: bw_mem Not tainted 4.1.49-rt23-axxia_rt_1.71 #1
+Hardware name: Lionfish Emulation (DT)
+task: ffffffc038138000 ti: ffffffc037724000 task.ti: ffffffc037724000
+PC is at 0x7fa10b7bfc
+LR is at 0x402aa8
+pc : [<0000007fa10b7bfc>] lr : [<0000000000402aa8>] pstate: 40000000
+sp : 0000007fca303100
+x29: 0000007fca303100 x28: 000000000041a408
+x27: 0000007fca304480 x26: 0000000000000001
+x25: 000000000041a000 x24: 00000000000f4240
+x23: 0000000000402058 x22: 0000007fca304630
+x21: 000000000041a530 x20: 0000000000000001
+x19: 000000000041a408 x18: 0000000000000000
+x17: 0000007fa10b7bbc x16: 000000000041a330
+x15: 0000007fa1046c00 x14: 0000000000000000
+x13: 0000000000000000 x12: 0000000000000000
+x11: 0000000000000000 x10: 0000000000000000
+x9 : 0000000000000000 x8 : 0000000000000000
+x7 : 0000000000000000 x6 : 0000007fca303110
+x5 : 0000000000010000 x4 : 0000000000000000
+x3 : 0000000000402a88 x2 : 0000000000000000
+x1 : 0000000000402a78 x0 : 0000000000000000
+
+15.73 1.16
+bw_mem[875]: unhandled level 2 translation fault (11) at 0x00000000, esr 0x92000006
+pgd = ffffffc037707000
+[00000000] *pgd=0000000037d25003, *pud=0000000037d25003, *pmd=0000000000000000
+
+CPU: 8 PID: 875 Comm: bw_mem Not tainted 4.1.49-rt23-axxia_rt_1.71 #1
+Hardware name: Lionfish Emulation (DT)
+task: ffffffc0389dd940 ti: ffffffc037724000 task.ti: ffffffc037724000
+PC is at 0x7fb11bdbfc
+LR is at 0x402aa8
+pc : [<0000007fb11bdbfc>] lr : [<0000000000402aa8>] pstate: 40000000
+sp : 0000007fc6817410
+x29: 0000007fc6817410 x28: 000000000041a408
+x27: 0000007fc6818790 x26: 0000000000000001
+x25: 000000000041a000 x24: 00000000000f4240
+x23: 0000000000402058 x22: 0000007fc6818940
+x21: 000000000041a530 x20: 0000000000000001
+x19: 000000000041a408 x18: 0000000000000000
+x17: 0000007fb11bdbbc x16: 000000000041a330
+x15: 0000007fb114cc00 x14: 0000000000000000
+x13: 0000000000000000 x12: 0000000000000000
+x11: 0000000000000000 x10: 0000000000000000
+x9 : 0000000000000000 x8 : 0000000000000000
+x7 : 0000000000000000 x6 : 0000007fc6817420
+x5 : 0000000000010000 x4 : 0000000000000000
+x3 : 0000000000402a88 x2 : 0000000000000000
+x1 : 0000000000402a78 x0 : 0000000000000000
+
+16.78 1.10
+sic_v1.1/lmbench3/test_l3_lockdown_issue# ./run_bw_mem.sh nk/nuevo/cpu/axm6732/as
+0.524288 6.07
+1.05 2.87
+2.10 1.84
+3.15 1.99
+4.19 1.86
+5.24 1.91
+6.29 1.53
+7.34 1.81
+8.39 1.80
+9.44 1.44
+bw_mem[3170]: unhandled level 2 translation fault (11) at 0x00000000, esr 0x92000006
+pgd = ffffffc037ddd000
+[00000000] *pgd=000000003826a003, *pud=000000003826a003, *pmd=0000000000000000
+
+CPU: 11 PID: 3170 Comm: bw_mem Not tainted 4.1.49-rt23-axxia_rt_1.71 #1
+Hardware name: Lionfish Emulation (DT)
+task: ffffffc038944c80 ti: ffffffc0397a0000 task.ti: ffffffc0397a0000
+PC is at 0x7f89c3ebfc
+LR is at 0x402aa8
+pc : [<0000007f89c3ebfc>] lr : [<0000000000402aa8>] pstate: 40000000
+sp : 0000007fe77bff10
+x29: 0000007fe77bff10 x28: 000000000041a408
+x27: 0000007fe77c1290 x26: 0000000000000001
+x25: 000000000041a000 x24: 00000000000f4240
+x23: 0000000000402058 x22: 0000007fe77c1440
+x21: 000000000041a530 x20: 0000000000000001
+x19: 000000000041a408 x18: 0000000000000000
+x17: 0000007f89c3ebbc x16: 000000000041a330
+x15: 0000007f89bcdc00 x14: 0000000000000000
+x13: 0000000000000000 x12: 0000000000000000
+x11: 0000000000000000 x10: 0000000000000000
+x9 : 0000000000000000 x8 : 0000000000000000
+x7 : 0000000000000000 x6 : 0000007fe77bff20
+x5 : 0000000000010000 x4 : 0000000000000000
+x3 : 0000000000402a88 x2 : 0000000000000000
+x1 : 0000000000402a78 x0 : 0000000000000000
+
+10.49 1.56
+bw_mem[3185]: unhandled level 2 translation fault (11) at 0x00000000, esr 0x92000006
+pgd = ffffffc037fbd000
+[00000000] *pgd=00000000375e8003, *pud=00000000375e8003, *pmd=0000000000000000
+
+CPU: 10 PID: 3185 Comm: bw_mem Not tainted 4.1.49-rt23-axxia_rt_1.71 #1
+Hardware name: Lionfish Emulation (DT)
+task: ffffffc037c16600 ti: ffffffc03752c000 task.ti: ffffffc03752c000
+PC is at 0x7fab519bfc
+LR is at 0x402aa8
+pc : [<0000007fab519bfc>] lr : [<0000000000402aa8>] pstate: 40000000
+sp : 0000007ff3c7dc70
+x29: 0000007ff3c7dc70 x28: 000000000041a408
+x27: 0000007ff3c7eff0 x26: 0000000000000001
+x25: 000000000041a000 x24: 00000000000f4240
+x23: 0000000000402058 x22: 0000007ff3c7f1a0
+x21: 000000000041a530 x20: 0000000000000001
+x19: 000000000041a408 x18: 0000000000000000
+x17: 0000007fab519bbc x16: 000000000041a330
+x15: 0000007fab4a8c00 x14: 0000000000000000
+x13: 0000000000000000 x12: 0000000000000000
+x11: 0000000000000000 x10: 0000000000000000
+x9 : 0000000000000000 x8 : 0000000000000000
+x7 : 0000000000000000 x6 : 0000007ff3c7dc80
+x5 : 0000000000010000 x4 : 0000000000000000
+x3 : 0000000000402a88 x2 : 0000000000000000
+x1 : 0000000000402a78 x0 : 0000000000000000
+
+11.53 1.55
+bw_mem[3202]: unhandled level 2 translation fault (11) at 0x00000000, esr 0x92000006
+pgd = ffffffc03772e000
+[00000000] *pgd=0000000037f51003, *pud=0000000037f51003, *pmd=0000000000000000
+
+CPU: 0 PID: 3202 Comm: bw_mem Not tainted 4.1.49-rt23-axxia_rt_1.71 #1
+Hardware name: Lionfish Emulation (DT)
+task: ffffffc038138000 ti: ffffffc0382a0000 task.ti: ffffffc0382a0000
+PC is at 0x7fa0441bfc
+LR is at 0x402aa8
+pc : [<0000007fa0441bfc>] lr : [<0000000000402aa8>] pstate: 40000000
+sp : 0000007ff7b62a20
+x29: 0000007ff7b62a20 x28: 000000000041a408
+x27: 0000007ff7b63da0 x26: 0000000000000001
+x25: 000000000041a000 x24: 00000000000f4240
+x23: 0000000000402058 x22: 0000007ff7b63f50
+x21: 000000000041a530 x20: 0000000000000001
+x19: 000000000041a408 x18: 0000000000000000
+x17: 0000007fa0441bbc x16: 000000000041a330
+x15: 0000007fa03d0c00 x14: 0000000000000000
+x13: 0000000000000000 x12: 0000000000000000
+x11: 0000000000000000 x10: 0000000000000000
+x9 : 0000000000000000 x8 : 0000000000000000
+x7 : 0000000000000000 x6 : 0000007ff7b62a30
+x5 : 0000000000010000 x4 : 0000000000000000
+x3 : 0000000000402a88 x2 : 0000000000000000
+x1 : 0000000000402a78 x0 : 0000000000000000
+
+12.58 1.39
+bw_mem[3218]: unhandled level 2 translation fault (11) at 0x00000000, esr 0x92000006
+pgd = ffffffc038b12000
+[00000000] *pgd=0000000037d22003, *pud=0000000037d22003, *pmd=0000000000000000
+
+CPU: 11 PID: 3218 Comm: bw_mem Not tainted 4.1.49-rt23-axxia_rt_1.71 #1
+Hardware name: Lionfish Emulation (DT)
+task: ffffffc037c9bfc0 ti: ffffffc0397a0000 task.ti: ffffffc0397a0000
+PC is at 0x7f9ed36bfc
+LR is at 0x402aa8
+pc : [<0000007f9ed36bfc>] lr : [<0000000000402aa8>] pstate: 40000000
+sp : 0000007fd36421b0
+x29: 0000007fd36421b0 x28: 000000000041a408
+x27: 0000007fd3643530 x26: 0000000000000001
+x25: 000000000041a000 x24: 00000000000f4240
+x23: 0000000000402058 x22: 0000007fd36436e0
+x21: 000000000041a530 x20: 0000000000000001
+x19: 000000000041a408 x18: 0000000000000000
+x17: 0000007f9ed36bbc x16: 000000000041a330
+x15: 0000007f9ecc5c00 x14: 0000000000000000
+x13: 0000000000000000 x12: 0000000000000000
+x11: 0000000000000000 x10: 0000000000000000
+x9 : 0000000000000000 x8 : 0000000000000000
+x7 : 0000000000000000 x6 : 0000007fd36421c0
+x5 : 0000000000010000 x4 : 0000000000000000
+x3 : 0000000000402a88 x2 : 0000000000000000
+x1 : 0000000000402a78 x0 : 0000000000000000
+
+13.63 1.23
+bw_mem[3238]: unhandled level 2 translation fault (11) at 0x00000000, esr 0x92000006
+pgd = ffffffc03759e000
+[00000000] *pgd=0000000038086003, *pud=0000000038086003, *pmd=0000000000000000
+
+CPU: 5 PID: 3238 Comm: bw_mem Not tainted 4.1.49-rt23-axxia_rt_1.71 #1
+Hardware name: Lionfish Emulation (DT)
+task: ffffffc03813f2c0 ti: ffffffc0397a0000 task.ti: ffffffc0397a0000
+PC is at 0x7f904c0bfc
+LR is at 0x402aa8
+pc : [<0000007f904c0bfc>] lr : [<0000000000402aa8>] pstate: 40000000
+sp : 0000007fcf1c4fd0
+x29: 0000007fcf1c4fd0 x28: 000000000041a408
+x27: 0000007fcf1c6350 x26: 0000000000000001
+x25: 000000000041a000 x24: 00000000000f4240
+x23: 0000000000402058 x22: 0000007fcf1c6500
+x21: 000000000041a530 x20: 0000000000000001
+x19: 000000000041a408 x18: 0000000000000000
+x17: 0000007f904c0bbc x16: 000000000041a330
+x15: 0000007f9044fc00 x14: 0000000000000000
+x13: 0000000000000000 x12: 0000000000000000
+x11: 0000000000000000 x10: 0000000000000000
+x9 : 0000000000000000 x8 : 0000000000000000
+x7 : 0000000000000000 x6 : 0000007fcf1c4fe0
+x5 : 0000000000010000 x4 : 0000000000000000
+x3 : 0000000000402a88 x2 : 0000000000000000
+x1 : 0000000000402a78 x0 : 0000000000000000
+
+14.68 1.16
+bw_mem[3258]: unhandled level 2 translation fault (11) at 0x00000000, esr 0x92000006
+pgd = ffffffc037f65000
+[00000000] *pgd=0000000037efa003, *pud=0000000037efa003, *pmd=0000000000000000
+
+CPU: 8 PID: 3258 Comm: bw_mem Not tainted 4.1.49-rt23-axxia_rt_1.71 #1
+Hardware name: Lionfish Emulation (DT)
+task: ffffffc0395f9980 ti: ffffffc0397a0000 task.ti: ffffffc0397a0000
+PC is at 0x7f94824bfc
+LR is at 0x402aa8
+pc : [<0000007f94824bfc>] lr : [<0000000000402aa8>] pstate: 40000000
+sp : 0000007fd7a26520
+x29: 0000007fd7a26520 x28: 000000000041a408
+x27: 0000007fd7a278a0 x26: 0000000000000001
+x25: 000000000041a000 x24: 00000000000f4240
+x23: 0000000000402058 x22: 0000007fd7a27a50
+x21: 000000000041a530 x20: 0000000000000001
+x19: 000000000041a408 x18: 0000000000000000
+x17: 0000007f94824bbc x16: 000000000041a330
+x15: 0000007f947b3c00 x14: 0000000000000000
+x13: 0000000000000000 x12: 0000000000000000
+x11: 0000000000000000 x10: 0000000000000000
+x9 : 0000000000000000 x8 : 0000000000000000
+x7 : 0000000000000000 x6 : 0000007fd7a26530
+x5 : 0000000000010000 x4 : 0000000000000000
+x3 : 0000000000402a88 x2 : 0000000000000000
+x1 : 0000000000402a78 x0 : 0000000000000000
+
+15.73 1.18
+bw_mem[3282]: unhandled level 2 translation fault (11) at 0x00000000, esr 0x92000006
+pgd = ffffffc037522000
+[00000000] *pgd=00000000375e8003, *pud=00000000375e8003, *pmd=0000000000000000
+
+CPU: 11 PID: 3282 Comm: bw_mem Not tainted 4.1.49-rt23-axxia_rt_1.71 #1
+Hardware name: Lionfish Emulation (DT)
+task: ffffffc039789980 ti: ffffffc037f78000 task.ti: ffffffc037f78000
+PC is at 0x7f878a2bfc
+LR is at 0x402aa8
+pc : [<0000007f878a2bfc>] lr : [<0000000000402aa8>] pstate: 40000000
+sp : 0000007ff35d4ef0
+x29: 0000007ff35d4ef0 x28: 000000000041a408
+x27: 0000007ff35d6270 x26: 0000000000000001
+x25: 000000000041a000 x24: 00000000000f4240
+x23: 0000000000402058 x22: 0000007ff35d6420
+x21: 000000000041a530 x20: 0000000000000001
+x19: 000000000041a408 x18: 0000000000000000
+x17: 0000007f878a2bbc x16: 000000000041a330
+x15: 0000007f87831c00 x14: 0000000000000000
+x13: 0000000000000000 x12: 0000000000000000
+x11: 0000000000000000 x10: 0000000000000000
+x9 : 0000000000000000 x8 : 0000000000000000
+x7 : 0000000000000000 x6 : 0000007ff35d4f00
+x5 : 0000000000010000 x4 : 0000000000000000
+x3 : 0000000000402a88 x2 : 0000000000000000
+x1 : 0000000000402a78 x0 : 0000000000000000
+
+16.78 1.13
+s

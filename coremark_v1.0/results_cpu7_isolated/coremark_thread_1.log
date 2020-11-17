@@ -1,0 +1,236 @@
+Running coremark_1.exe
+[single threaded] coremark runs on : cpu7
+2K performance run parameters for coremark.
+CoreMark Size    : 666
+Total ticks      : 18299
+Total time (secs): 18.299000
+Iterations/Sec   : 6011.257446
+Iterations       : 110000
+Compiler version : GCC6.2.0
+Compiler flags   : -O3 -march=armv8-a -mcpu=cortex-a53 -funroll-all-loops -lrt -DUSE_FORK=1 --sysroot=/tools/AGRreleases/yocto/morty/2018_01_26/axxia-arm64-x9/tools/sysroots/aarch64-axxia-linux -DMULTITHREAD=1 -DMANAGE_AFFINITY_SINGLE_CPU=1  -lrt -lpthread
+Memory location  : Please put data memory location here
+			(e.g. code in flash, data on heap etc)
+seedcrc          : 0xe9f5
+[0]crclist       : 0xe714
+[0]crcmatrix     : 0x1fd7
+[0]crcstate      : 0x8e3a
+[0]crcfinal      : 0x33ff
+Correct operation validated. See readme.txt for run and reporting rules.
+CoreMark 1.0 : 6011.257446 / GCC6.2.0 -O3 -march=armv8-a -mcpu=cortex-a53 -funroll-all-loops -lrt -DUSE_FORK=1 --sysroot=/tools/AGRreleases/yocto/morty/2018_01_26/axxia-arm64-x9/tools/sysroots/aarch64-axxia-linux -DMULTITHREAD=1 -DMANAGE_AFFINITY_SINGLE_CPU=1  -lrt -lpthread / Heap
+[single threaded] coremark runs on : cpu7
+2K validation run parameters for coremark.
+CoreMark Size    : 666
+Total ticks      : 18355
+Total time (secs): 18.355000
+Iterations/Sec   : 5992.917461
+Iterations       : 110000
+Compiler version : GCC6.2.0
+Compiler flags   : -O3 -march=armv8-a -mcpu=cortex-a53 -funroll-all-loops -lrt -DUSE_FORK=1 --sysroot=/tools/AGRreleases/yocto/morty/2018_01_26/axxia-arm64-x9/tools/sysroots/aarch64-axxia-linux -DMULTITHREAD=1 -DMANAGE_AFFINITY_SINGLE_CPU=1  -lrt -lpthread
+Memory location  : Please put data memory location here
+			(e.g. code in flash, data on heap etc)
+seedcrc          : 0x18f2
+[0]crclist       : 0xe3c1
+[0]crcmatrix     : 0x0747
+[0]crcstate      : 0x8d84
+[0]crcfinal      : 0x0956
+Correct operation validated. See readme.txt for run and reporting rules.
+
+Run number 1
+[single threaded] coremark runs on : cpu7
+2K performance run parameters for coremark.
+CoreMark Size    : 666
+Total ticks      : 18303
+Total time (secs): 18.303000
+Iterations/Sec   : 6009.943725
+Iterations       : 110000
+Compiler version : GCC6.2.0
+Compiler flags   : -O3 -march=armv8-a -mcpu=cortex-a53 -funroll-all-loops -lrt -DUSE_FORK=1 --sysroot=/tools/AGRreleases/yocto/morty/2018_01_26/axxia-arm64-x9/tools/sysroots/aarch64-axxia-linux -DMULTITHREAD=1 -DMANAGE_AFFINITY_SINGLE_CPU=1  -lrt -lpthread
+Memory location  : Please put data memory location here
+			(e.g. code in flash, data on heap etc)
+seedcrc          : 0xe9f5
+[0]crclist       : 0xe714
+[0]crcmatrix     : 0x1fd7
+[0]crcstate      : 0x8e3a
+[0]crcfinal      : 0x33ff
+Correct operation validated. See readme.txt for run and reporting rules.
+CoreMark 1.0 : 6009.943725 / GCC6.2.0 -O3 -march=armv8-a -mcpu=cortex-a53 -funroll-all-loops -lrt -DUSE_FORK=1 --sysroot=/tools/AGRreleases/yocto/morty/2018_01_26/axxia-arm64-x9/tools/sysroots/aarch64-axxia-linux -DMULTITHREAD=1 -DMANAGE_AFFINITY_SINGLE_CPU=1  -lrt -lpthread / Heap
+
+Run number 2
+[single threaded] coremark runs on : cpu7
+2K performance run parameters for coremark.
+CoreMark Size    : 666
+Total ticks      : 18298
+Total time (secs): 18.298000
+Iterations/Sec   : 6011.585966
+Iterations       : 110000
+Compiler version : GCC6.2.0
+Compiler flags   : -O3 -march=armv8-a -mcpu=cortex-a53 -funroll-all-loops -lrt -DUSE_FORK=1 --sysroot=/tools/AGRreleases/yocto/morty/2018_01_26/axxia-arm64-x9/tools/sysroots/aarch64-axxia-linux -DMULTITHREAD=1 -DMANAGE_AFFINITY_SINGLE_CPU=1  -lrt -lpthread
+Memory location  : Please put data memory location here
+			(e.g. code in flash, data on heap etc)
+seedcrc          : 0xe9f5
+[0]crclist       : 0xe714
+[0]crcmatrix     : 0x1fd7
+[0]crcstate      : 0x8e3a
+[0]crcfinal      : 0x33ff
+Correct operation validated. See readme.txt for run and reporting rules.
+CoreMark 1.0 : 6011.585966 / GCC6.2.0 -O3 -march=armv8-a -mcpu=cortex-a53 -funroll-all-loops -lrt -DUSE_FORK=1 --sysroot=/tools/AGRreleases/yocto/morty/2018_01_26/axxia-arm64-x9/tools/sysroots/aarch64-axxia-linux -DMULTITHREAD=1 -DMANAGE_AFFINITY_SINGLE_CPU=1  -lrt -lpthread / Heap
+
+Run number 3
+[single threaded] coremark runs on : cpu7
+2K performance run parameters for coremark.
+CoreMark Size    : 666
+Total ticks      : 18299
+Total time (secs): 18.299000
+Iterations/Sec   : 6011.257446
+Iterations       : 110000
+Compiler version : GCC6.2.0
+Compiler flags   : -O3 -march=armv8-a -mcpu=cortex-a53 -funroll-all-loops -lrt -DUSE_FORK=1 --sysroot=/tools/AGRreleases/yocto/morty/2018_01_26/axxia-arm64-x9/tools/sysroots/aarch64-axxia-linux -DMULTITHREAD=1 -DMANAGE_AFFINITY_SINGLE_CPU=1  -lrt -lpthread
+Memory location  : Please put data memory location here
+			(e.g. code in flash, data on heap etc)
+seedcrc          : 0xe9f5
+[0]crclist       : 0xe714
+[0]crcmatrix     : 0x1fd7
+[0]crcstate      : 0x8e3a
+[0]crcfinal      : 0x33ff
+Correct operation validated. See readme.txt for run and reporting rules.
+CoreMark 1.0 : 6011.257446 / GCC6.2.0 -O3 -march=armv8-a -mcpu=cortex-a53 -funroll-all-loops -lrt -DUSE_FORK=1 --sysroot=/tools/AGRreleases/yocto/morty/2018_01_26/axxia-arm64-x9/tools/sysroots/aarch64-axxia-linux -DMULTITHREAD=1 -DMANAGE_AFFINITY_SINGLE_CPU=1  -lrt -lpthread / Heap
+
+Run number 4
+[single threaded] coremark runs on : cpu7
+2K performance run parameters for coremark.
+CoreMark Size    : 666
+Total ticks      : 18299
+Total time (secs): 18.299000
+Iterations/Sec   : 6011.257446
+Iterations       : 110000
+Compiler version : GCC6.2.0
+Compiler flags   : -O3 -march=armv8-a -mcpu=cortex-a53 -funroll-all-loops -lrt -DUSE_FORK=1 --sysroot=/tools/AGRreleases/yocto/morty/2018_01_26/axxia-arm64-x9/tools/sysroots/aarch64-axxia-linux -DMULTITHREAD=1 -DMANAGE_AFFINITY_SINGLE_CPU=1  -lrt -lpthread
+Memory location  : Please put data memory location here
+			(e.g. code in flash, data on heap etc)
+seedcrc          : 0xe9f5
+[0]crclist       : 0xe714
+[0]crcmatrix     : 0x1fd7
+[0]crcstate      : 0x8e3a
+[0]crcfinal      : 0x33ff
+Correct operation validated. See readme.txt for run and reporting rules.
+CoreMark 1.0 : 6011.257446 / GCC6.2.0 -O3 -march=armv8-a -mcpu=cortex-a53 -funroll-all-loops -lrt -DUSE_FORK=1 --sysroot=/tools/AGRreleases/yocto/morty/2018_01_26/axxia-arm64-x9/tools/sysroots/aarch64-axxia-linux -DMULTITHREAD=1 -DMANAGE_AFFINITY_SINGLE_CPU=1  -lrt -lpthread / Heap
+
+Run number 5
+[single threaded] coremark runs on : cpu7
+2K performance run parameters for coremark.
+CoreMark Size    : 666
+Total ticks      : 18294
+Total time (secs): 18.294000
+Iterations/Sec   : 6012.900405
+Iterations       : 110000
+Compiler version : GCC6.2.0
+Compiler flags   : -O3 -march=armv8-a -mcpu=cortex-a53 -funroll-all-loops -lrt -DUSE_FORK=1 --sysroot=/tools/AGRreleases/yocto/morty/2018_01_26/axxia-arm64-x9/tools/sysroots/aarch64-axxia-linux -DMULTITHREAD=1 -DMANAGE_AFFINITY_SINGLE_CPU=1  -lrt -lpthread
+Memory location  : Please put data memory location here
+			(e.g. code in flash, data on heap etc)
+seedcrc          : 0xe9f5
+[0]crclist       : 0xe714
+[0]crcmatrix     : 0x1fd7
+[0]crcstate      : 0x8e3a
+[0]crcfinal      : 0x33ff
+Correct operation validated. See readme.txt for run and reporting rules.
+CoreMark 1.0 : 6012.900405 / GCC6.2.0 -O3 -march=armv8-a -mcpu=cortex-a53 -funroll-all-loops -lrt -DUSE_FORK=1 --sysroot=/tools/AGRreleases/yocto/morty/2018_01_26/axxia-arm64-x9/tools/sysroots/aarch64-axxia-linux -DMULTITHREAD=1 -DMANAGE_AFFINITY_SINGLE_CPU=1  -lrt -lpthread / Heap
+
+Run number 6
+[single threaded] coremark runs on : cpu7
+2K performance run parameters for coremark.
+CoreMark Size    : 666
+Total ticks      : 18293
+Total time (secs): 18.293000
+Iterations/Sec   : 6013.229104
+Iterations       : 110000
+Compiler version : GCC6.2.0
+Compiler flags   : -O3 -march=armv8-a -mcpu=cortex-a53 -funroll-all-loops -lrt -DUSE_FORK=1 --sysroot=/tools/AGRreleases/yocto/morty/2018_01_26/axxia-arm64-x9/tools/sysroots/aarch64-axxia-linux -DMULTITHREAD=1 -DMANAGE_AFFINITY_SINGLE_CPU=1  -lrt -lpthread
+Memory location  : Please put data memory location here
+			(e.g. code in flash, data on heap etc)
+seedcrc          : 0xe9f5
+[0]crclist       : 0xe714
+[0]crcmatrix     : 0x1fd7
+[0]crcstate      : 0x8e3a
+[0]crcfinal      : 0x33ff
+Correct operation validated. See readme.txt for run and reporting rules.
+CoreMark 1.0 : 6013.229104 / GCC6.2.0 -O3 -march=armv8-a -mcpu=cortex-a53 -funroll-all-loops -lrt -DUSE_FORK=1 --sysroot=/tools/AGRreleases/yocto/morty/2018_01_26/axxia-arm64-x9/tools/sysroots/aarch64-axxia-linux -DMULTITHREAD=1 -DMANAGE_AFFINITY_SINGLE_CPU=1  -lrt -lpthread / Heap
+
+Run number 7
+[single threaded] coremark runs on : cpu7
+2K performance run parameters for coremark.
+CoreMark Size    : 666
+Total ticks      : 18293
+Total time (secs): 18.293000
+Iterations/Sec   : 6013.229104
+Iterations       : 110000
+Compiler version : GCC6.2.0
+Compiler flags   : -O3 -march=armv8-a -mcpu=cortex-a53 -funroll-all-loops -lrt -DUSE_FORK=1 --sysroot=/tools/AGRreleases/yocto/morty/2018_01_26/axxia-arm64-x9/tools/sysroots/aarch64-axxia-linux -DMULTITHREAD=1 -DMANAGE_AFFINITY_SINGLE_CPU=1  -lrt -lpthread
+Memory location  : Please put data memory location here
+			(e.g. code in flash, data on heap etc)
+seedcrc          : 0xe9f5
+[0]crclist       : 0xe714
+[0]crcmatrix     : 0x1fd7
+[0]crcstate      : 0x8e3a
+[0]crcfinal      : 0x33ff
+Correct operation validated. See readme.txt for run and reporting rules.
+CoreMark 1.0 : 6013.229104 / GCC6.2.0 -O3 -march=armv8-a -mcpu=cortex-a53 -funroll-all-loops -lrt -DUSE_FORK=1 --sysroot=/tools/AGRreleases/yocto/morty/2018_01_26/axxia-arm64-x9/tools/sysroots/aarch64-axxia-linux -DMULTITHREAD=1 -DMANAGE_AFFINITY_SINGLE_CPU=1  -lrt -lpthread / Heap
+
+Run number 8
+[single threaded] coremark runs on : cpu7
+2K performance run parameters for coremark.
+CoreMark Size    : 666
+Total ticks      : 18299
+Total time (secs): 18.299000
+Iterations/Sec   : 6011.257446
+Iterations       : 110000
+Compiler version : GCC6.2.0
+Compiler flags   : -O3 -march=armv8-a -mcpu=cortex-a53 -funroll-all-loops -lrt -DUSE_FORK=1 --sysroot=/tools/AGRreleases/yocto/morty/2018_01_26/axxia-arm64-x9/tools/sysroots/aarch64-axxia-linux -DMULTITHREAD=1 -DMANAGE_AFFINITY_SINGLE_CPU=1  -lrt -lpthread
+Memory location  : Please put data memory location here
+			(e.g. code in flash, data on heap etc)
+seedcrc          : 0xe9f5
+[0]crclist       : 0xe714
+[0]crcmatrix     : 0x1fd7
+[0]crcstate      : 0x8e3a
+[0]crcfinal      : 0x33ff
+Correct operation validated. See readme.txt for run and reporting rules.
+CoreMark 1.0 : 6011.257446 / GCC6.2.0 -O3 -march=armv8-a -mcpu=cortex-a53 -funroll-all-loops -lrt -DUSE_FORK=1 --sysroot=/tools/AGRreleases/yocto/morty/2018_01_26/axxia-arm64-x9/tools/sysroots/aarch64-axxia-linux -DMULTITHREAD=1 -DMANAGE_AFFINITY_SINGLE_CPU=1  -lrt -lpthread / Heap
+
+Run number 9
+[single threaded] coremark runs on : cpu7
+2K performance run parameters for coremark.
+CoreMark Size    : 666
+Total ticks      : 18298
+Total time (secs): 18.298000
+Iterations/Sec   : 6011.585966
+Iterations       : 110000
+Compiler version : GCC6.2.0
+Compiler flags   : -O3 -march=armv8-a -mcpu=cortex-a53 -funroll-all-loops -lrt -DUSE_FORK=1 --sysroot=/tools/AGRreleases/yocto/morty/2018_01_26/axxia-arm64-x9/tools/sysroots/aarch64-axxia-linux -DMULTITHREAD=1 -DMANAGE_AFFINITY_SINGLE_CPU=1  -lrt -lpthread
+Memory location  : Please put data memory location here
+			(e.g. code in flash, data on heap etc)
+seedcrc          : 0xe9f5
+[0]crclist       : 0xe714
+[0]crcmatrix     : 0x1fd7
+[0]crcstate      : 0x8e3a
+[0]crcfinal      : 0x33ff
+Correct operation validated. See readme.txt for run and reporting rules.
+CoreMark 1.0 : 6011.585966 / GCC6.2.0 -O3 -march=armv8-a -mcpu=cortex-a53 -funroll-all-loops -lrt -DUSE_FORK=1 --sysroot=/tools/AGRreleases/yocto/morty/2018_01_26/axxia-arm64-x9/tools/sysroots/aarch64-axxia-linux -DMULTITHREAD=1 -DMANAGE_AFFINITY_SINGLE_CPU=1  -lrt -lpthread / Heap
+
+Run number 10
+[single threaded] coremark runs on : cpu7
+2K performance run parameters for coremark.
+CoreMark Size    : 666
+Total ticks      : 18299
+Total time (secs): 18.299000
+Iterations/Sec   : 6011.257446
+Iterations       : 110000
+Compiler version : GCC6.2.0
+Compiler flags   : -O3 -march=armv8-a -mcpu=cortex-a53 -funroll-all-loops -lrt -DUSE_FORK=1 --sysroot=/tools/AGRreleases/yocto/morty/2018_01_26/axxia-arm64-x9/tools/sysroots/aarch64-axxia-linux -DMULTITHREAD=1 -DMANAGE_AFFINITY_SINGLE_CPU=1  -lrt -lpthread
+Memory location  : Please put data memory location here
+			(e.g. code in flash, data on heap etc)
+seedcrc          : 0xe9f5
+[0]crclist       : 0xe714
+[0]crcmatrix     : 0x1fd7
+[0]crcstate      : 0x8e3a
+[0]crcfinal      : 0x33ff
+Correct operation validated. See readme.txt for run and reporting rules.
+CoreMark 1.0 : 6011.257446 / GCC6.2.0 -O3 -march=armv8-a -mcpu=cortex-a53 -funroll-all-loops -lrt -DUSE_FORK=1 --sysroot=/tools/AGRreleases/yocto/morty/2018_01_26/axxia-arm64-x9/tools/sysroots/aarch64-axxia-linux -DMULTITHREAD=1 -DMANAGE_AFFINITY_SINGLE_CPU=1  -lrt -lpthread / Heap

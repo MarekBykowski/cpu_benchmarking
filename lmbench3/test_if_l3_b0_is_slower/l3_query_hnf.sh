@@ -1,0 +1,15 @@
+#!/bin/bash 
+
+list=(0x20 0x21 0x22 0x23 0x24 0x25 0x26 0x27)
+echo "HN-Fs ${list[@]}"
+if [[ $1 =~ on ]]; then
+	val=0x3
+else
+	val=0x0
+fi
+
+for node in ${list[@]}; do
+	echo "ncpRead -w 64 0x1e0.${node}.0x0018"
+	ncpRead -w 64 0x1e0.${node}.0x0018
+done
+

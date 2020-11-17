@@ -1,0 +1,971 @@
+2K performance run parameters for coremark.
+CoreMark Size    : 666
+Total ticks      : 18491
+Total time (secs): 18.491000
+Iterations/Sec   : 77334.919691
+Iterations       : 1430000
+Compiler version : GCC6.2.0
+Compiler flags   : -O3 -march=armv8-a -mcpu=cortex-a53 -funroll-all-loops -lrt -DUSE_FORK=1 --sysroot=/tools/AGRreleases/yocto/morty/2018_01_26/axxia-arm64-x9/tools/sysroots/aarch64-axxia-linux -DMULTITHREAD=13  -lrt -lpthread
+Parallel Fork : 13
+Memory location  : Please put data memory location here
+			(e.g. code in flash, data on heap etc)
+seedcrc          : 0xe9f5
+[0]crclist       : 0xe714
+[1]crclist       : 0xe714
+[2]crclist       : 0xe714
+[3]crclist       : 0xe714
+[4]crclist       : 0xe714
+[5]crclist       : 0xe714
+[6]crclist       : 0xe714
+[7]crclist       : 0xe714
+[8]crclist       : 0xe714
+[9]crclist       : 0xe714
+[10]crclist       : 0xe714
+[11]crclist       : 0xe714
+[12]crclist       : 0xe714
+[0]crcmatrix     : 0x1fd7
+[1]crcmatrix     : 0x1fd7
+[2]crcmatrix     : 0x1fd7
+[3]crcmatrix     : 0x1fd7
+[4]crcmatrix     : 0x1fd7
+[5]crcmatrix     : 0x1fd7
+[6]crcmatrix     : 0x1fd7
+[7]crcmatrix     : 0x1fd7
+[8]crcmatrix     : 0x1fd7
+[9]crcmatrix     : 0x1fd7
+[10]crcmatrix     : 0x1fd7
+[11]crcmatrix     : 0x1fd7
+[12]crcmatrix     : 0x1fd7
+[0]crcstate      : 0x8e3a
+[1]crcstate      : 0x8e3a
+[2]crcstate      : 0x8e3a
+[3]crcstate      : 0x8e3a
+[4]crcstate      : 0x8e3a
+[5]crcstate      : 0x8e3a
+[6]crcstate      : 0x8e3a
+[7]crcstate      : 0x8e3a
+[8]crcstate      : 0x8e3a
+[9]crcstate      : 0x8e3a
+[10]crcstate      : 0x8e3a
+[11]crcstate      : 0x8e3a
+[12]crcstate      : 0x8e3a
+[0]crcfinal      : 0x33ff
+[1]crcfinal      : 0x33ff
+[2]crcfinal      : 0x33ff
+[3]crcfinal      : 0x33ff
+[4]crcfinal      : 0x33ff
+[5]crcfinal      : 0x33ff
+[6]crcfinal      : 0x33ff
+[7]crcfinal      : 0x33ff
+[8]crcfinal      : 0x33ff
+[9]crcfinal      : 0x33ff
+[10]crcfinal      : 0x33ff
+[11]crcfinal      : 0x33ff
+[12]crcfinal      : 0x33ff
+[0]thread       : cpu1
+[1]thread       : cpu10
+[2]thread       : cpu0
+[3]thread       : cpu9
+[4]thread       : cpu11
+[5]thread       : cpu22
+[6]thread       : cpu7
+[7]thread       : cpu6
+[8]thread       : cpu4
+[9]thread       : cpu3
+[10]thread       : cpu12
+[11]thread       : cpu5
+[12]thread       : cpu2
+Correct operation validated. See readme.txt for run and reporting rules.
+CoreMark 1.0 : 77334.919691 / GCC6.2.0 -O3 -march=armv8-a -mcpu=cortex-a53 -funroll-all-loops -lrt -DUSE_FORK=1 --sysroot=/tools/AGRreleases/yocto/morty/2018_01_26/axxia-arm64-x9/tools/sysroots/aarch64-axxia-linux -DMULTITHREAD=13  -lrt -lpthread / Heap / 13:Fork
+2K validation run parameters for coremark.
+CoreMark Size    : 666
+Total ticks      : 18560
+Total time (secs): 18.560000
+Iterations/Sec   : 77047.413793
+Iterations       : 1430000
+Compiler version : GCC6.2.0
+Compiler flags   : -O3 -march=armv8-a -mcpu=cortex-a53 -funroll-all-loops -lrt -DUSE_FORK=1 --sysroot=/tools/AGRreleases/yocto/morty/2018_01_26/axxia-arm64-x9/tools/sysroots/aarch64-axxia-linux -DMULTITHREAD=13  -lrt -lpthread
+Parallel Fork : 13
+Memory location  : Please put data memory location here
+			(e.g. code in flash, data on heap etc)
+seedcrc          : 0x18f2
+[0]crclist       : 0xe3c1
+[1]crclist       : 0xe3c1
+[2]crclist       : 0xe3c1
+[3]crclist       : 0xe3c1
+[4]crclist       : 0xe3c1
+[5]crclist       : 0xe3c1
+[6]crclist       : 0xe3c1
+[7]crclist       : 0xe3c1
+[8]crclist       : 0xe3c1
+[9]crclist       : 0xe3c1
+[10]crclist       : 0xe3c1
+[11]crclist       : 0xe3c1
+[12]crclist       : 0xe3c1
+[0]crcmatrix     : 0x0747
+[1]crcmatrix     : 0x0747
+[2]crcmatrix     : 0x0747
+[3]crcmatrix     : 0x0747
+[4]crcmatrix     : 0x0747
+[5]crcmatrix     : 0x0747
+[6]crcmatrix     : 0x0747
+[7]crcmatrix     : 0x0747
+[8]crcmatrix     : 0x0747
+[9]crcmatrix     : 0x0747
+[10]crcmatrix     : 0x0747
+[11]crcmatrix     : 0x0747
+[12]crcmatrix     : 0x0747
+[0]crcstate      : 0x8d84
+[1]crcstate      : 0x8d84
+[2]crcstate      : 0x8d84
+[3]crcstate      : 0x8d84
+[4]crcstate      : 0x8d84
+[5]crcstate      : 0x8d84
+[6]crcstate      : 0x8d84
+[7]crcstate      : 0x8d84
+[8]crcstate      : 0x8d84
+[9]crcstate      : 0x8d84
+[10]crcstate      : 0x8d84
+[11]crcstate      : 0x8d84
+[12]crcstate      : 0x8d84
+[0]crcfinal      : 0x0956
+[1]crcfinal      : 0x0956
+[2]crcfinal      : 0x0956
+[3]crcfinal      : 0x0956
+[4]crcfinal      : 0x0956
+[5]crcfinal      : 0x0956
+[6]crcfinal      : 0x0956
+[7]crcfinal      : 0x0956
+[8]crcfinal      : 0x0956
+[9]crcfinal      : 0x0956
+[10]crcfinal      : 0x0956
+[11]crcfinal      : 0x0956
+[12]crcfinal      : 0x0956
+[0]thread       : cpu7
+[1]thread       : cpu8
+[2]thread       : cpu6
+[3]thread       : cpu4
+[4]thread       : cpu3
+[5]thread       : cpu2
+[6]thread       : cpu17
+[7]thread       : cpu5
+[8]thread       : cpu13
+[9]thread       : cpu22
+[10]thread       : cpu11
+[11]thread       : cpu9
+[12]thread       : cpu10
+Correct operation validated. See readme.txt for run and reporting rules.
+
+Run number 1
+2K performance run parameters for coremark.
+CoreMark Size    : 666
+Total ticks      : 18453
+Total time (secs): 18.453000
+Iterations/Sec   : 77494.174389
+Iterations       : 1430000
+Compiler version : GCC6.2.0
+Compiler flags   : -O3 -march=armv8-a -mcpu=cortex-a53 -funroll-all-loops -lrt -DUSE_FORK=1 --sysroot=/tools/AGRreleases/yocto/morty/2018_01_26/axxia-arm64-x9/tools/sysroots/aarch64-axxia-linux -DMULTITHREAD=13  -lrt -lpthread
+Parallel Fork : 13
+Memory location  : Please put data memory location here
+			(e.g. code in flash, data on heap etc)
+seedcrc          : 0xe9f5
+[0]crclist       : 0xe714
+[1]crclist       : 0xe714
+[2]crclist       : 0xe714
+[3]crclist       : 0xe714
+[4]crclist       : 0xe714
+[5]crclist       : 0xe714
+[6]crclist       : 0xe714
+[7]crclist       : 0xe714
+[8]crclist       : 0xe714
+[9]crclist       : 0xe714
+[10]crclist       : 0xe714
+[11]crclist       : 0xe714
+[12]crclist       : 0xe714
+[0]crcmatrix     : 0x1fd7
+[1]crcmatrix     : 0x1fd7
+[2]crcmatrix     : 0x1fd7
+[3]crcmatrix     : 0x1fd7
+[4]crcmatrix     : 0x1fd7
+[5]crcmatrix     : 0x1fd7
+[6]crcmatrix     : 0x1fd7
+[7]crcmatrix     : 0x1fd7
+[8]crcmatrix     : 0x1fd7
+[9]crcmatrix     : 0x1fd7
+[10]crcmatrix     : 0x1fd7
+[11]crcmatrix     : 0x1fd7
+[12]crcmatrix     : 0x1fd7
+[0]crcstate      : 0x8e3a
+[1]crcstate      : 0x8e3a
+[2]crcstate      : 0x8e3a
+[3]crcstate      : 0x8e3a
+[4]crcstate      : 0x8e3a
+[5]crcstate      : 0x8e3a
+[6]crcstate      : 0x8e3a
+[7]crcstate      : 0x8e3a
+[8]crcstate      : 0x8e3a
+[9]crcstate      : 0x8e3a
+[10]crcstate      : 0x8e3a
+[11]crcstate      : 0x8e3a
+[12]crcstate      : 0x8e3a
+[0]crcfinal      : 0x33ff
+[1]crcfinal      : 0x33ff
+[2]crcfinal      : 0x33ff
+[3]crcfinal      : 0x33ff
+[4]crcfinal      : 0x33ff
+[5]crcfinal      : 0x33ff
+[6]crcfinal      : 0x33ff
+[7]crcfinal      : 0x33ff
+[8]crcfinal      : 0x33ff
+[9]crcfinal      : 0x33ff
+[10]crcfinal      : 0x33ff
+[11]crcfinal      : 0x33ff
+[12]crcfinal      : 0x33ff
+[0]thread       : cpu7
+[1]thread       : cpu9
+[2]thread       : cpu6
+[3]thread       : cpu4
+[4]thread       : cpu3
+[5]thread       : cpu18
+[6]thread       : cpu2
+[7]thread       : cpu5
+[8]thread       : cpu8
+[9]thread       : cpu0
+[10]thread       : cpu22
+[11]thread       : cpu11
+[12]thread       : cpu10
+Correct operation validated. See readme.txt for run and reporting rules.
+CoreMark 1.0 : 77494.174389 / GCC6.2.0 -O3 -march=armv8-a -mcpu=cortex-a53 -funroll-all-loops -lrt -DUSE_FORK=1 --sysroot=/tools/AGRreleases/yocto/morty/2018_01_26/axxia-arm64-x9/tools/sysroots/aarch64-axxia-linux -DMULTITHREAD=13  -lrt -lpthread / Heap / 13:Fork
+
+Run number 2
+2K performance run parameters for coremark.
+CoreMark Size    : 666
+Total ticks      : 18486
+Total time (secs): 18.486000
+Iterations/Sec   : 77355.836850
+Iterations       : 1430000
+Compiler version : GCC6.2.0
+Compiler flags   : -O3 -march=armv8-a -mcpu=cortex-a53 -funroll-all-loops -lrt -DUSE_FORK=1 --sysroot=/tools/AGRreleases/yocto/morty/2018_01_26/axxia-arm64-x9/tools/sysroots/aarch64-axxia-linux -DMULTITHREAD=13  -lrt -lpthread
+Parallel Fork : 13
+Memory location  : Please put data memory location here
+			(e.g. code in flash, data on heap etc)
+seedcrc          : 0xe9f5
+[0]crclist       : 0xe714
+[1]crclist       : 0xe714
+[2]crclist       : 0xe714
+[3]crclist       : 0xe714
+[4]crclist       : 0xe714
+[5]crclist       : 0xe714
+[6]crclist       : 0xe714
+[7]crclist       : 0xe714
+[8]crclist       : 0xe714
+[9]crclist       : 0xe714
+[10]crclist       : 0xe714
+[11]crclist       : 0xe714
+[12]crclist       : 0xe714
+[0]crcmatrix     : 0x1fd7
+[1]crcmatrix     : 0x1fd7
+[2]crcmatrix     : 0x1fd7
+[3]crcmatrix     : 0x1fd7
+[4]crcmatrix     : 0x1fd7
+[5]crcmatrix     : 0x1fd7
+[6]crcmatrix     : 0x1fd7
+[7]crcmatrix     : 0x1fd7
+[8]crcmatrix     : 0x1fd7
+[9]crcmatrix     : 0x1fd7
+[10]crcmatrix     : 0x1fd7
+[11]crcmatrix     : 0x1fd7
+[12]crcmatrix     : 0x1fd7
+[0]crcstate      : 0x8e3a
+[1]crcstate      : 0x8e3a
+[2]crcstate      : 0x8e3a
+[3]crcstate      : 0x8e3a
+[4]crcstate      : 0x8e3a
+[5]crcstate      : 0x8e3a
+[6]crcstate      : 0x8e3a
+[7]crcstate      : 0x8e3a
+[8]crcstate      : 0x8e3a
+[9]crcstate      : 0x8e3a
+[10]crcstate      : 0x8e3a
+[11]crcstate      : 0x8e3a
+[12]crcstate      : 0x8e3a
+[0]crcfinal      : 0x33ff
+[1]crcfinal      : 0x33ff
+[2]crcfinal      : 0x33ff
+[3]crcfinal      : 0x33ff
+[4]crcfinal      : 0x33ff
+[5]crcfinal      : 0x33ff
+[6]crcfinal      : 0x33ff
+[7]crcfinal      : 0x33ff
+[8]crcfinal      : 0x33ff
+[9]crcfinal      : 0x33ff
+[10]crcfinal      : 0x33ff
+[11]crcfinal      : 0x33ff
+[12]crcfinal      : 0x33ff
+[0]thread       : cpu8
+[1]thread       : cpu7
+[2]thread       : cpu6
+[3]thread       : cpu9
+[4]thread       : cpu1
+[5]thread       : cpu5
+[6]thread       : cpu4
+[7]thread       : cpu18
+[8]thread       : cpu22
+[9]thread       : cpu0
+[10]thread       : cpu11
+[11]thread       : cpu2
+[12]thread       : cpu10
+Correct operation validated. See readme.txt for run and reporting rules.
+CoreMark 1.0 : 77355.836850 / GCC6.2.0 -O3 -march=armv8-a -mcpu=cortex-a53 -funroll-all-loops -lrt -DUSE_FORK=1 --sysroot=/tools/AGRreleases/yocto/morty/2018_01_26/axxia-arm64-x9/tools/sysroots/aarch64-axxia-linux -DMULTITHREAD=13  -lrt -lpthread / Heap / 13:Fork
+
+Run number 3
+2K performance run parameters for coremark.
+CoreMark Size    : 666
+Total ticks      : 18461
+Total time (secs): 18.461000
+Iterations/Sec   : 77460.592601
+Iterations       : 1430000
+Compiler version : GCC6.2.0
+Compiler flags   : -O3 -march=armv8-a -mcpu=cortex-a53 -funroll-all-loops -lrt -DUSE_FORK=1 --sysroot=/tools/AGRreleases/yocto/morty/2018_01_26/axxia-arm64-x9/tools/sysroots/aarch64-axxia-linux -DMULTITHREAD=13  -lrt -lpthread
+Parallel Fork : 13
+Memory location  : Please put data memory location here
+			(e.g. code in flash, data on heap etc)
+seedcrc          : 0xe9f5
+[0]crclist       : 0xe714
+[1]crclist       : 0xe714
+[2]crclist       : 0xe714
+[3]crclist       : 0xe714
+[4]crclist       : 0xe714
+[5]crclist       : 0xe714
+[6]crclist       : 0xe714
+[7]crclist       : 0xe714
+[8]crclist       : 0xe714
+[9]crclist       : 0xe714
+[10]crclist       : 0xe714
+[11]crclist       : 0xe714
+[12]crclist       : 0xe714
+[0]crcmatrix     : 0x1fd7
+[1]crcmatrix     : 0x1fd7
+[2]crcmatrix     : 0x1fd7
+[3]crcmatrix     : 0x1fd7
+[4]crcmatrix     : 0x1fd7
+[5]crcmatrix     : 0x1fd7
+[6]crcmatrix     : 0x1fd7
+[7]crcmatrix     : 0x1fd7
+[8]crcmatrix     : 0x1fd7
+[9]crcmatrix     : 0x1fd7
+[10]crcmatrix     : 0x1fd7
+[11]crcmatrix     : 0x1fd7
+[12]crcmatrix     : 0x1fd7
+[0]crcstate      : 0x8e3a
+[1]crcstate      : 0x8e3a
+[2]crcstate      : 0x8e3a
+[3]crcstate      : 0x8e3a
+[4]crcstate      : 0x8e3a
+[5]crcstate      : 0x8e3a
+[6]crcstate      : 0x8e3a
+[7]crcstate      : 0x8e3a
+[8]crcstate      : 0x8e3a
+[9]crcstate      : 0x8e3a
+[10]crcstate      : 0x8e3a
+[11]crcstate      : 0x8e3a
+[12]crcstate      : 0x8e3a
+[0]crcfinal      : 0x33ff
+[1]crcfinal      : 0x33ff
+[2]crcfinal      : 0x33ff
+[3]crcfinal      : 0x33ff
+[4]crcfinal      : 0x33ff
+[5]crcfinal      : 0x33ff
+[6]crcfinal      : 0x33ff
+[7]crcfinal      : 0x33ff
+[8]crcfinal      : 0x33ff
+[9]crcfinal      : 0x33ff
+[10]crcfinal      : 0x33ff
+[11]crcfinal      : 0x33ff
+[12]crcfinal      : 0x33ff
+[0]thread       : cpu4
+[1]thread       : cpu16
+[2]thread       : cpu2
+[3]thread       : cpu5
+[4]thread       : cpu15
+[5]thread       : cpu12
+[6]thread       : cpu14
+[7]thread       : cpu1
+[8]thread       : cpu22
+[9]thread       : cpu13
+[10]thread       : cpu3
+[11]thread       : cpu20
+[12]thread       : cpu21
+Correct operation validated. See readme.txt for run and reporting rules.
+CoreMark 1.0 : 77460.592601 / GCC6.2.0 -O3 -march=armv8-a -mcpu=cortex-a53 -funroll-all-loops -lrt -DUSE_FORK=1 --sysroot=/tools/AGRreleases/yocto/morty/2018_01_26/axxia-arm64-x9/tools/sysroots/aarch64-axxia-linux -DMULTITHREAD=13  -lrt -lpthread / Heap / 13:Fork
+
+Run number 4
+2K performance run parameters for coremark.
+CoreMark Size    : 666
+Total ticks      : 18485
+Total time (secs): 18.485000
+Iterations/Sec   : 77360.021639
+Iterations       : 1430000
+Compiler version : GCC6.2.0
+Compiler flags   : -O3 -march=armv8-a -mcpu=cortex-a53 -funroll-all-loops -lrt -DUSE_FORK=1 --sysroot=/tools/AGRreleases/yocto/morty/2018_01_26/axxia-arm64-x9/tools/sysroots/aarch64-axxia-linux -DMULTITHREAD=13  -lrt -lpthread
+Parallel Fork : 13
+Memory location  : Please put data memory location here
+			(e.g. code in flash, data on heap etc)
+seedcrc          : 0xe9f5
+[0]crclist       : 0xe714
+[1]crclist       : 0xe714
+[2]crclist       : 0xe714
+[3]crclist       : 0xe714
+[4]crclist       : 0xe714
+[5]crclist       : 0xe714
+[6]crclist       : 0xe714
+[7]crclist       : 0xe714
+[8]crclist       : 0xe714
+[9]crclist       : 0xe714
+[10]crclist       : 0xe714
+[11]crclist       : 0xe714
+[12]crclist       : 0xe714
+[0]crcmatrix     : 0x1fd7
+[1]crcmatrix     : 0x1fd7
+[2]crcmatrix     : 0x1fd7
+[3]crcmatrix     : 0x1fd7
+[4]crcmatrix     : 0x1fd7
+[5]crcmatrix     : 0x1fd7
+[6]crcmatrix     : 0x1fd7
+[7]crcmatrix     : 0x1fd7
+[8]crcmatrix     : 0x1fd7
+[9]crcmatrix     : 0x1fd7
+[10]crcmatrix     : 0x1fd7
+[11]crcmatrix     : 0x1fd7
+[12]crcmatrix     : 0x1fd7
+[0]crcstate      : 0x8e3a
+[1]crcstate      : 0x8e3a
+[2]crcstate      : 0x8e3a
+[3]crcstate      : 0x8e3a
+[4]crcstate      : 0x8e3a
+[5]crcstate      : 0x8e3a
+[6]crcstate      : 0x8e3a
+[7]crcstate      : 0x8e3a
+[8]crcstate      : 0x8e3a
+[9]crcstate      : 0x8e3a
+[10]crcstate      : 0x8e3a
+[11]crcstate      : 0x8e3a
+[12]crcstate      : 0x8e3a
+[0]crcfinal      : 0x33ff
+[1]crcfinal      : 0x33ff
+[2]crcfinal      : 0x33ff
+[3]crcfinal      : 0x33ff
+[4]crcfinal      : 0x33ff
+[5]crcfinal      : 0x33ff
+[6]crcfinal      : 0x33ff
+[7]crcfinal      : 0x33ff
+[8]crcfinal      : 0x33ff
+[9]crcfinal      : 0x33ff
+[10]crcfinal      : 0x33ff
+[11]crcfinal      : 0x33ff
+[12]crcfinal      : 0x33ff
+[0]thread       : cpu8
+[1]thread       : cpu7
+[2]thread       : cpu6
+[3]thread       : cpu4
+[4]thread       : cpu10
+[5]thread       : cpu2
+[6]thread       : cpu11
+[7]thread       : cpu12
+[8]thread       : cpu5
+[9]thread       : cpu0
+[10]thread       : cpu9
+[11]thread       : cpu3
+[12]thread       : cpu22
+Correct operation validated. See readme.txt for run and reporting rules.
+CoreMark 1.0 : 77360.021639 / GCC6.2.0 -O3 -march=armv8-a -mcpu=cortex-a53 -funroll-all-loops -lrt -DUSE_FORK=1 --sysroot=/tools/AGRreleases/yocto/morty/2018_01_26/axxia-arm64-x9/tools/sysroots/aarch64-axxia-linux -DMULTITHREAD=13  -lrt -lpthread / Heap / 13:Fork
+
+Run number 5
+2K performance run parameters for coremark.
+CoreMark Size    : 666
+Total ticks      : 18519
+Total time (secs): 18.519000
+Iterations/Sec   : 77217.992332
+Iterations       : 1430000
+Compiler version : GCC6.2.0
+Compiler flags   : -O3 -march=armv8-a -mcpu=cortex-a53 -funroll-all-loops -lrt -DUSE_FORK=1 --sysroot=/tools/AGRreleases/yocto/morty/2018_01_26/axxia-arm64-x9/tools/sysroots/aarch64-axxia-linux -DMULTITHREAD=13  -lrt -lpthread
+Parallel Fork : 13
+Memory location  : Please put data memory location here
+			(e.g. code in flash, data on heap etc)
+seedcrc          : 0xe9f5
+[0]crclist       : 0xe714
+[1]crclist       : 0xe714
+[2]crclist       : 0xe714
+[3]crclist       : 0xe714
+[4]crclist       : 0xe714
+[5]crclist       : 0xe714
+[6]crclist       : 0xe714
+[7]crclist       : 0xe714
+[8]crclist       : 0xe714
+[9]crclist       : 0xe714
+[10]crclist       : 0xe714
+[11]crclist       : 0xe714
+[12]crclist       : 0xe714
+[0]crcmatrix     : 0x1fd7
+[1]crcmatrix     : 0x1fd7
+[2]crcmatrix     : 0x1fd7
+[3]crcmatrix     : 0x1fd7
+[4]crcmatrix     : 0x1fd7
+[5]crcmatrix     : 0x1fd7
+[6]crcmatrix     : 0x1fd7
+[7]crcmatrix     : 0x1fd7
+[8]crcmatrix     : 0x1fd7
+[9]crcmatrix     : 0x1fd7
+[10]crcmatrix     : 0x1fd7
+[11]crcmatrix     : 0x1fd7
+[12]crcmatrix     : 0x1fd7
+[0]crcstate      : 0x8e3a
+[1]crcstate      : 0x8e3a
+[2]crcstate      : 0x8e3a
+[3]crcstate      : 0x8e3a
+[4]crcstate      : 0x8e3a
+[5]crcstate      : 0x8e3a
+[6]crcstate      : 0x8e3a
+[7]crcstate      : 0x8e3a
+[8]crcstate      : 0x8e3a
+[9]crcstate      : 0x8e3a
+[10]crcstate      : 0x8e3a
+[11]crcstate      : 0x8e3a
+[12]crcstate      : 0x8e3a
+[0]crcfinal      : 0x33ff
+[1]crcfinal      : 0x33ff
+[2]crcfinal      : 0x33ff
+[3]crcfinal      : 0x33ff
+[4]crcfinal      : 0x33ff
+[5]crcfinal      : 0x33ff
+[6]crcfinal      : 0x33ff
+[7]crcfinal      : 0x33ff
+[8]crcfinal      : 0x33ff
+[9]crcfinal      : 0x33ff
+[10]crcfinal      : 0x33ff
+[11]crcfinal      : 0x33ff
+[12]crcfinal      : 0x33ff
+[0]thread       : cpu7
+[1]thread       : cpu10
+[2]thread       : cpu2
+[3]thread       : cpu6
+[4]thread       : cpu4
+[5]thread       : cpu5
+[6]thread       : cpu12
+[7]thread       : cpu0
+[8]thread       : cpu9
+[9]thread       : cpu8
+[10]thread       : cpu22
+[11]thread       : cpu3
+[12]thread       : cpu11
+Correct operation validated. See readme.txt for run and reporting rules.
+CoreMark 1.0 : 77217.992332 / GCC6.2.0 -O3 -march=armv8-a -mcpu=cortex-a53 -funroll-all-loops -lrt -DUSE_FORK=1 --sysroot=/tools/AGRreleases/yocto/morty/2018_01_26/axxia-arm64-x9/tools/sysroots/aarch64-axxia-linux -DMULTITHREAD=13  -lrt -lpthread / Heap / 13:Fork
+
+Run number 6
+2K performance run parameters for coremark.
+CoreMark Size    : 666
+Total ticks      : 18476
+Total time (secs): 18.476000
+Iterations/Sec   : 77397.705131
+Iterations       : 1430000
+Compiler version : GCC6.2.0
+Compiler flags   : -O3 -march=armv8-a -mcpu=cortex-a53 -funroll-all-loops -lrt -DUSE_FORK=1 --sysroot=/tools/AGRreleases/yocto/morty/2018_01_26/axxia-arm64-x9/tools/sysroots/aarch64-axxia-linux -DMULTITHREAD=13  -lrt -lpthread
+Parallel Fork : 13
+Memory location  : Please put data memory location here
+			(e.g. code in flash, data on heap etc)
+seedcrc          : 0xe9f5
+[0]crclist       : 0xe714
+[1]crclist       : 0xe714
+[2]crclist       : 0xe714
+[3]crclist       : 0xe714
+[4]crclist       : 0xe714
+[5]crclist       : 0xe714
+[6]crclist       : 0xe714
+[7]crclist       : 0xe714
+[8]crclist       : 0xe714
+[9]crclist       : 0xe714
+[10]crclist       : 0xe714
+[11]crclist       : 0xe714
+[12]crclist       : 0xe714
+[0]crcmatrix     : 0x1fd7
+[1]crcmatrix     : 0x1fd7
+[2]crcmatrix     : 0x1fd7
+[3]crcmatrix     : 0x1fd7
+[4]crcmatrix     : 0x1fd7
+[5]crcmatrix     : 0x1fd7
+[6]crcmatrix     : 0x1fd7
+[7]crcmatrix     : 0x1fd7
+[8]crcmatrix     : 0x1fd7
+[9]crcmatrix     : 0x1fd7
+[10]crcmatrix     : 0x1fd7
+[11]crcmatrix     : 0x1fd7
+[12]crcmatrix     : 0x1fd7
+[0]crcstate      : 0x8e3a
+[1]crcstate      : 0x8e3a
+[2]crcstate      : 0x8e3a
+[3]crcstate      : 0x8e3a
+[4]crcstate      : 0x8e3a
+[5]crcstate      : 0x8e3a
+[6]crcstate      : 0x8e3a
+[7]crcstate      : 0x8e3a
+[8]crcstate      : 0x8e3a
+[9]crcstate      : 0x8e3a
+[10]crcstate      : 0x8e3a
+[11]crcstate      : 0x8e3a
+[12]crcstate      : 0x8e3a
+[0]crcfinal      : 0x33ff
+[1]crcfinal      : 0x33ff
+[2]crcfinal      : 0x33ff
+[3]crcfinal      : 0x33ff
+[4]crcfinal      : 0x33ff
+[5]crcfinal      : 0x33ff
+[6]crcfinal      : 0x33ff
+[7]crcfinal      : 0x33ff
+[8]crcfinal      : 0x33ff
+[9]crcfinal      : 0x33ff
+[10]crcfinal      : 0x33ff
+[11]crcfinal      : 0x33ff
+[12]crcfinal      : 0x33ff
+[0]thread       : cpu11
+[1]thread       : cpu1
+[2]thread       : cpu6
+[3]thread       : cpu4
+[4]thread       : cpu3
+[5]thread       : cpu5
+[6]thread       : cpu13
+[7]thread       : cpu22
+[8]thread       : cpu10
+[9]thread       : cpu9
+[10]thread       : cpu8
+[11]thread       : cpu7
+[12]thread       : cpu2
+Correct operation validated. See readme.txt for run and reporting rules.
+CoreMark 1.0 : 77397.705131 / GCC6.2.0 -O3 -march=armv8-a -mcpu=cortex-a53 -funroll-all-loops -lrt -DUSE_FORK=1 --sysroot=/tools/AGRreleases/yocto/morty/2018_01_26/axxia-arm64-x9/tools/sysroots/aarch64-axxia-linux -DMULTITHREAD=13  -lrt -lpthread / Heap / 13:Fork
+
+Run number 7
+2K performance run parameters for coremark.
+CoreMark Size    : 666
+Total ticks      : 18509
+Total time (secs): 18.509000
+Iterations/Sec   : 77259.711492
+Iterations       : 1430000
+Compiler version : GCC6.2.0
+Compiler flags   : -O3 -march=armv8-a -mcpu=cortex-a53 -funroll-all-loops -lrt -DUSE_FORK=1 --sysroot=/tools/AGRreleases/yocto/morty/2018_01_26/axxia-arm64-x9/tools/sysroots/aarch64-axxia-linux -DMULTITHREAD=13  -lrt -lpthread
+Parallel Fork : 13
+Memory location  : Please put data memory location here
+			(e.g. code in flash, data on heap etc)
+seedcrc          : 0xe9f5
+[0]crclist       : 0xe714
+[1]crclist       : 0xe714
+[2]crclist       : 0xe714
+[3]crclist       : 0xe714
+[4]crclist       : 0xe714
+[5]crclist       : 0xe714
+[6]crclist       : 0xe714
+[7]crclist       : 0xe714
+[8]crclist       : 0xe714
+[9]crclist       : 0xe714
+[10]crclist       : 0xe714
+[11]crclist       : 0xe714
+[12]crclist       : 0xe714
+[0]crcmatrix     : 0x1fd7
+[1]crcmatrix     : 0x1fd7
+[2]crcmatrix     : 0x1fd7
+[3]crcmatrix     : 0x1fd7
+[4]crcmatrix     : 0x1fd7
+[5]crcmatrix     : 0x1fd7
+[6]crcmatrix     : 0x1fd7
+[7]crcmatrix     : 0x1fd7
+[8]crcmatrix     : 0x1fd7
+[9]crcmatrix     : 0x1fd7
+[10]crcmatrix     : 0x1fd7
+[11]crcmatrix     : 0x1fd7
+[12]crcmatrix     : 0x1fd7
+[0]crcstate      : 0x8e3a
+[1]crcstate      : 0x8e3a
+[2]crcstate      : 0x8e3a
+[3]crcstate      : 0x8e3a
+[4]crcstate      : 0x8e3a
+[5]crcstate      : 0x8e3a
+[6]crcstate      : 0x8e3a
+[7]crcstate      : 0x8e3a
+[8]crcstate      : 0x8e3a
+[9]crcstate      : 0x8e3a
+[10]crcstate      : 0x8e3a
+[11]crcstate      : 0x8e3a
+[12]crcstate      : 0x8e3a
+[0]crcfinal      : 0x33ff
+[1]crcfinal      : 0x33ff
+[2]crcfinal      : 0x33ff
+[3]crcfinal      : 0x33ff
+[4]crcfinal      : 0x33ff
+[5]crcfinal      : 0x33ff
+[6]crcfinal      : 0x33ff
+[7]crcfinal      : 0x33ff
+[8]crcfinal      : 0x33ff
+[9]crcfinal      : 0x33ff
+[10]crcfinal      : 0x33ff
+[11]crcfinal      : 0x33ff
+[12]crcfinal      : 0x33ff
+[0]thread       : cpu4
+[1]thread       : cpu3
+[2]thread       : cpu2
+[3]thread       : cpu8
+[4]thread       : cpu12
+[5]thread       : cpu5
+[6]thread       : cpu10
+[7]thread       : cpu9
+[8]thread       : cpu7
+[9]thread       : cpu6
+[10]thread       : cpu22
+[11]thread       : cpu0
+[12]thread       : cpu11
+Correct operation validated. See readme.txt for run and reporting rules.
+CoreMark 1.0 : 77259.711492 / GCC6.2.0 -O3 -march=armv8-a -mcpu=cortex-a53 -funroll-all-loops -lrt -DUSE_FORK=1 --sysroot=/tools/AGRreleases/yocto/morty/2018_01_26/axxia-arm64-x9/tools/sysroots/aarch64-axxia-linux -DMULTITHREAD=13  -lrt -lpthread / Heap / 13:Fork
+
+Run number 8
+2K performance run parameters for coremark.
+CoreMark Size    : 666
+Total ticks      : 18482
+Total time (secs): 18.482000
+Iterations/Sec   : 77372.578725
+Iterations       : 1430000
+Compiler version : GCC6.2.0
+Compiler flags   : -O3 -march=armv8-a -mcpu=cortex-a53 -funroll-all-loops -lrt -DUSE_FORK=1 --sysroot=/tools/AGRreleases/yocto/morty/2018_01_26/axxia-arm64-x9/tools/sysroots/aarch64-axxia-linux -DMULTITHREAD=13  -lrt -lpthread
+Parallel Fork : 13
+Memory location  : Please put data memory location here
+			(e.g. code in flash, data on heap etc)
+seedcrc          : 0xe9f5
+[0]crclist       : 0xe714
+[1]crclist       : 0xe714
+[2]crclist       : 0xe714
+[3]crclist       : 0xe714
+[4]crclist       : 0xe714
+[5]crclist       : 0xe714
+[6]crclist       : 0xe714
+[7]crclist       : 0xe714
+[8]crclist       : 0xe714
+[9]crclist       : 0xe714
+[10]crclist       : 0xe714
+[11]crclist       : 0xe714
+[12]crclist       : 0xe714
+[0]crcmatrix     : 0x1fd7
+[1]crcmatrix     : 0x1fd7
+[2]crcmatrix     : 0x1fd7
+[3]crcmatrix     : 0x1fd7
+[4]crcmatrix     : 0x1fd7
+[5]crcmatrix     : 0x1fd7
+[6]crcmatrix     : 0x1fd7
+[7]crcmatrix     : 0x1fd7
+[8]crcmatrix     : 0x1fd7
+[9]crcmatrix     : 0x1fd7
+[10]crcmatrix     : 0x1fd7
+[11]crcmatrix     : 0x1fd7
+[12]crcmatrix     : 0x1fd7
+[0]crcstate      : 0x8e3a
+[1]crcstate      : 0x8e3a
+[2]crcstate      : 0x8e3a
+[3]crcstate      : 0x8e3a
+[4]crcstate      : 0x8e3a
+[5]crcstate      : 0x8e3a
+[6]crcstate      : 0x8e3a
+[7]crcstate      : 0x8e3a
+[8]crcstate      : 0x8e3a
+[9]crcstate      : 0x8e3a
+[10]crcstate      : 0x8e3a
+[11]crcstate      : 0x8e3a
+[12]crcstate      : 0x8e3a
+[0]crcfinal      : 0x33ff
+[1]crcfinal      : 0x33ff
+[2]crcfinal      : 0x33ff
+[3]crcfinal      : 0x33ff
+[4]crcfinal      : 0x33ff
+[5]crcfinal      : 0x33ff
+[6]crcfinal      : 0x33ff
+[7]crcfinal      : 0x33ff
+[8]crcfinal      : 0x33ff
+[9]crcfinal      : 0x33ff
+[10]crcfinal      : 0x33ff
+[11]crcfinal      : 0x33ff
+[12]crcfinal      : 0x33ff
+[0]thread       : cpu10
+[1]thread       : cpu7
+[2]thread       : cpu6
+[3]thread       : cpu1
+[4]thread       : cpu8
+[5]thread       : cpu12
+[6]thread       : cpu5
+[7]thread       : cpu11
+[8]thread       : cpu2
+[9]thread       : cpu13
+[10]thread       : cpu9
+[11]thread       : cpu22
+[12]thread       : cpu3
+Correct operation validated. See readme.txt for run and reporting rules.
+CoreMark 1.0 : 77372.578725 / GCC6.2.0 -O3 -march=armv8-a -mcpu=cortex-a53 -funroll-all-loops -lrt -DUSE_FORK=1 --sysroot=/tools/AGRreleases/yocto/morty/2018_01_26/axxia-arm64-x9/tools/sysroots/aarch64-axxia-linux -DMULTITHREAD=13  -lrt -lpthread / Heap / 13:Fork
+
+Run number 9
+2K performance run parameters for coremark.
+CoreMark Size    : 666
+Total ticks      : 18481
+Total time (secs): 18.481000
+Iterations/Sec   : 77376.765327
+Iterations       : 1430000
+Compiler version : GCC6.2.0
+Compiler flags   : -O3 -march=armv8-a -mcpu=cortex-a53 -funroll-all-loops -lrt -DUSE_FORK=1 --sysroot=/tools/AGRreleases/yocto/morty/2018_01_26/axxia-arm64-x9/tools/sysroots/aarch64-axxia-linux -DMULTITHREAD=13  -lrt -lpthread
+Parallel Fork : 13
+Memory location  : Please put data memory location here
+			(e.g. code in flash, data on heap etc)
+seedcrc          : 0xe9f5
+[0]crclist       : 0xe714
+[1]crclist       : 0xe714
+[2]crclist       : 0xe714
+[3]crclist       : 0xe714
+[4]crclist       : 0xe714
+[5]crclist       : 0xe714
+[6]crclist       : 0xe714
+[7]crclist       : 0xe714
+[8]crclist       : 0xe714
+[9]crclist       : 0xe714
+[10]crclist       : 0xe714
+[11]crclist       : 0xe714
+[12]crclist       : 0xe714
+[0]crcmatrix     : 0x1fd7
+[1]crcmatrix     : 0x1fd7
+[2]crcmatrix     : 0x1fd7
+[3]crcmatrix     : 0x1fd7
+[4]crcmatrix     : 0x1fd7
+[5]crcmatrix     : 0x1fd7
+[6]crcmatrix     : 0x1fd7
+[7]crcmatrix     : 0x1fd7
+[8]crcmatrix     : 0x1fd7
+[9]crcmatrix     : 0x1fd7
+[10]crcmatrix     : 0x1fd7
+[11]crcmatrix     : 0x1fd7
+[12]crcmatrix     : 0x1fd7
+[0]crcstate      : 0x8e3a
+[1]crcstate      : 0x8e3a
+[2]crcstate      : 0x8e3a
+[3]crcstate      : 0x8e3a
+[4]crcstate      : 0x8e3a
+[5]crcstate      : 0x8e3a
+[6]crcstate      : 0x8e3a
+[7]crcstate      : 0x8e3a
+[8]crcstate      : 0x8e3a
+[9]crcstate      : 0x8e3a
+[10]crcstate      : 0x8e3a
+[11]crcstate      : 0x8e3a
+[12]crcstate      : 0x8e3a
+[0]crcfinal      : 0x33ff
+[1]crcfinal      : 0x33ff
+[2]crcfinal      : 0x33ff
+[3]crcfinal      : 0x33ff
+[4]crcfinal      : 0x33ff
+[5]crcfinal      : 0x33ff
+[6]crcfinal      : 0x33ff
+[7]crcfinal      : 0x33ff
+[8]crcfinal      : 0x33ff
+[9]crcfinal      : 0x33ff
+[10]crcfinal      : 0x33ff
+[11]crcfinal      : 0x33ff
+[12]crcfinal      : 0x33ff
+[0]thread       : cpu1
+[1]thread       : cpu10
+[2]thread       : cpu9
+[3]thread       : cpu8
+[4]thread       : cpu7
+[5]thread       : cpu4
+[6]thread       : cpu22
+[7]thread       : cpu2
+[8]thread       : cpu18
+[9]thread       : cpu13
+[10]thread       : cpu5
+[11]thread       : cpu6
+[12]thread       : cpu0
+Correct operation validated. See readme.txt for run and reporting rules.
+CoreMark 1.0 : 77376.765327 / GCC6.2.0 -O3 -march=armv8-a -mcpu=cortex-a53 -funroll-all-loops -lrt -DUSE_FORK=1 --sysroot=/tools/AGRreleases/yocto/morty/2018_01_26/axxia-arm64-x9/tools/sysroots/aarch64-axxia-linux -DMULTITHREAD=13  -lrt -lpthread / Heap / 13:Fork
+
+Run number 10
+2K performance run parameters for coremark.
+CoreMark Size    : 666
+Total ticks      : 18478
+Total time (secs): 18.478000
+Iterations/Sec   : 77389.327849
+Iterations       : 1430000
+Compiler version : GCC6.2.0
+Compiler flags   : -O3 -march=armv8-a -mcpu=cortex-a53 -funroll-all-loops -lrt -DUSE_FORK=1 --sysroot=/tools/AGRreleases/yocto/morty/2018_01_26/axxia-arm64-x9/tools/sysroots/aarch64-axxia-linux -DMULTITHREAD=13  -lrt -lpthread
+Parallel Fork : 13
+Memory location  : Please put data memory location here
+			(e.g. code in flash, data on heap etc)
+seedcrc          : 0xe9f5
+[0]crclist       : 0xe714
+[1]crclist       : 0xe714
+[2]crclist       : 0xe714
+[3]crclist       : 0xe714
+[4]crclist       : 0xe714
+[5]crclist       : 0xe714
+[6]crclist       : 0xe714
+[7]crclist       : 0xe714
+[8]crclist       : 0xe714
+[9]crclist       : 0xe714
+[10]crclist       : 0xe714
+[11]crclist       : 0xe714
+[12]crclist       : 0xe714
+[0]crcmatrix     : 0x1fd7
+[1]crcmatrix     : 0x1fd7
+[2]crcmatrix     : 0x1fd7
+[3]crcmatrix     : 0x1fd7
+[4]crcmatrix     : 0x1fd7
+[5]crcmatrix     : 0x1fd7
+[6]crcmatrix     : 0x1fd7
+[7]crcmatrix     : 0x1fd7
+[8]crcmatrix     : 0x1fd7
+[9]crcmatrix     : 0x1fd7
+[10]crcmatrix     : 0x1fd7
+[11]crcmatrix     : 0x1fd7
+[12]crcmatrix     : 0x1fd7
+[0]crcstate      : 0x8e3a
+[1]crcstate      : 0x8e3a
+[2]crcstate      : 0x8e3a
+[3]crcstate      : 0x8e3a
+[4]crcstate      : 0x8e3a
+[5]crcstate      : 0x8e3a
+[6]crcstate      : 0x8e3a
+[7]crcstate      : 0x8e3a
+[8]crcstate      : 0x8e3a
+[9]crcstate      : 0x8e3a
+[10]crcstate      : 0x8e3a
+[11]crcstate      : 0x8e3a
+[12]crcstate      : 0x8e3a
+[0]crcfinal      : 0x33ff
+[1]crcfinal      : 0x33ff
+[2]crcfinal      : 0x33ff
+[3]crcfinal      : 0x33ff
+[4]crcfinal      : 0x33ff
+[5]crcfinal      : 0x33ff
+[6]crcfinal      : 0x33ff
+[7]crcfinal      : 0x33ff
+[8]crcfinal      : 0x33ff
+[9]crcfinal      : 0x33ff
+[10]crcfinal      : 0x33ff
+[11]crcfinal      : 0x33ff
+[12]crcfinal      : 0x33ff
+[0]thread       : cpu12
+[1]thread       : cpu0
+[2]thread       : cpu10
+[3]thread       : cpu9
+[4]thread       : cpu8
+[5]thread       : cpu7
+[6]thread       : cpu6
+[7]thread       : cpu5
+[8]thread       : cpu4
+[9]thread       : cpu2
+[10]thread       : cpu1
+[11]thread       : cpu22
+[12]thread       : cpu3
+Correct operation validated. See readme.txt for run and reporting rules.
+CoreMark 1.0 : 77389.327849 / GCC6.2.0 -O3 -march=armv8-a -mcpu=cortex-a53 -funroll-all-loops -lrt -DUSE_FORK=1 --sysroot=/tools/AGRreleases/yocto/morty/2018_01_26/axxia-arm64-x9/tools/sysroots/aarch64-axxia-linux -DMULTITHREAD=13  -lrt -lpthread / Heap / 13:Fork
+
+#####################################
+Score (Iterations/Sec) : 77368.470633
+#####################################
